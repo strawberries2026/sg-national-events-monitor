@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:22:57.720647+00:00",
+  "updated_at": "2026-10-27T06:28:28.699126+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -7,8 +7,10 @@
       "title": "27 October 2026 27 October 2026 Professional Community Forum – Human Behaviour in Crises: Reactions, Response, Resilience – Speech by Ms Sim Ann, Second Minister for Foreign Affairs & Second Minister for Home Affairs Speeches",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/professional-community-forum-human-behaviour-in-crises-reactions-response-resilience-/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -16,8 +18,10 @@
       "title": "24 October 2026 24 October 2026 DrugFreeSG Video Competition 2026 Awards Ceremony – Opening Remarks by Mr Edwin Tong, Minister for Law and Second Minister for Home Affairs Speeches",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/drugfreesg-video-competition-2026-awards-ceremony/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -25,8 +29,10 @@
       "title": "23 October 2026 23 October 2026 Singapore Road Safety Council Fundraising Gala Dinner 2026 – Speech by Ms Sim Ann, Second Minister for Foreign Affairs and Second Minister for Home Affairs Press Releases",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-road-safety-council-fundraising-gala-dinner-2026/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -34,8 +40,10 @@
       "title": "19 October 2026 19 October 2026 Transcript of Media Doorstop by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs, on the Haze Situation Press Releases",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/transcript-of-media-doorstop-by-mr-k-shanmugam-senior-minister-coordinating-minister-for-national-security-and-minister-for-home-affairs-on-the-haze-situation/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -43,8 +51,10 @@
       "title": "16 October 2026 16 October 2026 The Singapore Anti-Narcotics Association (SANA) Charity Gala Dinner 2026 - Speech by Mr Edwin Tong, Minister for Law and Second Minister for Home Affairs Speeches",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/the-singapore-anti-narcotics-association-sana-charity-gala-dinner-2026/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -52,8 +62,10 @@
       "title": "15 October 2026 15 October 2026 MHA's response to media queries on Singapore Courts' Facebook post Press Releases",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/mha-response-to-media-queries-on-singapore-courts-facebook-post/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -61,8 +73,10 @@
       "title": "15 October 2026 15 October 2026 ASEAN Drug Victims Remembrance Day during 9th ASEAN Ministerial Meeting on Drug Matters (AMMD) – Statement by Ms Sim Ann, Second Minister for Foreign Affairs and Second Minister for Home Affairs Speeches",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/asean-drug-victims-remembrance-day-during-9th-asean-ministerial-meeting-on-drug-matters-ammd/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -70,8 +84,10 @@
       "title": "15 October 2026 15 October 2026 9th ASEAN Ministerial Meeting on Drug Matters (AMMD) – Singapore Country Statement by Ms Sim Ann, Second Minister for Foreign Affairs and Second Minister for Home Affairs Speeches",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/9th-asean-ministerial-meeting-on-drug-matters-ammd-singapore-country/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -79,8 +95,10 @@
       "title": "23 October 2026 23 October 2026 IVAS-IVSC Business Valuation Conference 2026 Opening Address - 2M Indranee Rajah Topics ACRA Speeches",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/ivas-ivsc-business-valuation-conference-2026---2m-indranee-rajah/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -88,8 +106,10 @@
       "title": "20 October 2026 20 October 2026 SIAS Corporate Governance Week 2026 Opening Address - SPS Shawn Huang Speeches",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/sias-corporate-governance-week-2026-opening-address---sps-shawn-huang/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -97,8 +117,10 @@
       "title": "12 October 2026 12 October 2026 Singapore and the Kyrgyz Republic Sign Avoidance of Double Taxation Agreement Double Taxation Agreements",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/singapore-and-the-kyrgyz-republic-sign-avoidance-of-double-taxation-agreement/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -106,8 +128,10 @@
       "title": "7 October 2026 7 October 2026 Temasek Holdings Founding Terms of Reference, Charter Revision Approval Process and Reasons for Discontinuation of Industry Cluster Nurturing Role Topics GIC & Temasek Holdings Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/temasek-holdings-founding-terms-of-reference--charter-revision-approval-process-and-reasons-for-discontinuation-of-industry-cluster-nurturing-role/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -115,8 +139,10 @@
       "title": "7 October 2026 7 October 2026 Data on Directors' Debarment, Unfit Conduct Reports and Insolvent Liquidation Since 2021 Topics ACRA Companies Act Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/data-on-directors--debarment--unfit-conduct-reports-and-insolvent-liquidation-since-2021/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -124,8 +150,10 @@
       "title": "7 October 2026 7 October 2026 Energy Price Thresholds for Additional Households and Small Businesses Support Measures Topics Cost of Living Government Transfers Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/energy-price-thresholds-for-additional-households-and-small-businesses-support-measures/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -133,8 +161,10 @@
       "title": "6 October 2026 6 October 2026 Support Measures for Former Private Hire Car Drivers Who Reached Statutory Vocational Licence Age Limit Topics Government Transfers Social Policies Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/support-measures-for-former-private-hire-car-drivers-who-reached-statutory-vocational-licence-age-limit/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -142,8 +172,10 @@
       "title": "6 October 2026 6 October 2026 Tax Relief Support Equivalent to Working Mother's Child Relief for Working Fathers as Sole Caregivers Topics Social Policies Tax-Related (Income Tax) Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/tax-relief-support-equivalent-to-working-mother-s-child-relief-for-working-fathers-as-sole-caregivers/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -151,8 +183,10 @@
       "title": "6 October 2026 6 October 2026 Mutual Agreement Procedure Support for Tax Residents Facing Competing Residency Claims from Double Taxation Agreement Partner Jurisdictions Topics Tax-Related (Others) Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/mutual-agreement-procedure-support-for-tax-residents-facing-competing-residency-claims-from-double-taxation-agreement-partner-jurisdictions/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -160,8 +194,98 @@
       "title": "6 October 2026 6 October 2026 Transaction Volumes, and Import and GST Collections from Collectible Trading Cards Topics Tax-Related (GST) Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/transaction-volumes--and-import-and-gst-collections-from-collectible-trading-cards/",
       "type": "Published announcement",
+      "published_date": null,
       "date": null,
-      "time_sgt": null
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MFA",
+      "title": "Announcements and Highlights Details of upcoming events and ongoing initiatives can be found here.",
+      "source_url": "https://www.mfa.gov.sg/newsroom/announcements-and-highlights/",
+      "type": "Published announcement",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MFA",
+      "title": "Press Statements, Transcripts & Photos Details of press statements, transcripts of speeches & interviews, and photos can be found here.",
+      "source_url": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/",
+      "type": "Published announcement",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "26 October 2026 26 October 2026 Infographic: Next Generation Infantry Batallion (NGIB) Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-infographic/",
+      "type": "Published announcement",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "26 October 2026 26 October 2026 Infographic: Helicopter Decision Support System (Heli DSS) Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-infographic2/",
+      "type": "Published announcement",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "26 October 2026 26 October 2026 Fact Sheet: Next Generation Infantry Battalion (NGIB) Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-fs/",
+      "type": "Published announcement",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "26 October 2026 26 October 2026 Fact Sheet: Digitally-Aided Close Air Support Trial at Exercise Wallaby 2026 Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-fs2/",
+      "type": "Published announcement",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "23 October 2026 23 October 2026 Fact Sheet: Overview of Exercise Wallaby 2026 Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-fs/",
+      "type": "Published announcement",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "23 October 2026 23 October 2026 Speech by Minister for Defence Mr Chan Chun Sing at the Goh Keng Swee Command and Staff College (GKS CSC) Command and Staff Course (CSC) 2026 Graduation Ceremony, on 22 October 2026 Speeches",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-speech/",
+      "type": "Published announcement",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     }
   ],
   "errors": [],
