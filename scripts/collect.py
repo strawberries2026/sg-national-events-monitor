@@ -29,7 +29,7 @@ class Links(HTMLParser):
 def main():
  path=Path("data/events.json")
  old=json.loads(path.read_text()) if path.exists() else {}
- collected=[]; errors=[]
+ collected=[]; errors=[]; successful_sources=[]; announcement_count=0
  for name,cat,url in SOURCES:
   try:
    req=urllib.request.Request(url,headers={"User-Agent":"SGNationalEventsMonitor/1.0 (public announcements; GitHub Actions)"})
@@ -54,6 +54,10 @@ def main():
     title=re.sub(r"\s+(Speeches|Press Releases|News Releases|Statements)\s*$","",title).strip()
     collected.append({"category":cat,"agency":name,"title":title,"source_url":full,"type":"Published announcement","published_date":published,"date":None,"time_sgt":None})
     if len(seen)>=35:break
+   if seen:
+    successful_sources.append(name)
+    announcement_count+=len(seen)
+   else: errors.append(name+": no eligible announcement links found")
   except Exception as e:errors.append(name+": "+str(e)[:160])
  # Extract only future sitting dates explicitly listed on the official Order Paper page.
  try:
@@ -82,13 +86,13 @@ def main():
  ]
  for title, link in parliament_refs:
   collected.append({"category":"Parliament","agency":"Parliament","title":title,"source_url":link,"type":"Official reference","published_date":None,"date":None,"time_sgt":None})
- if not collected:
-  print("No validated links collected; preserving existing feed",errors)
+ if announcement_count==0:
+  print("No announcement sources refreshed; preserving existing feed",errors)
   return
  unique={e["source_url"]:e for e in collected}
  previous={e.get("source_url") for e in old.get("events",[]) if e.get("source_url")}
  for item in unique.values(): item["is_new"]=bool(previous) and item["source_url"] not in previous
- result={"updated_at":datetime.now(timezone.utc).isoformat(),"events":list(unique.values()),"errors":errors,"note":"Published announcements only; no future event date inferred."}
+ result={"updated_at":datetime.now(timezone.utc).isoformat(),"events":list(unique.values()),"errors":errors,"source_health":{"successful_sources":successful_sources,"failed_sources":[name for name,_,_ in SOURCES if name not in successful_sources],"successful_count":len(successful_sources),"total_count":len(SOURCES),"announcement_count":announcement_count},"note":"Published announcements only; no future event date inferred."}
  path.parent.mkdir(parents=True,exist_ok=True)
  path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
  print("Saved",len(unique),"announcements",errors)
