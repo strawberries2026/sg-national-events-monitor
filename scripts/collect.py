@@ -55,6 +55,13 @@ def main():
     collected.append({"category":cat,"agency":name,"title":title,"source_url":full,"type":"Published announcement","published_date":published,"date":None,"time_sgt":None})
     if len(seen)>=35:break
   except Exception as e:errors.append(name+": "+str(e)[:160])
+ # Parliament references are official resources, not confirmed future sittings.
+ parliament_refs = [
+  ("Parliament Order Papers and agendas", "https://www.parliament.gov.sg/parliamentary-business/order-paper"),
+  ("Parliament sittings and procedures", "https://www.parliament.gov.sg/about-us/parliament-information/sitting-of-parliament"),
+ ]
+ for title, link in parliament_refs:
+  collected.append({"category":"Parliament","agency":"Parliament","title":title,"source_url":link,"type":"Official reference","published_date":None,"date":None,"time_sgt":None})
  if not collected:
   print("No validated links collected; preserving existing feed",errors)
   return
