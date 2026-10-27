@@ -9,7 +9,7 @@ from pathlib import Path
 
 SOURCE = Path("data/events.json")
 TARGET = Path("data/verified-events.json")
-PATTERN = re.compile(r"(?<!\\d)(\\d{1,2})\\s+(January|February|March|April|May|June|July|August|September|October|November|December)\\s+(20\\d{2})(?!\\d)", re.I)
+PATTERN = re.compile(r"(?<!\d)(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})(?!\d)", re.I)
 EVENT_TERMS = {
     "VIP visit": ("official visit", "state visit", "working visit", "visit by", "visiting"),
     "International summit": ("summit", "ministerial meeting", "leaders' meeting"),
@@ -44,6 +44,7 @@ def main():
             "title": title, "type": kind, "start": future[0].isoformat(),
             "end": future[-1].isoformat(), "venue": "Not confirmed",
             "source": url, "date_evidence": "Explicit date in official announcement headline",
+            "verification_status": "candidate_unverified",
             "agency": record.get("agency", "")
         })
     unique = {e["source"]: e for e in output}
