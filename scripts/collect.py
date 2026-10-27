@@ -9,6 +9,8 @@ from urllib.parse import urljoin, urlparse
 SOURCES = [
  ("MHA", "Ministries", "https://www.mha.gov.sg/media-room/newsroom/"),
  ("MOF", "Ministries", "https://www.mof.gov.sg/news-resources/newsroom/"),
+ ("MFA", "Ministries", "https://www.mfa.gov.sg/newsroom/"),
+ ("MINDEF", "Ministries", "https://www.mindef.gov.sg/news-and-events/latest-releases/"),
 ]
 class Links(HTMLParser):
  def __init__(self):
@@ -34,9 +36,9 @@ def main():
    for title,href in p.links:
     full=urljoin(url,href)
     parsed=urlparse(full)
-    if parsed.scheme!="https" or parsed.netloc not in ("www.mha.gov.sg","mha.gov.sg","www.mof.gov.sg","mof.gov.sg"):continue
+    if parsed.scheme!="https" or parsed.netloc not in ("www.mha.gov.sg","mha.gov.sg","www.mof.gov.sg","mof.gov.sg","www.mfa.gov.sg","mfa.gov.sg","www.mindef.gov.sg","mindef.gov.sg"):continue
     if len(title)<35 or len(title)>260 or full in seen:continue
-    if not any(word in full.lower() for word in ("/newsroom/","/media-room/","/press-releases/","/speeches/")):continue
+    if not any(word in full.lower() for word in ("/newsroom/","/media-room/","/press-releases/","/speeches/","/news-and-events/")):continue
     if full.rstrip("/")==url.rstrip("/"):continue
     seen.add(full)
     match=re.match(r"^\\s*(\\d{1,2}\\s+[A-Za-z]+\\s+20\\d{2})(?:\\s+\\1)?\\s+",title)
