@@ -1,0 +1,8 @@
+{
+  "name": "SG National Events & Leadership Monitor",
+  "short_name": "SG Events",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f2f6fb",
+  "theme_color": "#0b2545"
+}
