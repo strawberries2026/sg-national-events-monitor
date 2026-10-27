@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T07:34:17.634228+00:00",
+  "updated_at": "2026-10-27T07:42:23.300824+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -33,6 +33,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "20th ASEAN Ministerial Meeting on Transnational Crimes and its Related Meetings – Singapore's Country Statement by Mr Goh Pei Ming, Senior Minister of State, Ministry of Home Affairs & Ministry of Social and Family Development",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/20th-asean-ministerial-meeting-on-transnational-crimes-and-its-related-meetings-singapore-country-statement/",
+      "type": "Published announcement",
+      "published_date": "2026-10-20",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -88,6 +99,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Launch of Healthcare Industry Safety and Security Watch Group (iSSWG), together with National Safety and Security Watch Group (NSSWG) and TOPSIS Awards Ceremony 2026 – Speech by Ms Sim Ann, Second Minister for Foreign Affairs and Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/launch-of-healthcare-industry-safety-and-security-watch-group-isswg-together-with-national-safety-and-security-watch-group-nsswg-and-topsis-awards-ceremony-2026-speech-by-ms-sim-ann-second-minister-for-foreign-affairs-and-home-affairs/",
+      "type": "Published announcement",
+      "published_date": "2026-10-14",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -224,6 +246,28 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Minister for Defence to Visit the Philippines for 20th ADMM and 13th ADMM-Plus Minister for Defence Chan Chun Sing will be in Cebu, Philippines, from 27 to 30 October 2026 for the 20th ASEAN Defence Ministers’ Meeting (ADMM) and 13th ADMM-Plus.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/27oct26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Singapore and Indian Navies Conclude Annual Maritime Bilateral Exercise The Republic of Singapore Navy (RSN) and the Indian Navy (IN) conducted the annual Singapore-India Maritime Bilateral Exercise (SIMBEX) from 21 to 26 October 2026.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-10-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Infographic: Next Generation Infantry Batallion (NGIB) Others",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-infographic/",
       "type": "Published announcement",
@@ -279,6 +323,17 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "FPDA Militaries Participate in Exercise Bersama Lima 2026 Exercise Bersama Lima 2026 (XBL 26) is a Five Power Defence Arrangements (FPDA) exercise involving assets and personnel from Australia, Malaysia, New Zealand, Singapore and the United Kingdom.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-nr2/",
+      "type": "Published announcement",
+      "published_date": "2026-10-23",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Speech by Minister for Defence Mr Chan Chun Sing at the Goh Keng Swee Command and Staff College (GKS CSC) Command and Staff Course (CSC) 2026 Graduation Ceremony, on 22 October 2026",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-speech/",
       "type": "Published announcement",
@@ -289,6 +344,17 @@
     },
     {
       "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "291 Leaders Graduate from the Goh Keng Swee Command and Staff College, Including First Cohort from New Medical Programme Minister for Defence Chan Chun Sing officiated at the Goh Keng Swee Command and Staff College (GKS CSC) Command and Staff Course (CSC) 2026 Graduation Ceremony, held at the SAFTI Military Institute last evening.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-10-23",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
       "agency": "METI",
       "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Singapore-IRENA High-Level Forum 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-singapore-irena-high-level-forum/",
@@ -296,7 +362,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -307,7 +373,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -318,7 +384,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -329,7 +395,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -340,7 +406,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -351,7 +417,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -362,7 +428,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -373,7 +439,7 @@
       "published_date": "2026-10-26",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -384,7 +450,7 @@
       "published_date": "2026-10-26",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -393,6 +459,83 @@
       "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-the-kingdom-of-saudi-arabia-announce-joint-intent-to-establish-a-crude-oil-storage-arrangement-in-singapore/",
       "type": "Published announcement",
       "published_date": "2026-10-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "DPM Gan Kim Yong at the Launch of “Our Climate-Ready Home” Exhibition People DPM Gan Kim Yong Topics Environment Speech by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong at the launch of “Our Climate-Ready Home” exhibition on 24 October 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-the-launch-of-our-climate-ready-home-exhibition/",
+      "type": "Published announcement",
+      "published_date": "2026-10-24",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "Minister Chee Hong Tat at the Nanyang Xu Association 70th Anniversary Dinner People PMO Ministers Topics Arts, culture and heritage Speech by Minister for National Development Chee Hong Tat at the Nanyang Xu Association 70th Anniversary Dinner on 17 October 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-nanyang-xu-association-70th-anniversary-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-10-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "SM Lee Hsien Loong at the 80th Anniversary Dinner Celebration of the Singapore Port Workers Union People SM Lee Hsien Loong Topics Economy Jobs and productivity Science and technology Trade Speech by Senior Minister Lee Hsien Loong at the 80th Anniversary Dinner Celebration of the Singapore Port Workers Union on 17 October 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/sm-lee-hsien-loong-at-the-80th-anniversary-dinner-celebration-of-singapore-port-workers-union/",
+      "type": "Published announcement",
+      "published_date": "2026-10-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "PM Lawrence Wong to Visit Qatar and the United Arab Emirates (Oct 2026) People Prime Minister's Office Topics Foreign affairs Prime Minister and Minister for Finance Lawrence Wong will make Official Visits to Qatar from 18 to 20 October 2026, and to the United Arab Emirates (UAE) from 20 to 22 October 2026. Press Release",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-qatar-and-the-united-arab-emirates-oct-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "DPM Gan Kim Yong at the Ready for Life Festival 2026 People DPM Gan Kim Yong Topics Economy Families and communities Finance Safety and security Speech by Deputy Prime Minister and Minister for Trade and Industry (Trade) Gan Kim Yong at the Ready for Life Festival on 17 October 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-the-ready-for-life-festival-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "PM Lawrence Wong at the Harmony Centre and An-Nahdhah Mosque 20th Anniversary Gala Dinner People PM Lawrence Wong Topics Multi-racial and multi-religious society Speech by Prime Minister and Minister for Finance Lawrence Wong at the Harmony Centre and An-Nahdhah Mosque 20th Anniversary Gala Dinner on 14 October 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-harmony-centre-and-an-nahdhah-mosque-20th-anniversary-gala-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-10-14",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "PM Lawrence Wong at the DBS Asia Future Forward Conference (Oct 2026) People PM Lawrence Wong Topics Economy Foreign affairs Science and technology Transcript of PM Lawrence Wong’s dialogue with DBS Group CEO Tan Su Shan at the DBS Asia Future Forward Conference on 12 October 2026. Dialogue",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-dbs-asia-future-forward-conference-oct-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-12",
       "date": null,
       "time_sgt": null,
       "is_new": true
@@ -406,7 +549,7 @@
       "published_date": "2026-10-19",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -417,7 +560,7 @@
       "published_date": "2026-10-19",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -428,7 +571,7 @@
       "published_date": "2026-10-18",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -439,7 +582,7 @@
       "published_date": "2026-10-12",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -450,7 +593,7 @@
       "published_date": "2026-10-11",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -461,7 +604,7 @@
       "published_date": "2026-10-07",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -472,7 +615,7 @@
       "published_date": "2026-10-05",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -483,7 +626,7 @@
       "published_date": "2026-09-25",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -494,7 +637,7 @@
       "published_date": "2026-09-14",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -505,7 +648,7 @@
       "published_date": "2026-09-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     }
   ],
   "errors": [],
