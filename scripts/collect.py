@@ -12,6 +12,8 @@ SOURCES = [
  ("MFA", "Ministries", "https://www.mfa.gov.sg/newsroom/"),
  ("MINDEF", "Ministries", "https://www.mindef.gov.sg/news-and-events/latest-releases/"),
  ("METI", "Ministries", "https://www.meti.gov.sg/newsroom/"),
+ ("PMO", "Leadership", "https://www.pmo.gov.sg/newsroom/"),
+ ("Istana", "Leadership", "https://www.istana.gov.sg/newsroom/"),
 ]
 class Links(HTMLParser):
  def __init__(self):
@@ -37,7 +39,7 @@ def main():
    for title,href in p.links:
     full=urljoin(url,href)
     parsed=urlparse(full)
-    if parsed.scheme!="https" or parsed.netloc not in ("www.mha.gov.sg","mha.gov.sg","www.mof.gov.sg","mof.gov.sg","www.mfa.gov.sg","mfa.gov.sg","www.mindef.gov.sg","mindef.gov.sg","www.meti.gov.sg","meti.gov.sg"):continue
+    if parsed.scheme!="https" or parsed.netloc not in ("www.mha.gov.sg","mha.gov.sg","www.mof.gov.sg","mof.gov.sg","www.mfa.gov.sg","mfa.gov.sg","www.mindef.gov.sg","mindef.gov.sg","www.meti.gov.sg","meti.gov.sg","www.pmo.gov.sg","pmo.gov.sg","www.istana.gov.sg","istana.gov.sg"):continue
     if len(title)<35 or len(title)>260 or full in seen:continue
     if not any(word in full.lower() for word in ("/newsroom/","/media-room/","/press-releases/","/speeches/","/news-and-events/")):continue
     if full.rstrip("/")==url.rstrip("/"):continue
