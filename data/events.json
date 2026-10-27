@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T07:42:23.300824+00:00",
+  "updated_at": "2026-10-27T07:46:23.741711+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -43,7 +43,7 @@
       "published_date": "2026-10-20",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -109,7 +109,7 @@
       "published_date": "2026-10-14",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -252,7 +252,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -263,7 +263,7 @@
       "published_date": "2026-10-26",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -329,7 +329,7 @@
       "published_date": "2026-10-23",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -351,7 +351,7 @@
       "published_date": "2026-10-23",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -472,7 +472,7 @@
       "published_date": "2026-10-24",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -483,7 +483,7 @@
       "published_date": "2026-10-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -494,7 +494,7 @@
       "published_date": "2026-10-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -505,7 +505,7 @@
       "published_date": "2026-10-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -516,7 +516,7 @@
       "published_date": "2026-10-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -527,7 +527,7 @@
       "published_date": "2026-10-14",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -538,7 +538,7 @@
       "published_date": "2026-10-12",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -649,6 +649,28 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Parliament",
+      "agency": "Parliament",
+      "title": "Parliament Order Papers and agendas",
+      "source_url": "https://www.parliament.gov.sg/parliamentary-business/order-paper",
+      "type": "Official reference",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Parliament",
+      "agency": "Parliament",
+      "title": "Parliament sittings and procedures",
+      "source_url": "https://www.parliament.gov.sg/about-us/parliament-information/sitting-of-parliament",
+      "type": "Official reference",
+      "published_date": null,
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     }
   ],
   "errors": [],
