@@ -27,9 +27,9 @@ jobs:
         run: python scripts/collect_verified_events.py
       - name: Commit changes
         run: |
-          if git diff --quiet -- data/events.json data/verified-events.json; then exit 0; fi
+          if git diff --quiet -- data/events.json data/verified-events.json data/event-history.json; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json data/verified-events.json
+          git add data/events.json data/verified-events.json data/event-history.json
           git commit -m "Refresh verified official announcements"
           git push
