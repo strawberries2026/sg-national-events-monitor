@@ -1,7 +1,7 @@
 """Collect public announcement headlines from official Singapore government newsrooms."""
 import json, re, urllib.request
 from datetime import datetime as dt
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -55,6 +55,26 @@ def main():
     collected.append({"category":cat,"agency":name,"title":title,"source_url":full,"type":"Published announcement","published_date":published,"date":None,"time_sgt":None})
     if len(seen)>=35:break
   except Exception as e:errors.append(name+": "+str(e)[:160])
+ # Extract only future sitting dates explicitly listed on the official Order Paper page.
+ try:
+  order_url="https://www.parliament.gov.sg/parliamentary-business/order-paper"
+  req=urllib.request.Request(order_url,headers={"User-Agent":"SGNationalEventsMonitor/1.0"})
+  with urllib.request.urlopen(req,timeout=20) as resp:
+   page=resp.read(2_000_000).decode("utf-8","replace")
+  class PageText(HTMLParser):
+   def __init__(self): super().__init__(); self.parts=[]
+   def handle_data(self,data): self.parts.append(data)
+  parser=PageText();parser.feed(page)
+  content=" ".join(" ".join(parser.parts).split())
+  today=(datetime.now(timezone.utc)+timedelta(hours=8)).date()
+  future=set()
+  for day,month,year in re.findall(r"Sitting on\s+(\d{1,2})\s+([A-Za-z]+)\s+(20\d{2})",content,re.I):
+   try: sitting=dt.strptime(f"{day} {month} {year}","%d %B %Y").date()
+   except ValueError: continue
+   if today<=sitting<=today+timedelta(days=180):future.add(sitting)
+  for sitting in sorted(future):
+   collected.append({"category":"Parliament","agency":"Parliament","title":"Parliament sitting — Order Paper published","source_url":order_url,"type":"Confirmed sitting date (Order Paper)","published_date":None,"date":sitting.isoformat(),"time_sgt":None})
+ except Exception as e: errors.append("Parliament Order Paper: "+str(e)[:160])
  # Parliament references are official resources, not confirmed future sittings.
  parliament_refs = [
   ("Parliament Order Papers and agendas", "https://www.parliament.gov.sg/parliamentary-business/order-paper"),
