@@ -1,7 +1,7 @@
 name: Refresh official announcements
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,12 +11,16 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Display trigger and UTC run time
+        run: |
+          echo "Trigger: ${{ github.event_name }}"
+          date -u '+Run started (UTC): %Y-%m-%d %H:%M:%S'
       - name: Collect public announcements
         run: python scripts/collect.py
       - name: Extract explicitly dated upcoming event candidates
