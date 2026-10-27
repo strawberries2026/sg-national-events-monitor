@@ -40,9 +40,10 @@ def main():
     full=urljoin(url,href)
     parsed=urlparse(full)
     if parsed.scheme!="https" or parsed.netloc not in ("www.mha.gov.sg","mha.gov.sg","www.mof.gov.sg","mof.gov.sg","www.mfa.gov.sg","mfa.gov.sg","www.mindef.gov.sg","mindef.gov.sg","www.meti.gov.sg","meti.gov.sg","www.pmo.gov.sg","pmo.gov.sg","www.istana.gov.sg","istana.gov.sg"):continue
-    if len(title)<35 or len(title)>260 or full in seen:continue
+    if len(title)<(15 if name=="PMO" else 35) or len(title)>400 or full in seen:continue
     if not any(word in full.lower() for word in ("/newsroom/","/media-room/","/press-releases/","/speeches/","/news-and-events/")):continue
     if full.rstrip("/")==url.rstrip("/"):continue
+    if name=="PMO" and not re.search(r"/newsroom/[^/?#]+/?$",parsed.path):continue
     seen.add(full)
     match=re.match(r"^\s*(\d{1,2}\s+[A-Za-z]+\s+20\d{2})(?:\s+\1)?\s+",title)
     published=None
