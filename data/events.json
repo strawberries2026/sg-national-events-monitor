@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T08:05:25.395752+00:00",
+  "updated_at": "2026-10-27T08:46:27.808036+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -356,6 +356,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the IAEA@SIEW Forum 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-iaea-siew-forum/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Singapore-IRENA High-Level Forum 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-singapore-irena-high-level-forum/",
       "type": "Published announcement",
@@ -446,17 +457,6 @@
       "agency": "METI",
       "title": "METI and EMA Launch Manpower Development Schemes for Nuclear Energy Capability Building 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/meti-and-ema-launch-manpower-development-schemes-for-nuclear-energy-capability-building/",
-      "type": "Published announcement",
-      "published_date": "2026-10-26",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore and the Kingdom of Saudi Arabia announce joint intent to establish a crude oil storage arrangement in Singapore 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-the-kingdom-of-saudi-arabia-announce-joint-intent-to-establish-a-crude-oil-storage-arrangement-in-singapore/",
       "type": "Published announcement",
       "published_date": "2026-10-26",
       "date": null,
