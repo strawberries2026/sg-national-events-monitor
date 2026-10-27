@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:30:32.103260+00:00",
+  "updated_at": "2026-10-27T07:34:17.634228+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -286,6 +286,226 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Singapore-IRENA High-Level Forum 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-singapore-irena-high-level-forum/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Asia Gas Markets Conference 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-asia-gas-markets-conference/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Clean Energy Summit (ACES) 2026 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-clean-energy-summit--aces--2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the 10th Singapore-IEA Forum 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-10th-singapore-iea-forum-/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the SIEW Summit Day 2 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-siew-summit-day-2/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Delivered Speech by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong at SWITCH 2026 Opening Ceremony 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/delivered-speech-by-deputy-prime-minister-and-minister-for-energy--trade-and-industry--trade--gan-kim-yong-at-switch-2026-opening-ceremony/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Updated Singapore Standard sets clearer guidelines for companies using Renewable Energy Certificates 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/updated-singapore-standard-sets-clearer-guidelines-for-companies-using-renewable-energy-certificates/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening Remarks by Senior Minister of State Low Yen Ling at the Emerging Enterprise Awards and Ceremony 2026 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-senior-minister-of-state-low-yen-ling-at-the-emerging-enterprise-awards-and-ceremony-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "METI and EMA Launch Manpower Development Schemes for Nuclear Energy Capability Building 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/meti-and-ema-launch-manpower-development-schemes-for-nuclear-energy-capability-building/",
+      "type": "Published announcement",
+      "published_date": "2026-10-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Singapore and the Kingdom of Saudi Arabia announce joint intent to establish a crude oil storage arrangement in Singapore 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-the-kingdom-of-saudi-arabia-announce-joint-intent-to-establish-a-crude-oil-storage-arrangement-in-singapore/",
+      "type": "Published announcement",
+      "published_date": "2026-10-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Transcript of Toast Speech by President Tharman Shanmugaratnam at the State Banquet Hosted by King Carl XVI Gustaf of Sweden at the Royal Palace in Stockholm, Sweden on Monday, 19 October 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-toast-speech-by-president-tharman-shanmugaratnam-at-the-state-banquet-hosted-by-king-carl-xvi-gustaf-of-sweden-at-the-royal-palace-in-stockholm--sweden-on-monday--19-october-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-19",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Transcript of Joint Press Statement by President Tharman Shanmugaratnam at the Royal Palace in Stockholm, Sweden on Monday, 19 October 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-joint-press-statement-by-president-tharman-shanmugaratnam-at-the-royal-palace-in-stockholm--sweden-on-monday--19-october-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-19",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Remarks by President Tharman Shanmugaratnam at the Overseas Singaporean Reception in Stockholm, Sweden, on 18 October 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/remarks-by-president-tharman-shanmugaratnam-at-the-overseas-singaporean-reception-in-stockholm--sweden--on-18-october-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-18",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Transcript of Panel Discussion on Small AI: More and Better Jobs at the World Bank Group (WBG) – International Monetary Fund (IMF) Annual Meetings on 12 October 2026 in Bangkok, Thailand",
+      "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-panel-discussion-on-small-ai--more-and-better-jobs-at-the-world-bank-group--wbg----international-monetary-fund--imf--annual-meetings-on-12-october-2026-in-bangkok--thailand/",
+      "type": "Published announcement",
+      "published_date": "2026-10-12",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Working Visit by President Tharman Shanmugaratnam to the Kingdom of Thailand on 12 October 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/working-visit-by-president-tharman-shanmugaratnam-to-the-kingdom-of-thailand-on-12-october-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-11",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "‘Turning the bond markets to advantage’: Dialogue between President Tharman Shanmugaratnam and IMF Managing Director Kristalina Georgieva on 7 October 2026 at the Lee Kuan Yew School of Public Policy",
+      "source_url": "https://www.istana.gov.sg/newsroom/-turning-the-bond-markets-to-advantage---dialogue-between-president-tharman-shanmugaratnam-and-imf-managing-director-kristalina-georgieva/",
+      "type": "Published announcement",
+      "published_date": "2026-10-07",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Speech by President Tharman Shanmugaratnam at the State Banquet in Honour of President of The Republic of Panama José Raúl Mulino Quintero on Monday, 5 October 2026 at Conrad Singapore Marina Bay",
+      "source_url": "https://www.istana.gov.sg/newsroom/speech-by-president-tharman-shanmugaratnam-at-the-state-banquet-in-honour-of--president-of-the-republic-of-panama--jose-raul-mulino-quintero-on-monday--5-october-2026-at-conrad-singapore-marina-bay/",
+      "type": "Published announcement",
+      "published_date": "2026-10-05",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Speech By President Tharman Shanmugaratnam At Diabetes Singapore 55th Anniversary Gala Dinner On 25 September 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/speech-by-president-tharman-shanmugaratnam-at-diabetes-singapore-55th-anniversary-gala-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-09-25",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Appointment of Members to the Inaugural Presidential Council for Racial and Religious Harmony",
+      "source_url": "https://www.istana.gov.sg/newsroom/appointment-of-members-to-the-inaugural-presidential-council-for-racial-and-religious-harmony/",
+      "type": "Published announcement",
+      "published_date": "2026-09-14",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Swearing-In and Appointment of Alternate Member of the Council of Presidential Advisers",
+      "source_url": "https://www.istana.gov.sg/newsroom/swearing-in-and-appointment-of-alternate-member-of-the-council-of-presidential-advisers-/",
+      "type": "Published announcement",
+      "published_date": "2026-09-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     }
   ],
   "errors": [],
