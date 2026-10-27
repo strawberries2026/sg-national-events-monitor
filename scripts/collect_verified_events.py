@@ -12,6 +12,7 @@ from pathlib import Path
 
 SOURCE = Path("data/events.json")
 TARGET = Path("data/verified-events.json")
+HISTORY = Path("data/event-history.json")
 PATTERN = re.compile(r"(?<!\d)(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})(?!\d)", re.I)
 EVENT_TERMS = {
     "VIP visit": ("official visit", "state visit", "working visit", "visit by", "visiting"),
@@ -53,6 +54,13 @@ def main():
     feed = json.loads(SOURCE.read_text(encoding="utf-8"))
     today = (datetime.now(timezone.utc) + timedelta(hours=8)).date()
     output = []
+    old = json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {}
+    history = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"events": []}
+    archived = {e.get("source"): e for e in history.get("events", []) if e.get("source")}
+    previous = {e.get("source"): e for e in old.get("events", []) if e.get("source")}
+    for source, e in previous.items():
+        if e.get("end", "") < today.isoformat():
+            archived[source] = {**e, "lifecycle_status": "completed"}
     inspected = 0
     failures = 0
     for record in feed.get("events", []):
@@ -87,14 +95,21 @@ def main():
             "end": future[-1].isoformat(), "venue": "Not confirmed",
             "source": url, "date_evidence": "Date in official headline or article; event relationship unverified",
             "verification_status": "candidate_unverified",
+            "lifecycle_status": "upcoming_candidate",
             "agency": record.get("agency", "")
         })
     unique = {e["source"]: e for e in output}
+    # Never silently upgrade a candidate to verified based on scraped text.
+    # Preserve previously reviewed verified records, but not their stale dates.
+    for source, e in previous.items():
+        if e.get("verification_status") == "verified" and e.get("end", "") >= today.isoformat():
+            unique[source] = e
     result = {"updated_at": datetime.now(timezone.utc).isoformat(),
               "events": list(unique.values()),
               "note": "Candidate dates extracted from official headlines; verify original article before operational use."}
     TARGET.parent.mkdir(parents=True, exist_ok=True)
     TARGET.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    HISTORY.write_text(json.dumps({"updated_at": result["updated_at"], "events": list(archived.values()), "note": "Historical candidates are not automatically verified."}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print("Saved", len(unique), "unverified event candidates; inspected", inspected, "fetch failures", failures)
 if __name__ == "__main__":
     main()
