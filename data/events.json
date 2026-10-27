@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T11:54:25.203942+00:00",
+  "updated_at": "2026-10-27T16:03:43.196124+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -531,17 +531,6 @@
     },
     {
       "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong at the DBS Asia Future Forward Conference (Oct 2026) People PM Lawrence Wong Topics Economy Foreign affairs Science and technology Transcript of PM Lawrence Wong’s dialogue with DBS Group CEO Tan Su Shan at the DBS Asia Future Forward Conference on 12 October 2026. Dialogue",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-dbs-asia-future-forward-conference-oct-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
       "agency": "Istana",
       "title": "Transcript of Toast Speech by President Tharman Shanmugaratnam at the State Banquet Hosted by King Carl XVI Gustaf of Sweden at the Royal Palace in Stockholm, Sweden on Monday, 19 October 2026",
       "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-toast-speech-by-president-tharman-shanmugaratnam-at-the-state-banquet-hosted-by-king-carl-xvi-gustaf-of-sweden-at-the-royal-palace-in-stockholm--sweden-on-monday--19-october-2026/",
@@ -687,7 +676,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 59
+    "announcement_count": 58
   },
   "note": "Published announcements only; no future event date inferred."
 }
