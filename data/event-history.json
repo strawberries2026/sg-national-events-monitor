@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T11:33:49.987435+00:00",
+  "updated_at": "2026-10-28T17:18:56.608267+00:00",
   "events": [
     {
       "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Clean Energy Summit (ACES) 2026 2.",
@@ -20,6 +20,18 @@
       "end": "2026-10-27",
       "venue": "Not confirmed",
       "source": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-siew-summit-day-2/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "completed",
+      "agency": "METI"
+    },
+    {
+      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Asian Downstream Summit 2.",
+      "type": "International summit",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "venue": "Not confirmed",
+      "source": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-asian-downstream-summit/",
       "date_evidence": "Date in official headline or article; event relationship unverified",
       "verification_status": "candidate_unverified",
       "lifecycle_status": "completed",

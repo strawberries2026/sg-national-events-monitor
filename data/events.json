@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T11:33:43.133946+00:00",
+  "updated_at": "2026-10-28T17:18:47.143991+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -10,7 +10,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -21,7 +21,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -32,7 +32,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -43,7 +43,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -246,6 +246,17 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "ASEAN Defence Ministers Reaffirm Importance of Open and Inclusive Regional Security Architecture Minister for Defence Chan Chun Sing participated in the 20th ASEAN Defence Ministers’ Meeting (ADMM) in Cebu, Philippines, today.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Minister for Defence to Visit the Philippines for 20th ADMM and 13th ADMM-Plus Minister for Defence Chan Chun Sing will be in Cebu, Philippines, from 27 to 30 October 2026 for the 20th ASEAN Defence Ministers’ Meeting (ADMM) and 13th ADMM-Plus.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/27oct26-nr/",
       "type": "Published announcement",
@@ -344,17 +355,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "291 Leaders Graduate from the Goh Keng Swee Command and Staff College, Including First Cohort from New Medical Programme Minister for Defence Chan Chun Sing officiated at the Goh Keng Swee Command and Staff College (GKS CSC) Command and Staff Course (CSC) 2026 Graduation Ceremony, held at the SAFTI Military Institute last evening.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-10-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "METI",
       "title": "Singapore – United States 6th Joint Statement on Energy Cooperation 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore---united-states-6th-joint-statement-on-energy-cooperation/",
@@ -417,7 +417,7 @@
       "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -520,17 +520,6 @@
     },
     {
       "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong at the Harmony Centre and An-Nahdhah Mosque 20th Anniversary Gala Dinner People PM Lawrence Wong Topics Multi-racial and multi-religious society Speech by Prime Minister and Minister for Finance Lawrence Wong at the Harmony Centre and An-Nahdhah Mosque 20th Anniversary Gala Dinner on 14 October 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-harmony-centre-and-an-nahdhah-mosque-20th-anniversary-gala-dinner/",
-      "type": "Published announcement",
-      "published_date": "2026-10-14",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
       "agency": "Istana",
       "title": "Celebrate Deepavali at the Istana Open House (1 November 2026)",
       "source_url": "https://www.istana.gov.sg/newsroom/celebrate-deepavali-at-the-istana-open-house--1-november-2026-/",
@@ -538,7 +527,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -676,7 +665,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 58
+    "announcement_count": 57
   },
   "note": "Published announcements only; no future event date inferred."
 }
