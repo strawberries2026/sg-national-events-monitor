@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T23:58:42.863706+00:00",
+  "updated_at": "2026-10-28T05:24:12.753676+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -356,6 +356,39 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Singapore – United States 6th Joint Statement on Energy Cooperation 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore---united-states-6th-joint-statement-on-energy-cooperation/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Spotlight: U.S. Forum 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-spotlight--u-s--forum-/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Asian Downstream Summit 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-asian-downstream-summit/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the IAEA@SIEW Forum 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-iaea-siew-forum/",
       "type": "Published announcement",
@@ -426,39 +459,6 @@
       "source_url": "https://www.meti.gov.sg/newsroom/delivered-speech-by-deputy-prime-minister-and-minister-for-energy--trade-and-industry--trade--gan-kim-yong-at-switch-2026-opening-ceremony/",
       "type": "Published announcement",
       "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Updated Singapore Standard sets clearer guidelines for companies using Renewable Energy Certificates 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/updated-singapore-standard-sets-clearer-guidelines-for-companies-using-renewable-energy-certificates/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Senior Minister of State Low Yen Ling at the Emerging Enterprise Awards and Ceremony 2026 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-senior-minister-of-state-low-yen-ling-at-the-emerging-enterprise-awards-and-ceremony-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-26",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "METI and EMA Launch Manpower Development Schemes for Nuclear Energy Capability Building 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/meti-and-ema-launch-manpower-development-schemes-for-nuclear-energy-capability-building/",
-      "type": "Published announcement",
-      "published_date": "2026-10-26",
       "date": null,
       "time_sgt": null,
       "is_new": false
