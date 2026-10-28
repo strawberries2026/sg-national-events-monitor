@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-10-28T05:24:12.753676+00:00",
+  "updated_at": "2026-10-28T11:33:43.133946+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Transcript of media doorstop by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs, after meeting with companies issued S10 notices under the Transboundary Haze Pollution Act on 28 October 2026",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/transcript-of-media-doorstop-by-mr-k-shanmugam-senior-minister-coordinating-minister-for-national-security-and-minister-for-home-affairs-after-meeting-with-companies-issued-s10-notices-under-the-transboundary-haze-pollution-act-on-28-october-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Malaysia and Singapore reaffirm commitment to bilateral security cooperation through Johor Bahru-Singapore Rapid Transit System (RTS) Link joint cross-border emergency response exercise",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/malaysia-and-singapore-reaffirm-commitment-to-bilateral-security-cooperation-through-johor-bahru-singapore-rapid-transit-system-rts-link-joint-cross-border-emergency-response-exercise/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "The Malaysia-Singapore cross-border joint field training exercise for the RTS Link – Closing address by Ms Sim Ann, Second Minister for Foreign Affairs and Second Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/the-malaysia-singapore-cross-border-joint-field-training-exercise-for-the-rts-link/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Opening Ceremony of the Singapore-International Disaster and Emergency Management Expo – Asian Conference on Disaster Reduction (SIDEX-ACDR 2026) – Speech by Ms Sim Ann, Second Minister For Foreign Affairs and Second Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/opening-ceremony-of-the-singapore-international-disaster-and-emergency-management-expo-asian-conference-on-disaster-reduction-sidex-acdr-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -63,50 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/the-singapore-anti-narcotics-association-sana-charity-gala-dinner-2026/",
       "type": "Published announcement",
       "published_date": "2026-10-16",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "MHA's response to media queries on Singapore Courts' Facebook post",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/mha-response-to-media-queries-on-singapore-courts-facebook-post/",
-      "type": "Published announcement",
-      "published_date": "2026-10-15",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "ASEAN Drug Victims Remembrance Day during 9th ASEAN Ministerial Meeting on Drug Matters (AMMD) – Statement by Ms Sim Ann, Second Minister for Foreign Affairs and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/asean-drug-victims-remembrance-day-during-9th-asean-ministerial-meeting-on-drug-matters-ammd/",
-      "type": "Published announcement",
-      "published_date": "2026-10-15",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "9th ASEAN Ministerial Meeting on Drug Matters (AMMD) – Singapore Country Statement by Ms Sim Ann, Second Minister for Foreign Affairs and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/9th-asean-ministerial-meeting-on-drug-matters-ammd-singapore-country/",
-      "type": "Published announcement",
-      "published_date": "2026-10-15",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Launch of Healthcare Industry Safety and Security Watch Group (iSSWG), together with National Safety and Security Watch Group (NSSWG) and TOPSIS Awards Ceremony 2026 – Speech by Ms Sim Ann, Second Minister for Foreign Affairs and Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/launch-of-healthcare-industry-safety-and-security-watch-group-isswg-together-with-national-safety-and-security-watch-group-nsswg-and-topsis-awards-ceremony-2026-speech-by-ms-sim-ann-second-minister-for-foreign-affairs-and-home-affairs/",
-      "type": "Published announcement",
-      "published_date": "2026-10-14",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -362,7 +362,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -373,7 +373,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -384,7 +384,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -407,6 +407,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Foo Cexiang at the Business Forum on the Occasion of the Visit of German Chancellor Friedrich Merz to Singapore 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-foo-cexiang-at-the-business-forum-on-the-occasion-of-the-visit-of-german-chancellor-friedrich-merz-to-singapore/",
+      "type": "Published announcement",
+      "published_date": "2026-10-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -446,17 +457,6 @@
       "agency": "METI",
       "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the SIEW Summit Day 2 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-siew-summit-day-2/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Delivered Speech by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong at SWITCH 2026 Opening Ceremony 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/delivered-speech-by-deputy-prime-minister-and-minister-for-energy--trade-and-industry--trade--gan-kim-yong-at-switch-2026-opening-ceremony/",
       "type": "Published announcement",
       "published_date": "2026-10-27",
       "date": null,
@@ -528,6 +528,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Celebrate Deepavali at the Istana Open House (1 November 2026)",
+      "source_url": "https://www.istana.gov.sg/newsroom/celebrate-deepavali-at-the-istana-open-house--1-november-2026-/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -624,17 +635,6 @@
       "source_url": "https://www.istana.gov.sg/newsroom/appointment-of-members-to-the-inaugural-presidential-council-for-racial-and-religious-harmony/",
       "type": "Published announcement",
       "published_date": "2026-09-14",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "Istana",
-      "title": "Swearing-In and Appointment of Alternate Member of the Council of Presidential Advisers",
-      "source_url": "https://www.istana.gov.sg/newsroom/swearing-in-and-appointment-of-alternate-member-of-the-council-of-presidential-advisers-/",
-      "type": "Published announcement",
-      "published_date": "2026-09-04",
       "date": null,
       "time_sgt": null,
       "is_new": false
