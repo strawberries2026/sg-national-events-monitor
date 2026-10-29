@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T14:26:34.648432+00:00",
+  "updated_at": "2026-10-29T19:48:33.914931+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -252,7 +252,7 @@
       "published_date": "2026-10-29",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -263,7 +263,18 @@
       "published_date": "2026-10-29",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Joint Statement by the ASEAN Defence Ministers Commemorating the 50th Anniversary of the Signing of the Treaty of Amity and Cooperation in Southeast Asia The ASEAN Defence Ministers’ Meeting (hereinafter referred to as the “ADMM”), convened in Cebu, Philippines on 28 October 2026; Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-fs/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -285,18 +296,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Joint Statement by the ASEAN Defence Ministers Commemorating the 50th Anniversary of the Signing of the Treaty of Amity and Cooperation in Southeast Asia Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-fs/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -362,7 +362,7 @@
       "published_date": "2026-10-29",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
