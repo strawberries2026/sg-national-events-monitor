@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:11:32.489711+00:00",
+  "updated_at": "2026-10-29T14:26:34.648432+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -120,7 +120,7 @@
       "published_date": "2026-10-29",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -246,6 +246,28 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Singapore Takes Over 2027 ADMM Chairmanship, Will Work with ASEAN Member States Towards a Future-Ready, Adaptive, and Resilient ADMM/ADMM-Plus Minister for Defence Chan Chun Sing participated in the 13th ASEAN Defence Ministers’ Meeting (ADMM)-Plus and the ADMM Chairmanship handover ceremony today.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/29oct26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-10-29",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Joint Statement by the ASEAN Defence Ministers’ Meeting Plus on Youth, Peace and Security The Thirteenth ASEAN Defence Ministers’ Meeting Plus (hereinafter referred to as the “ADMM-Plus”) convened in Cebu, Philippines on 29 October 2026; Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/29oct26-fs/",
+      "type": "Published announcement",
+      "published_date": "2026-10-29",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "ASEAN Defence Ministers Reaffirm Importance of Open and Inclusive Regional Security Architecture Minister for Defence Chan Chun Sing participated in the 20th ASEAN Defence Ministers’ Meeting (ADMM) in Cebu, Philippines, today.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-nr/",
       "type": "Published announcement",
@@ -253,6 +275,28 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Manila Joint Declaration on the 20th Anniversary of the ASEAN Defence Ministers’ Meeting: Navigating Our Future, Together The Twentieth ASEAN Defence Ministers’ Meeting (hereinafter referred to as the “ADMM”), convened in Cebu, Philippines on 28 October 2026; Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-fs2/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Joint Statement by the ASEAN Defence Ministers Commemorating the 50th Anniversary of the Signing of the Treaty of Amity and Cooperation in Southeast Asia Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-fs/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -311,47 +355,14 @@
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Fact Sheet: Digitally-Aided Close Air Support Trial at Exercise Wallaby 2026 Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-fs2/",
+      "agency": "METI",
+      "title": "Address by Minister of State for Energy, Trade and Industry Gan Siow Huang at A*STAR T-Up Awards Ceremony 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/address-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-a-star-t-up-awards-ceremony/",
       "type": "Published announcement",
-      "published_date": "2026-10-26",
+      "published_date": "2026-10-29",
       "date": null,
       "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Fact Sheet: Overview of Exercise Wallaby 2026 Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-fs/",
-      "type": "Published announcement",
-      "published_date": "2026-10-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "FPDA Militaries Participate in Exercise Bersama Lima 2026 Exercise Bersama Lima 2026 (XBL 26) is a Five Power Defence Arrangements (FPDA) exercise involving assets and personnel from Australia, Malaysia, New Zealand, Singapore and the United Kingdom.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-nr2/",
-      "type": "Published announcement",
-      "published_date": "2026-10-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Speech by Minister for Defence Mr Chan Chun Sing at the Goh Keng Swee Command and Staff College (GKS CSC) Command and Staff Course (CSC) 2026 Graduation Ceremony, on 22 October 2026",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-speech/",
-      "type": "Published announcement",
-      "published_date": "2026-10-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -362,7 +373,7 @@
       "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -446,17 +457,6 @@
       "agency": "METI",
       "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Clean Energy Summit (ACES) 2026 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-clean-energy-summit--aces--2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the 10th Singapore-IEA Forum 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-10th-singapore-iea-forum-/",
       "type": "Published announcement",
       "published_date": "2026-10-27",
       "date": null,
