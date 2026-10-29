@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T01:17:19.766020+00:00",
+  "updated_at": "2026-10-29T07:11:32.489711+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -114,6 +114,17 @@
     {
       "category": "Ministries",
       "agency": "MOF",
+      "title": "Appointment of New Board Chairman to the Singapore Totalisator Board Topics Tote Board",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/appointment-of-new-board-chairman-to-the-singapore-totalisator-board/",
+      "type": "Published announcement",
+      "published_date": "2026-10-29",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
       "title": "IVAS-IVSC Business Valuation Conference 2026 Opening Address - 2M Indranee Rajah Topics ACRA",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/ivas-ivsc-business-valuation-conference-2026---2m-indranee-rajah/",
       "type": "Published announcement",
@@ -204,17 +215,6 @@
       "agency": "MOF",
       "title": "Mutual Agreement Procedure Support for Tax Residents Facing Competing Residency Claims from Double Taxation Agreement Partner Jurisdictions Topics Tax-Related (Others) Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/mutual-agreement-procedure-support-for-tax-residents-facing-competing-residency-claims-from-double-taxation-agreement-partner-jurisdictions/",
-      "type": "Published announcement",
-      "published_date": "2026-10-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Transaction Volumes, and Import and GST Collections from Collectible Trading Cards Topics Tax-Related (GST) Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/transaction-volumes--and-import-and-gst-collections-from-collectible-trading-cards/",
       "type": "Published announcement",
       "published_date": "2026-10-06",
       "date": null,
@@ -356,6 +356,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Delivered Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at SWITCH 2026, Breakthrough Energy Fellows: Scaling climate and energy tech through partnerships in Southeast Asia 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/delivered-speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-switch-2026--breakthrough-energy-fellows--scaling-climate-and-energy-tech-through-partnerships-in-southeast-asia/",
+      "type": "Published announcement",
+      "published_date": "2026-10-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Singapore – United States 6th Joint Statement on Energy Cooperation 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore---united-states-6th-joint-statement-on-energy-cooperation/",
       "type": "Published announcement",
@@ -446,17 +457,6 @@
       "agency": "METI",
       "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the 10th Singapore-IEA Forum 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-10th-singapore-iea-forum-/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the SIEW Summit Day 2 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-siew-summit-day-2/",
       "type": "Published announcement",
       "published_date": "2026-10-27",
       "date": null,
