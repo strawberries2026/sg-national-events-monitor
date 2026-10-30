@@ -1,17 +1,6 @@
 {
-  "updated_at": "2026-10-30T16:40:14.343717+00:00",
+  "updated_at": "2026-10-30T21:08:33.668422+00:00",
   "events": [
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "MHA’s Clarification Statement to Wall Street Journal’s Article on 30 Oct 2026",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/mha-clarification-statement-to-wall-street-journal-article-on-30-oct-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-30",
-      "date": null,
-      "time_sgt": null,
-      "is_new": true
-    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -110,6 +99,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "The Singapore Anti-Narcotics Association (SANA) Charity Gala Dinner 2026 - Speech by Mr Edwin Tong, Minister for Law and Second Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/the-singapore-anti-narcotics-association-sana-charity-gala-dinner-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-16",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -252,7 +252,7 @@
       "published_date": "2026-10-30",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -472,7 +472,7 @@
       "published_date": "2026-10-30",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
