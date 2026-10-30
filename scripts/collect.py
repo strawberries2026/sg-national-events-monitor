@@ -79,6 +79,48 @@ def main():
   for sitting in sorted(future):
    collected.append({"category":"Parliament","agency":"Parliament","title":"Parliament sitting — Order Paper published","source_url":order_url,"type":"Confirmed sitting date (Order Paper)","published_date":None,"date":sitting.isoformat(),"time_sgt":None})
  except Exception as e: errors.append("Parliament Order Paper: "+str(e)[:160])
+ # Parliament homepage carries the next sitting announcement, often before an Order Paper exists.
+ try:
+  home_url="https://www.parliament.gov.sg/"
+  req=urllib.request.Request(home_url,headers={"User-Agent":"Mozilla/5.0 (compatible; SGNationalEventsMonitor/1.0)"})
+  with urllib.request.urlopen(req,timeout=20) as resp:
+   homepage=resp.read(2_000_000).decode("utf-8","replace")
+  class HomeText(HTMLParser):
+   def __init__(self): super().__init__();self.parts=[];self.skip=0
+   def handle_starttag(self,tag,attrs):
+    if tag in ("script","style"):self.skip+=1
+   def handle_endtag(self,tag):
+    if tag in ("script","style") and self.skip:self.skip-=1
+   def handle_data(self,data):
+    if not self.skip:self.parts.append(data)
+  parser=HomeText();parser.feed(homepage)
+  content=" ".join(" ".join(parser.parts).split())
+  pattern=r"Parliament will be sitting on\\s+(\\d{1,2})\\s+([A-Za-z]+)\\s+(20\\d{2})\\.?(?:\\s+It will commence at\\s+(\\d{1,2})[.:](\\d{2})\\s*(am|pm|noon|midnight)\\.?)?"
+  today=(datetime.now(timezone.utc)+timedelta(hours=8)).date()
+  for day,month,year,hour,minute,period in re.findall(pattern,content,re.I):
+   try:sitting=dt.strptime(f"{day} {month} {year}","%d %B %Y").date()
+   except ValueError:continue
+   if not(today<=sitting<=today+timedelta(days=180)):continue
+   clock=None
+   if hour and minute and period:
+    h=int(hour)%12
+    if period.lower() in ("pm","noon"):h+=12
+    clock=f"{h:02d}:{minute}"
+   collected.append({"category":"Parliament","agency":"Parliament","title":"Parliament sitting — official homepage announcement","source_url":home_url,"type":"Confirmed sitting date (homepage)","published_date":None,"date":sitting.isoformat(),"time_sgt":clock})
+ except Exception as e:errors.append("Parliament homepage: "+str(e)[:160])
+ # Preserve the last verified future sitting when Parliament temporarily blocks automated requests.
+ today=(datetime.now(timezone.utc)+timedelta(hours=8)).date()
+ found_dates={e.get("date") for e in collected if e.get("agency")=="Parliament" and e.get("date")}
+ for prior in old.get("events",[]):
+  if prior.get("agency")=="Parliament" and prior.get("date") and prior["date"]>=today.isoformat() and prior["date"] not in found_dates:
+   collected.append(prior)
+ # Remove duplicate Parliament dates while retaining the homepage record if it contains a time.
+ sitting_records=[e for e in collected if e.get("agency")=="Parliament" and e.get("date")]
+ best={}
+ for e in sitting_records:
+  date=e["date"]
+  if date not in best or (e.get("time_sgt") and not best[date].get("time_sgt")):best[date]=e
+ collected=[e for e in collected if not(e.get("agency")=="Parliament" and e.get("date"))]+list(best.values())
  # Parliament references are official resources, not confirmed future sittings.
  parliament_refs = [
   ("Parliament Order Papers and agendas", "https://www.parliament.gov.sg/parliamentary-business/order-paper"),
@@ -89,7 +131,7 @@ def main():
  if announcement_count==0:
   print("No announcement sources refreshed; preserving existing feed",errors)
   return
- unique={e["source_url"]:e for e in collected}
+ unique={(e["source_url"]+"#"+e["date"] if e.get("date") else e["source_url"]):e for e in collected}
  previous={e.get("source_url") for e in old.get("events",[]) if e.get("source_url")}
  for item in unique.values(): item["is_new"]=bool(previous) and item["source_url"] not in previous
  result={"updated_at":datetime.now(timezone.utc).isoformat(),"events":list(unique.values()),"errors":errors,"source_health":{"successful_sources":successful_sources,"failed_sources":[name for name,_,_ in SOURCES if name not in successful_sources],"successful_count":len(successful_sources),"total_count":len(SOURCES),"announcement_count":announcement_count},"note":"Published announcements only; no future event date inferred."}
