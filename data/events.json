@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-10-31T00:51:56.547346+00:00",
+  "updated_at": "2026-10-31T06:22:47.874057+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Clarification Statement on Wall Street Journal’s Article",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/clarification-statement-on-wall-street-journals-article/",
+      "type": "Published announcement",
+      "published_date": "2026-10-31",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -96,17 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/transcript-of-media-doorstop-by-mr-k-shanmugam-senior-minister-coordinating-minister-for-national-security-and-minister-for-home-affairs-on-the-haze-situation/",
       "type": "Published announcement",
       "published_date": "2026-10-19",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "The Singapore Anti-Narcotics Association (SANA) Charity Gala Dinner 2026 - Speech by Mr Edwin Tong, Minister for Law and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/the-singapore-anti-narcotics-association-sana-charity-gala-dinner-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-16",
       "date": null,
       "time_sgt": null,
       "is_new": false
