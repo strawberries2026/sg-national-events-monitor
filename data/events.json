@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T12:59:12.458358+00:00",
+  "updated_at": "2026-10-31T17:37:45.584748+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -466,6 +466,17 @@
     {
       "category": "Leadership",
       "agency": "PMO",
+      "title": "PM Lawrence Wong at the Inauguration of the New Campus of the Singapore Indian Fine Arts Society (Oct 2026) People PM Lawrence Wong Topics Arts, culture and heritage Speech by Prime Minister and Minister for Finance Lawrence Wong at the Inauguration of the New Campus of the Singapore Indian Fine Arts Society (SIFAS) on 31 October 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-inauguration-of-the-new-campus-of-the-singapore-indian-fine-arts-society/",
+      "type": "Published announcement",
+      "published_date": "2026-10-31",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
       "title": "PM Lawrence Wong at the Singapore Chinese Chamber of Commerce and Industry’s 120th Anniversary Dinner People PM Lawrence Wong Topics Economy Science and technology Trade Speech by Prime Minister and Minister for Finance Lawrence Wong at the Singapore Chinese Chamber of Commerce and Industry (SCCCI)’s 120th Anniversary Dinner on 30 October 2026. Speech",
       "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-singapore-chinese-chamber-of-commerce-and-industry-sccci-120th-anniversary-dinner/",
       "type": "Published announcement",
@@ -501,17 +512,6 @@
       "agency": "PMO",
       "title": "SM Lee Hsien Loong at the 80th Anniversary Dinner Celebration of the Singapore Port Workers Union People SM Lee Hsien Loong Topics Economy Jobs and productivity Science and technology Trade Speech by Senior Minister Lee Hsien Loong at the 80th Anniversary Dinner Celebration of the Singapore Port Workers Union on 17 October 2026. Speech",
       "source_url": "https://www.pmo.gov.sg/newsroom/sm-lee-hsien-loong-at-the-80th-anniversary-dinner-celebration-of-singapore-port-workers-union/",
-      "type": "Published announcement",
-      "published_date": "2026-10-17",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong to Visit Qatar and the United Arab Emirates (Oct 2026) People Prime Minister's Office Topics Foreign affairs Prime Minister and Minister for Finance Lawrence Wong will make Official Visits to Qatar from 18 to 20 October 2026, and to the United Arab Emirates (UAE) from 20 to 22 October 2026. Press Release",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-qatar-and-the-united-arab-emirates-oct-2026/",
       "type": "Published announcement",
       "published_date": "2026-10-17",
       "date": null,
