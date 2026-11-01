@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T09:47:33.671152+00:00",
+  "updated_at": "2026-11-01T16:27:01.692409+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -246,6 +246,28 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Senior Minister of State for Defence Zaqy Mohamad Attends the 22nd Manama Dialogue Senior Minister of State for Defence (SMS) Zaqy Mohamad attended the 22nd Manama Dialogue in Bahrain from 30 October to 1 November 2026.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-01",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Speech by Senior Minister of State for Defence Mr Zaqy Mohamad at the Manama Dialogue 2026 on 1 Nov 2026 in Bahrain",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-speech/",
+      "type": "Published announcement",
+      "published_date": "2026-11-01",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Singapore and Malaysia Navies Strengthen Maritime Cooperation in Exercise Malapura 2026 The Republic of Singapore Navy (RSN) and the Royal Malaysian Navy (RMN) conducted the 34th edition of Exercise Malapura – a bilateral maritime exercise between both navies.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30oct26-nr/",
       "type": "Published announcement",
@@ -325,28 +347,6 @@
       "agency": "MINDEF",
       "title": "Singapore and Indian Navies Conclude Annual Maritime Bilateral Exercise The Republic of Singapore Navy (RSN) and the Indian Navy (IN) conducted the annual Singapore-India Maritime Bilateral Exercise (SIMBEX) from 21 to 26 October 2026.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-10-26",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Infographic: Next Generation Infantry Batallion (NGIB) Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-infographic/",
-      "type": "Published announcement",
-      "published_date": "2026-10-26",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Infographic: Helicopter Decision Support System (Heli DSS) Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-infographic2/",
       "type": "Published announcement",
       "published_date": "2026-10-26",
       "date": null,
@@ -501,17 +501,6 @@
       "agency": "PMO",
       "title": "Minister Chee Hong Tat at the Nanyang Xu Association 70th Anniversary Dinner People PMO Ministers Topics Arts, culture and heritage Speech by Minister for National Development Chee Hong Tat at the Nanyang Xu Association 70th Anniversary Dinner on 17 October 2026. Speech",
       "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-nanyang-xu-association-70th-anniversary-dinner/",
-      "type": "Published announcement",
-      "published_date": "2026-10-17",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "SM Lee Hsien Loong at the 80th Anniversary Dinner Celebration of the Singapore Port Workers Union People SM Lee Hsien Loong Topics Economy Jobs and productivity Science and technology Trade Speech by Senior Minister Lee Hsien Loong at the 80th Anniversary Dinner Celebration of the Singapore Port Workers Union on 17 October 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/sm-lee-hsien-loong-at-the-80th-anniversary-dinner-celebration-of-singapore-port-workers-union/",
       "type": "Published announcement",
       "published_date": "2026-10-17",
       "date": null,
@@ -677,7 +666,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 57
+    "announcement_count": 56
   },
   "note": "Published announcements only; no future event date inferred."
 }
