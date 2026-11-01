@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T08:02:47.145873+00:00",
+  "updated_at": "2026-11-01T08:19:16.719741+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -356,6 +356,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Joint Press Release for the Entry into Force of the MERCOSUR-Singapore Free Trade Agreement between Singapore and Argentina 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/joint-press-release-for-the-entry-into-force-of-the-mercosur-singapore-free-trade-agreement-between-singapore-and-argentina/",
+      "type": "Published announcement",
+      "published_date": "2026-11-01",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Motor Vehicle Financing Restrictions Extended to Individual-Owned Private Hire Cars 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/motor-vehicle-financing-restrictions-extended-to-individual-owned-private-hire-cars/",
       "type": "Published announcement",
@@ -446,17 +457,6 @@
       "agency": "METI",
       "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Foo Cexiang at the Business Forum on the Occasion of the Visit of German Chancellor Friedrich Merz to Singapore 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-foo-cexiang-at-the-business-forum-on-the-occasion-of-the-visit-of-german-chancellor-friedrich-merz-to-singapore/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Asia Gas Markets Conference 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-asia-gas-markets-conference/",
       "type": "Published announcement",
       "published_date": "2026-10-27",
       "date": null,
@@ -627,6 +627,18 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Parliament",
+      "agency": "Parliament",
+      "title": "Parliament sitting — officially announced on Parliament homepage",
+      "source_url": "https://www.parliament.gov.sg/",
+      "type": "Confirmed sitting date (homepage)",
+      "published_date": null,
+      "date": "2026-11-03",
+      "time_sgt": "12:00",
+      "verification_note": "Manually checked against Parliament homepage announcement; 3 November 2026 at 12 noon SGT.",
+      "is_new": true
     },
     {
       "category": "Parliament",
