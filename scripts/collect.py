@@ -121,6 +121,14 @@ def main():
   date=e["date"]
   if date not in best or (e.get("time_sgt") and not best[date].get("time_sgt")):best[date]=e
  collected=[e for e in collected if not(e.get("agency")=="Parliament" and e.get("date"))]+list(best.values())
+ # Curated official homepage announcement, checked against the published Parliament notice.
+ # Retain only through the sitting day; do not treat as a perpetual recurring sitting.
+ known_sittings=[("2026-11-03","12:00","https://www.parliament.gov.sg/")]
+ today=(datetime.now(timezone.utc)+timedelta(hours=8)).date()
+ existing={e.get("date") for e in collected if e.get("agency")=="Parliament" and e.get("date")}
+ for date_value,clock,source in known_sittings:
+  if today.isoformat()<=date_value and date_value not in existing:
+   collected.append({"category":"Parliament","agency":"Parliament","title":"Parliament sitting — officially announced on Parliament homepage","source_url":source,"type":"Confirmed sitting date (homepage)","published_date":None,"date":date_value,"time_sgt":clock,"verification_note":"Manually checked against Parliament homepage announcement; 3 November 2026 at 12 noon SGT."})
  # Parliament references are official resources, not confirmed future sittings.
  parliament_refs = [
   ("Parliament Order Papers and agendas", "https://www.parliament.gov.sg/parliamentary-business/order-paper"),
