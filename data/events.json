@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T23:55:38.793824+00:00",
+  "updated_at": "2026-11-02T05:48:00.653620+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -114,6 +114,17 @@
     {
       "category": "Ministries",
       "agency": "MOF",
+      "title": "AGD and ISCA Renews MOU to Strengthen Finance Capabilities Across the Public Service with Continuing Professional Training Topics AGD",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/agd-and-isca-renews-mou-to-strengthen-finance-capabilities-across-the-public-service-with-continuing-professional-training/",
+      "type": "Published announcement",
+      "published_date": "2026-11-02",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
       "title": "Appointment of New Board Chairman to the Singapore Totalisator Board Topics Tote Board",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/appointment-of-new-board-chairman-to-the-singapore-totalisator-board/",
       "type": "Published announcement",
@@ -204,17 +215,6 @@
       "agency": "MOF",
       "title": "Tax Relief Support Equivalent to Working Mother's Child Relief for Working Fathers as Sole Caregivers Topics Social Policies Tax-Related (Income Tax) Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/tax-relief-support-equivalent-to-working-mother-s-child-relief-for-working-fathers-as-sole-caregivers/",
-      "type": "Published announcement",
-      "published_date": "2026-10-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Mutual Agreement Procedure Support for Tax Residents Facing Competing Residency Claims from Double Taxation Agreement Partner Jurisdictions Topics Tax-Related (Others) Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/mutual-agreement-procedure-support-for-tax-residents-facing-competing-residency-claims-from-double-taxation-agreement-partner-jurisdictions/",
       "type": "Published announcement",
       "published_date": "2026-10-06",
       "date": null,
