@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T05:48:00.653620+00:00",
+  "updated_at": "2026-11-02T13:52:57.577469+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -120,7 +120,7 @@
       "published_date": "2026-11-02",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -246,6 +246,17 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Reply to Media Query on ADMM-Plus Initiatives Replies To Media Query",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/2nov26-mq/",
+      "type": "Published announcement",
+      "published_date": "2026-11-02",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Senior Minister of State for Defence Zaqy Mohamad Attends the 22nd Manama Dialogue Senior Minister of State for Defence (SMS) Zaqy Mohamad attended the 22nd Manama Dialogue in Bahrain from 30 October to 1 November 2026.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-nr/",
       "type": "Published announcement",
@@ -338,17 +349,6 @@
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/27oct26-nr/",
       "type": "Published announcement",
       "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Singapore and Indian Navies Conclude Annual Maritime Bilateral Exercise The Republic of Singapore Navy (RSN) and the Indian Navy (IN) conducted the annual Singapore-India Maritime Bilateral Exercise (SIMBEX) from 21 to 26 October 2026.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26oct26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-10-26",
       "date": null,
       "time_sgt": null,
       "is_new": false
