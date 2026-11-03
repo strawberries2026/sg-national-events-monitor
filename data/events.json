@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-11-03T11:23:45.427727+00:00",
+  "updated_at": "2026-11-03T18:37:57.670889+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Outcome of EASE trial on Bukit Timah Expressway, timeline for enforcement and deployment on other expressways Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/outcome-of-ease-trial-on-bukit-timah-expressway-timeline-for-enforcement-and-deployment-on-other-expressways/",
+      "type": "Published announcement",
+      "published_date": "2026-11-03",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Strengthening measures to ensure tighter execution of self-exclusion applications to protect vulnerable individuals Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/strengthening-measures-to-ensure-tighter-execution-of-self-exclusion-applications-to-protect-vulnerable-individuals/",
+      "type": "Published announcement",
+      "published_date": "2026-11-03",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Allowing Singapore citizens to retrieve personal travel history through MyICA mobile application Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/allowing-singapore-citizens-to-retrieve-personal-travel-history-through-myica-mobile-application/",
+      "type": "Published announcement",
+      "published_date": "2026-11-03",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Information-sharing with banks and telcos for individuals whose work passes or immigration status have expired or been cancelled Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/information-sharing-with-banks-and-telcos-for-individuals-whose-work-passes-or-immigration-status-have-expired-or-been-cancelled/",
+      "type": "Published announcement",
+      "published_date": "2026-11-03",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Disclosure of confirmed causes of residential fires following completion of investigations Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/disclosure-of-confirmed-causes-of-residential-fires-following-completion-of-investigations/",
+      "type": "Published announcement",
+      "published_date": "2026-11-03",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -10,7 +65,7 @@
       "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -21,7 +76,7 @@
       "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -58,58 +113,47 @@
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "The Malaysia-Singapore cross-border joint field training exercise for the RTS Link – Closing address by Ms Sim Ann, Second Minister for Foreign Affairs and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/the-malaysia-singapore-cross-border-joint-field-training-exercise-for-the-rts-link/",
+      "agency": "MOF",
+      "title": "Rental Income Declared and Income Tax Assessed by Number of Residential Properties Owned Topics Tax-Related (Income Tax) Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/rental-income-declared-and-income-tax-assessed-by-number-of-residential-properties-owned/",
       "type": "Published announcement",
-      "published_date": "2026-10-28",
+      "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "Opening Ceremony of the Singapore-International Disaster and Emergency Management Expo – Asian Conference on Disaster Reduction (SIDEX-ACDR 2026) – Speech by Ms Sim Ann, Second Minister For Foreign Affairs and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/opening-ceremony-of-the-singapore-international-disaster-and-emergency-management-expo-asian-conference-on-disaster-reduction-sidex-acdr-2026/",
+      "agency": "MOF",
+      "title": "Breakdown of Individuals and Households with Multiple Property Ownership based on Property Tax Records Topics Tax-Related (Property Tax) Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/breakdown-of-individuals-and-households-with-multiple-property-ownership-based-on-property-tax-records-/",
       "type": "Published announcement",
-      "published_date": "2026-10-28",
+      "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "Professional Community Forum – Human Behaviour in Crises: Reactions, Response, Resilience – Speech by Ms Sim Ann, Second Minister for Foreign Affairs & Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/professional-community-forum-human-behaviour-in-crises-reactions-response-resilience-/",
+      "agency": "MOF",
+      "title": "Assessing Veracity of Former Indonesian Minister's Claims and Remedial Responses Considered Topics GIC & Temasek Holdings Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/assessing-veracity-of-former-indonesian-minister-s-claims-and-remedial-responses-considered/",
       "type": "Published announcement",
-      "published_date": "2026-10-27",
+      "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "DrugFreeSG Video Competition 2026 Awards Ceremony – Opening Remarks by Mr Edwin Tong, Minister for Law and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/drugfreesg-video-competition-2026-awards-ceremony/",
+      "agency": "MOF",
+      "title": "Decline in IRAS' Operating Surplus and Productivity Targets amid Rising Operating Expenditure Topics IRAS Tax-Related (Others) Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/decline-in-iras--operating-surplus-and-productivity-targets-amid-rising-operating-expenditure/",
       "type": "Published announcement",
-      "published_date": "2026-10-24",
+      "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Singapore Road Safety Council Fundraising Gala Dinner 2026 – Speech by Ms Sim Ann, Second Minister for Foreign Affairs and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-road-safety-council-fundraising-gala-dinner-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -179,50 +223,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MOF",
-      "title": "Data on Directors' Debarment, Unfit Conduct Reports and Insolvent Liquidation Since 2021 Topics ACRA Companies Act Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/data-on-directors--debarment--unfit-conduct-reports-and-insolvent-liquidation-since-2021/",
-      "type": "Published announcement",
-      "published_date": "2026-10-07",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Energy Price Thresholds for Additional Households and Small Businesses Support Measures Topics Cost of Living Government Transfers Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/energy-price-thresholds-for-additional-households-and-small-businesses-support-measures/",
-      "type": "Published announcement",
-      "published_date": "2026-10-07",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Support Measures for Former Private Hire Car Drivers Who Reached Statutory Vocational Licence Age Limit Topics Government Transfers Social Policies Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/support-measures-for-former-private-hire-car-drivers-who-reached-statutory-vocational-licence-age-limit/",
-      "type": "Published announcement",
-      "published_date": "2026-10-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Tax Relief Support Equivalent to Working Mother's Child Relief for Working Fathers as Sole Caregivers Topics Social Policies Tax-Related (Income Tax) Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/tax-relief-support-equivalent-to-working-mother-s-child-relief-for-working-fathers-as-sole-caregivers/",
-      "type": "Published announcement",
-      "published_date": "2026-10-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "MFA",
       "title": "Announcements and Highlights Details of upcoming events and ongoing initiatives can be found here.",
       "source_url": "https://www.mfa.gov.sg/newsroom/announcements-and-highlights/",
@@ -242,6 +242,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "President Tharman Visits the Open Source Unit in the DIS President Tharman Shanmugaratnam visited the Digital and Intelligence Service (DIS) Open Source Unit (OSU) this afternoon. This is President Tharman's inaugural unit visit to the Singapore Armed Forces (SAF).",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/3nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-03",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -338,17 +349,6 @@
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-fs2/",
       "type": "Published announcement",
       "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Minister for Defence to Visit the Philippines for 20th ADMM and 13th ADMM-Plus Minister for Defence Chan Chun Sing will be in Cebu, Philippines, from 27 to 30 October 2026 for the 20th ASEAN Defence Ministers’ Meeting (ADMM) and 13th ADMM-Plus.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/27oct26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -472,7 +472,7 @@
       "published_date": "2026-11-01",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -483,7 +483,7 @@
       "published_date": "2026-11-01",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -626,18 +626,6 @@
       "published_date": "2026-09-14",
       "date": null,
       "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Parliament",
-      "agency": "Parliament",
-      "title": "Parliament sitting — officially announced on Parliament homepage",
-      "source_url": "https://www.parliament.gov.sg/",
-      "type": "Confirmed sitting date (homepage)",
-      "published_date": null,
-      "date": "2026-11-03",
-      "time_sgt": "12:00",
-      "verification_note": "Manually checked against Parliament homepage announcement; 3 November 2026 at 12 noon SGT.",
       "is_new": false
     },
     {
