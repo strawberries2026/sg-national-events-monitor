@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-03T03:45:00.629820+00:00",
+  "updated_at": "2026-11-03T11:23:45.427727+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Legality and safeguards for the Home Team’s access and use of ERP 2.0 data Oral Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/legality-and-safeguards-for-the-home-teams-access-and-use-of-erp-2-0-data-/",
+      "type": "Published announcement",
+      "published_date": "2026-11-03",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Introduction of the Sentencing (Scams) Bill",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/introduction-of-the-sentencing-scams-bill/",
+      "type": "Published announcement",
+      "published_date": "2026-11-03",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -85,28 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-road-safety-council-fundraising-gala-dinner-2026/",
       "type": "Published announcement",
       "published_date": "2026-10-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "20th ASEAN Ministerial Meeting on Transnational Crimes and its Related Meetings – Singapore's Country Statement by Mr Goh Pei Ming, Senior Minister of State, Ministry of Home Affairs & Ministry of Social and Family Development",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/20th-asean-ministerial-meeting-on-transnational-crimes-and-its-related-meetings-singapore-country-statement/",
-      "type": "Published announcement",
-      "published_date": "2026-10-20",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Transcript of Media Doorstop by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs, on the Haze Situation",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/transcript-of-media-doorstop-by-mr-k-shanmugam-senior-minister-coordinating-minister-for-national-security-and-minister-for-home-affairs-on-the-haze-situation/",
-      "type": "Published announcement",
-      "published_date": "2026-10-19",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -466,6 +466,28 @@
     {
       "category": "Leadership",
       "agency": "PMO",
+      "title": "Minister Chee Hong Tat at the Tung Ann District Guild 95th Anniversary Dinner People PMO Ministers Topics Multi-racial and multi-religious society Youth Speech by Minister for National Development Chee Hong Tat at the Tung Ann District Guild 95th Anniversary Dinner on 1 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-tung-ann-district-guild-95th-anniversary-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-11-01",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "Minister Chee Hong Tat at the Nanyang Hwu Clan General Association 80th Anniversary Dinner People PMO Ministers Topics Multi-racial and multi-religious society Population Youth Speech by Minister for National Development Chee Hong Tat at the Nanyang Hwu Clan General Association 80th Anniversary Dinner on 1 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-nanyang-hwu-clan-general-association-80th-anniversary-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-11-01",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
       "title": "PM Lawrence Wong at the Inauguration of the New Campus of the Singapore Indian Fine Arts Society (Oct 2026) People PM Lawrence Wong Topics Arts, culture and heritage Speech by Prime Minister and Minister for Finance Lawrence Wong at the Inauguration of the New Campus of the Singapore Indian Fine Arts Society (SIFAS) on 31 October 2026. Speech",
       "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-inauguration-of-the-new-campus-of-the-singapore-indian-fine-arts-society/",
       "type": "Published announcement",
@@ -492,17 +514,6 @@
       "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-the-launch-of-our-climate-ready-home-exhibition/",
       "type": "Published announcement",
       "published_date": "2026-10-24",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "Minister Chee Hong Tat at the Nanyang Xu Association 70th Anniversary Dinner People PMO Ministers Topics Arts, culture and heritage Speech by Minister for National Development Chee Hong Tat at the Nanyang Xu Association 70th Anniversary Dinner on 17 October 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-nanyang-xu-association-70th-anniversary-dinner/",
-      "type": "Published announcement",
-      "published_date": "2026-10-17",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -666,7 +677,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 56
+    "announcement_count": 57
   },
   "note": "Published announcements only; no future event date inferred."
 }
