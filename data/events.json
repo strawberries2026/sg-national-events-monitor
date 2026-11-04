@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-04T03:20:55.007609+00:00",
+  "updated_at": "2026-11-04T11:12:33.980269+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Addressing hotel booking phishing cases involving genuine booking details and obligations of hotels and booking platforms to notify affected customers Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/addressing-hotel-booking-phishing-cases-involving-genuine-booking-details-and-obligations-of-hotels-and-booking-platforms-to-notify-affected-customers/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Enhancing safeguards for accused persons with limited english proficiency through AI-generated translations, and interpreter contemporaneous note-keeping Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/enhancing-safeguards-for-accused-persons-with-limited-english-proficiency-through-ai-generated-translations-and-interpreter-contemporaneous-note-keeping/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -85,28 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/clarification-statement-on-wall-street-journals-article/",
       "type": "Published announcement",
       "published_date": "2026-10-31",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Transcript of media doorstop by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs, after meeting with companies issued S10 notices under the Transboundary Haze Pollution Act on 28 October 2026",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/transcript-of-media-doorstop-by-mr-k-shanmugam-senior-minister-coordinating-minister-for-national-security-and-minister-for-home-affairs-after-meeting-with-companies-issued-s10-notices-under-the-transboundary-haze-pollution-act-on-28-october-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Malaysia and Singapore reaffirm commitment to bilateral security cooperation through Johor Bahru-Singapore Rapid Transit System (RTS) Link joint cross-border emergency response exercise",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/malaysia-and-singapore-reaffirm-commitment-to-bilateral-security-cooperation-through-johor-bahru-singapore-rapid-transit-system-rts-link-joint-cross-border-emergency-response-exercise/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -246,6 +246,17 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "The Republic of Singapore Air Force and the Indonesian Air Force Conclude Inaugural Patkor Indopura 2026 The Republic of Singapore Air Force (RSAF) and the Indonesian Air Force (TNI AU) have conducted the first joint fighter air patrol from 3 to 4 November 2026 as part of the inaugural Patkor Indopura.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/4nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "President Tharman Visits the Open Source Unit in the DIS President Tharman Shanmugaratnam visited the Digital and Intelligence Service (DIS) Open Source Unit (OSU) this afternoon. This is President Tharman's inaugural unit visit to the Singapore Armed Forces (SAF).",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/3nov26-nr/",
       "type": "Published announcement",
@@ -300,58 +311,14 @@
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Singapore Takes Over 2027 ADMM Chairmanship, Will Work with ASEAN Member States Towards a Future-Ready, Adaptive, and Resilient ADMM/ADMM-Plus Minister for Defence Chan Chun Sing participated in the 13th ASEAN Defence Ministers’ Meeting (ADMM)-Plus and the ADMM Chairmanship handover ceremony today.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/29oct26-nr/",
+      "agency": "METI",
+      "title": "Singapore calls for stronger cooperation on rules-based trade, trade digitalisation and economic integration at the 37th Asia-Pacific Economic Cooperation Ministerial Meeting 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-calls-for-stronger-cooperation-on-rules-based-trade--trade-digitalisation-and-economic-integration-at-the-37th-asia-pacific-economic-cooperation-ministerial-meeting/",
       "type": "Published announcement",
-      "published_date": "2026-10-29",
+      "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Joint Statement by the ASEAN Defence Ministers’ Meeting Plus on Youth, Peace and Security The Thirteenth ASEAN Defence Ministers’ Meeting Plus (hereinafter referred to as the “ADMM-Plus”) convened in Cebu, Philippines on 29 October 2026; Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/29oct26-fs/",
-      "type": "Published announcement",
-      "published_date": "2026-10-29",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Joint Statement by the ASEAN Defence Ministers Commemorating the 50th Anniversary of the Signing of the Treaty of Amity and Cooperation in Southeast Asia The Twentieth ASEAN Defence Ministers’ Meeting (hereinafter referred to as the “ADMM”), convened in Cebu, Philippines on 28 October 2026; Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-fs/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "ASEAN Defence Ministers Reaffirm Importance of Open and Inclusive Regional Security Architecture Minister for Defence Chan Chun Sing participated in the 20th ASEAN Defence Ministers’ Meeting (ADMM) in Cebu, Philippines, today.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Manila Joint Declaration on the 20th Anniversary of the ASEAN Defence Ministers’ Meeting: Navigating Our Future, Together The Twentieth ASEAN Defence Ministers’ Meeting (hereinafter referred to as the “ADMM”), convened in Cebu, Philippines on 28 October 2026; Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28oct26-fs2/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -446,17 +413,6 @@
       "agency": "METI",
       "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Singapore-IRENA High-Level Forum 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-singapore-irena-high-level-forum/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Foo Cexiang at the Business Forum on the Occasion of the Visit of German Chancellor Friedrich Merz to Singapore 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-foo-cexiang-at-the-business-forum-on-the-occasion-of-the-visit-of-german-chancellor-friedrich-merz-to-singapore/",
       "type": "Published announcement",
       "published_date": "2026-10-27",
       "date": null,
@@ -665,7 +621,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 57
+    "announcement_count": 53
   },
   "note": "Published announcements only; no future event date inferred."
 }
