@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-04T11:12:33.980269+00:00",
+  "updated_at": "2026-11-04T18:40:29.709129+00:00",
   "events": [
     {
       "category": "Ministries",
       "agency": "MHA",
-      "title": "Addressing hotel booking phishing cases involving genuine booking details and obligations of hotels and booking platforms to notify affected customers Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/addressing-hotel-booking-phishing-cases-involving-genuine-booking-details-and-obligations-of-hotels-and-booking-platforms-to-notify-affected-customers/",
+      "title": "Senior access to manned Police counters and targeted face-to-face assistance amid progressive roll-out of self-help kiosks and counter closures Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/senior-access-to-manned-police-counters-and-targeted-face-to-face-assistance-amid-progressive-roll-out-of-self-help-kiosks-and-counter-closures/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
@@ -15,13 +15,46 @@
     {
       "category": "Ministries",
       "agency": "MHA",
-      "title": "Enhancing safeguards for accused persons with limited english proficiency through AI-generated translations, and interpreter contemporaneous note-keeping Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/enhancing-safeguards-for-accused-persons-with-limited-english-proficiency-through-ai-generated-translations-and-interpreter-contemporaneous-note-keeping/",
+      "title": "Data on scam victims accepting referrals to Victim Care Cadre programme or community support services and reasons for declining support Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/data-on-scam-victims-accepting-referrals-to-victim-care-cadre-programme-or-community-support-services-and-reasons-for-declining-support/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
       "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Assessing sustained effectiveness of Police scam interventions to guide improvements to intervention methods Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/assessing-sustained-effectiveness-of-police-scam-interventions-to-guide-improvements-to-intervention-methods/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Enhancing safeguards for accused persons with limited English proficiency through AI-generated translations, and interpreter contemporaneous note-keeping Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/enhancing-safeguards-for-accused-persons-with-limited-english-proficiency-through-ai-generated-translations-and-interpreter-contemporaneous-note-keeping/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Addressing hotel booking phishing cases involving genuine booking details and obligations of hotels and booking platforms to notify affected customers Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/addressing-hotel-booking-phishing-cases-involving-genuine-booking-details-and-obligations-of-hotels-and-booking-platforms-to-notify-affected-customers/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -80,36 +113,47 @@
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "Legality and safeguards for the Home Team’s access and use of ERP 2.0 data Oral Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/legality-and-safeguards-for-the-home-teams-access-and-use-of-erp-2-0-data-/",
+      "agency": "MOF",
+      "title": "Breakdown of $566.7 Million Tax Arrears by Taxpayer Type, Taxpayers Experiencing Financial Hardship and Payment Arrangements Topics Tax-Related (GST) Tax-Related (Income Tax) Tax-Related (Property Tax) Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/breakdown-of--566-7-million-tax-arrears-by-taxpayer-type--taxpayers-experiencing-financial-hardship-and-payment-arrangements/",
       "type": "Published announcement",
-      "published_date": "2026-11-03",
+      "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "Introduction of the Sentencing (Scams) Bill",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/introduction-of-the-sentencing-scams-bill/",
+      "agency": "MOF",
+      "title": "Breakdown of Matching Funds Disbursed under Tote Board Enhanced Fundraising Programme by Charity Budget Size Topics Tote Board Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/breakdown-of-matching-funds-disbursed-under-tote-board-enhanced-fundraising-programme-by-charity-budget-size/",
       "type": "Published announcement",
-      "published_date": "2026-11-03",
+      "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "Clarification Statement on Wall Street Journal’s Article",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/clarification-statement-on-wall-street-journals-article/",
+      "agency": "MOF",
+      "title": "Data on Undischarged Bankrupts Listed as Directors of Live Companies and Official Assignee Notification to ACRA Topics ACRA Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/data-on-undischarged-bankrupts-listed-as-directors-of-live-companies-and-official-assignee-notification-to-acra/",
       "type": "Published announcement",
-      "published_date": "2026-10-31",
+      "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
+      "title": "Uptake of Alternative Net Tonnage Basis of Taxation Among Qualifying Shipping Enterprises Topics Tax-Related (Corporate Tax) Tax-Related (Others) Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/uptake-of-alternative-net-tonnage-basis-of-taxation-among-qualifying-shipping-enterprises/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -179,50 +223,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MOF",
-      "title": "IVAS-IVSC Business Valuation Conference 2026 Opening Address - 2M Indranee Rajah Topics ACRA",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/ivas-ivsc-business-valuation-conference-2026---2m-indranee-rajah/",
-      "type": "Published announcement",
-      "published_date": "2026-10-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "SIAS Corporate Governance Week 2026 Opening Address - SPS Shawn Huang",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/sias-corporate-governance-week-2026-opening-address---sps-shawn-huang/",
-      "type": "Published announcement",
-      "published_date": "2026-10-20",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Singapore and the Kyrgyz Republic Sign Avoidance of Double Taxation Agreement Double Taxation Agreements",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/singapore-and-the-kyrgyz-republic-sign-avoidance-of-double-taxation-agreement/",
-      "type": "Published announcement",
-      "published_date": "2026-10-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Temasek Holdings Founding Terms of Reference, Charter Revision Approval Process and Reasons for Discontinuation of Industry Cluster Nurturing Role Topics GIC & Temasek Holdings Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/temasek-holdings-founding-terms-of-reference--charter-revision-approval-process-and-reasons-for-discontinuation-of-industry-cluster-nurturing-role/",
-      "type": "Published announcement",
-      "published_date": "2026-10-07",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "MFA",
       "title": "Announcements and Highlights Details of upcoming events and ongoing initiatives can be found here.",
       "source_url": "https://www.mfa.gov.sg/newsroom/announcements-and-highlights/",
@@ -252,7 +252,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -318,7 +318,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",

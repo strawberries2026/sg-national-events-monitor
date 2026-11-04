@@ -1,18 +1,5 @@
 {
-  "updated_at": "2026-11-04T11:12:36.358828+00:00",
-  "events": [
-    {
-      "title": "Singapore calls for stronger cooperation on rules-based trade, trade digitalisation and economic integration at the 37th Asia-Pacific Economic Cooperation Ministerial Meeting 1. Press releases",
-      "type": "International summit",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "venue": "Not confirmed",
-      "source": "https://www.meti.gov.sg/newsroom/singapore-calls-for-stronger-cooperation-on-rules-based-trade--trade-digitalisation-and-economic-integration-at-the-37th-asia-pacific-economic-cooperation-ministerial-meeting/",
-      "date_evidence": "Date in official headline or article; event relationship unverified",
-      "verification_status": "candidate_unverified",
-      "lifecycle_status": "upcoming_candidate",
-      "agency": "METI"
-    }
-  ],
+  "updated_at": "2026-11-04T18:40:33.516231+00:00",
+  "events": [],
   "note": "Candidate dates extracted from official headlines; verify original article before operational use."
 }
