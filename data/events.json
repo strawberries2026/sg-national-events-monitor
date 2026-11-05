@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T06:27:01.846583+00:00",
+  "updated_at": "2026-11-05T14:54:36.956737+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -120,7 +120,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -131,7 +131,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -142,7 +142,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -153,7 +153,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -164,7 +164,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -278,39 +278,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Senior Minister of State for Defence Zaqy Mohamad Attends the 22nd Manama Dialogue Senior Minister of State for Defence (SMS) Zaqy Mohamad attended the 22nd Manama Dialogue in Bahrain from 30 October to 1 November 2026.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-11-01",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Speech by Senior Minister of State for Defence Mr Zaqy Mohamad at the Manama Dialogue 2026 on 1 Nov 2026 in Bahrain",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-speech/",
-      "type": "Published announcement",
-      "published_date": "2026-11-01",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Singapore and Malaysia Navies Strengthen Maritime Cooperation in Exercise Malapura 2026 The Republic of Singapore Navy (RSN) and the Royal Malaysian Navy (RMN) conducted the 34th edition of Exercise Malapura – a bilateral maritime exercise between both navies.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30oct26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-10-30",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "METI",
       "title": "Green Economy Partnership Agreement (GEPA) partners welcome significant progress 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/green-economy-partnership-agreement--gepa--partners-welcome-significant-progress/",
@@ -318,7 +285,7 @@
       "published_date": "2026-11-05",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -422,6 +389,28 @@
     {
       "category": "Leadership",
       "agency": "PMO",
+      "title": "PM Lawrence Wong at GovTech's 10th Year Anniversary Dinner People PM Lawrence Wong Topics Science and technology Speech by Prime Minister and Minister for Finance Lawrence Wong at GovTech's 10th Year Anniversary Dinner on 5 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-govtech-10th-year-anniversary-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-11-05",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "Minister Chee Hong Tat at the Graduation Ceremony of Chinese Community Leadership Programme (Nov 2026) People PMO Ministers Topics Arts, culture and heritage Speech by Minister for National Development Chee Hong Tat at the Graduation Ceremony of Chinese Community Leadership Programme on 4 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-graduation-ceremony-of-chinese-community-leadership-programme-nov-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
       "title": "Minister Chee Hong Tat at the Tung Ann District Guild 95th Anniversary Dinner People PMO Ministers Topics Multi-racial and multi-religious society Youth Speech by Minister for National Development Chee Hong Tat at the Tung Ann District Guild 95th Anniversary Dinner on 1 November 2026. Speech",
       "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-tung-ann-district-guild-95th-anniversary-dinner/",
       "type": "Published announcement",
@@ -465,14 +454,14 @@
     },
     {
       "category": "Leadership",
-      "agency": "PMO",
-      "title": "DPM Gan Kim Yong at the Launch of “Our Climate-Ready Home” Exhibition People DPM Gan Kim Yong Topics Environment Speech by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong at the launch of “Our Climate-Ready Home” exhibition on 24 October 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-the-launch-of-our-climate-ready-home-exhibition/",
+      "agency": "Istana",
+      "title": "Transcript of Fireside Chat by President Tharman Shanmugaratnam at the Launch of Lianhe Zaobao English Edition on Thursday, 5 November 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-fireside-chat-by-president-tharman-shanmugaratnam-at-the-launch-of-lianhe-zaobao-english-edition-on-thursday--5-november-2026/",
       "type": "Published announcement",
-      "published_date": "2026-10-24",
+      "published_date": "2026-11-05",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -484,6 +473,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
+      "title": "Transcript of Doorstop Interview by President Tharman Shanmugaratnam in Gothenburg, Sweden on 21 October 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-doorstop-interview-by-president-tharman-shanmugaratnam-in-gothenburg--sweden-on-21-october-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-10-21",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -563,28 +563,6 @@
       "is_new": false
     },
     {
-      "category": "Leadership",
-      "agency": "Istana",
-      "title": "Speech By President Tharman Shanmugaratnam At Diabetes Singapore 55th Anniversary Gala Dinner On 25 September 2026",
-      "source_url": "https://www.istana.gov.sg/newsroom/speech-by-president-tharman-shanmugaratnam-at-diabetes-singapore-55th-anniversary-gala-dinner/",
-      "type": "Published announcement",
-      "published_date": "2026-09-25",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "Istana",
-      "title": "Appointment of Members to the Inaugural Presidential Council for Racial and Religious Harmony",
-      "source_url": "https://www.istana.gov.sg/newsroom/appointment-of-members-to-the-inaugural-presidential-council-for-racial-and-religious-harmony/",
-      "type": "Published announcement",
-      "published_date": "2026-09-14",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
       "category": "Parliament",
       "agency": "Parliament",
       "title": "Parliament Order Papers and agendas",
@@ -621,7 +599,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 53
+    "announcement_count": 51
   },
   "note": "Published announcements only; no future event date inferred."
 }
