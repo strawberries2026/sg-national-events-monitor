@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T23:57:20.007058+00:00",
+  "updated_at": "2026-11-05T06:27:01.846583+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -114,6 +114,61 @@
     {
       "category": "Ministries",
       "agency": "MOF",
+      "title": "Proposal for Increase in CDC Voucher Payout Given Recent Hike in Oil Prices, Higher Core Inflation and Rise in Retrenchment Figures Topics CDC Vouchers Cost of Living Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/proposal-for-increase-in-cdc-voucher-payout-given-recent-hike-in-oil-prices--higher-core-inflation-and-rise-in-retrenchment-figures/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
+      "title": "ABSD framework helps moderate demand, balance housing priorities Forum Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/absd-framework-helps-moderate-demand--balance-housing-priorities/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
+      "title": "ACRA's Measures Against Overseas Subcontracting to Circumvent Corporate Service Provider Registration under Act Topics ACRA Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/acra-s-measures-against-overseas-subcontracting-to-circumvent-corporate-service-provider-registration-under-act/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
+      "title": "Reviewing Support and Recognition for NSmen and Caregivers for Their Contributions and Sacrifices Topics Budget Social Policies Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/reviewing-support-and-recognition-for-nsmen-and-caregivers-for-their-contributions-and-sacrifices/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
+      "title": "Singapore’s Position and Plans on OECD MCAA on Automatic Exchange of Readily Available Information on Immovable Property Topics Tax-Related (EOI) Parliamentary Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/singapore-s-position-and-plans-on-oecd-mcaa-on-automatic-exchange-of-readily-available-information-on-immovable-property/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
       "title": "Breakdown of $566.7 Million Tax Arrears by Taxpayer Type, Taxpayers Experiencing Financial Hardship and Payment Arrangements Topics Tax-Related (GST) Tax-Related (Income Tax) Tax-Related (Property Tax) Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/breakdown-of--566-7-million-tax-arrears-by-taxpayer-type--taxpayers-experiencing-financial-hardship-and-payment-arrangements/",
       "type": "Published announcement",
@@ -162,61 +217,6 @@
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/rental-income-declared-and-income-tax-assessed-by-number-of-residential-properties-owned/",
       "type": "Published announcement",
       "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Breakdown of Individuals and Households with Multiple Property Ownership based on Property Tax Records Topics Tax-Related (Property Tax) Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/breakdown-of-individuals-and-households-with-multiple-property-ownership-based-on-property-tax-records-/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Assessing Veracity of Former Indonesian Minister's Claims and Remedial Responses Considered Topics GIC & Temasek Holdings Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/assessing-veracity-of-former-indonesian-minister-s-claims-and-remedial-responses-considered/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Decline in IRAS' Operating Surplus and Productivity Targets amid Rising Operating Expenditure Topics IRAS Tax-Related (Others) Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/decline-in-iras--operating-surplus-and-productivity-targets-amid-rising-operating-expenditure/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "AGD and ISCA Renews MOU to Strengthen Finance Capabilities Across the Public Service with Continuing Professional Training Topics AGD",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/agd-and-isca-renews-mou-to-strengthen-finance-capabilities-across-the-public-service-with-continuing-professional-training/",
-      "type": "Published announcement",
-      "published_date": "2026-11-02",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Appointment of New Board Chairman to the Singapore Totalisator Board Topics Tote Board",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/appointment-of-new-board-chairman-to-the-singapore-totalisator-board/",
-      "type": "Published announcement",
-      "published_date": "2026-10-29",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -312,6 +312,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Green Economy Partnership Agreement (GEPA) partners welcome significant progress 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/green-economy-partnership-agreement--gepa--partners-welcome-significant-progress/",
+      "type": "Published announcement",
+      "published_date": "2026-11-05",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Singapore calls for stronger cooperation on rules-based trade, trade digitalisation and economic integration at the 37th Asia-Pacific Economic Cooperation Ministerial Meeting 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore-calls-for-stronger-cooperation-on-rules-based-trade--trade-digitalisation-and-economic-integration-at-the-37th-asia-pacific-economic-cooperation-ministerial-meeting/",
       "type": "Published announcement",
@@ -402,17 +413,6 @@
       "agency": "METI",
       "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the IAEA@SIEW Forum 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-iaea-siew-forum/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Singapore-IRENA High-Level Forum 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-singapore-irena-high-level-forum/",
       "type": "Published announcement",
       "published_date": "2026-10-27",
       "date": null,
