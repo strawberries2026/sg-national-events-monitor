@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-06T01:45:35.323936+00:00",
+  "updated_at": "2026-11-06T08:31:56.706612+00:00",
   "events": [
     {
       "category": "Ministries",
       "agency": "MHA",
-      "title": "Senior access to manned Police counters and targeted face-to-face assistance amid progressive roll-out of self-help kiosks and counter closures Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/senior-access-to-manned-police-counters-and-targeted-face-to-face-assistance-amid-progressive-roll-out-of-self-help-kiosks-and-counter-closures/",
+      "title": "Data on scam victims accepting referrals to Victim Care Cadre Programme or community support services and reasons for declining support Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/data-on-scam-victims-accepting-referrals-to-victim-care-cadre-programme-or-community-support-services-and-reasons-for-declining-support/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
@@ -15,8 +15,8 @@
     {
       "category": "Ministries",
       "agency": "MHA",
-      "title": "Data on scam victims accepting referrals to Victim Care Cadre programme or community support services and reasons for declining support Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/data-on-scam-victims-accepting-referrals-to-victim-care-cadre-programme-or-community-support-services-and-reasons-for-declining-support/",
+      "title": "Senior access to manned Police counters and targeted face-to-face assistance amid progressive roll-out of self-help kiosks and counter closures Written Replies to Parliamentary Questions",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/senior-access-to-manned-police-counters-and-targeted-face-to-face-assistance-amid-progressive-roll-out-of-self-help-kiosks-and-counter-closures/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
@@ -290,6 +290,83 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Oral reply to PQ on Companies benefiting from Energy Efficiency Grant 3. Parliamentary replies",
+      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-companies-benefiting-from-energy-efficiency-grant/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Oral reply to PQ on Review of Required Reserve Margin for Singapore’s electricity market 3. Parliamentary replies",
+      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-review-of-required-reserve-margin-for-singapore-s-electricity-market/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Oral reply to PQ on Indicators to measure how economic growth affects resident income 3. Parliamentary replies",
+      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-indicators-to-measure-how-economic-growth-affects-resident-income/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Oral reply to PQ on Singapore’s stance on inclusion of net-zero emissions scenario at 9th ASEAN Energy Outlook 3. Parliamentary replies",
+      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-singapore-s-stance-on-inclusion-of-net-zero-emissions-scenario-at-9th-asean-energy-outlook/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Oral reply to PQ on Impact of haze on solar-generated electricity output 3. Parliamentary replies",
+      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-impact-of-haze-on-solar-generated-electricity-output/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Written reply to PQ on Update on Singapore’s plans for Singapore's low-carbon electricity import and net-zero emissions goal following recent report by Wood Mackenzie 3. Parliamentary replies",
+      "source_url": "https://www.meti.gov.sg/newsroom/written-reply-to-pq-on-update-on-singapore-s-plans-for-singapore-s-low-carbon-electricity-import-and-net-zero-emissions-goal-following-recent-report-by-wood-mackenzie-/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Written reply to PQ on Ten-Year analysis of GDP growth relationship with total and resident employment and real resident income, and divergence of value-added and resident employment growth across sectors 3. Parliamentary replies",
+      "source_url": "https://www.meti.gov.sg/newsroom/written-reply-to-pq-on-ten-year-analysis-of-gdp-growth-relationship-with-total-and-resident-employment-and-real-resident-income--and-divergence-of-value-added-and-resident-employment-growth-across-sectors/",
+      "type": "Published announcement",
+      "published_date": "2026-11-04",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Singapore calls for stronger cooperation on rules-based trade, trade digitalisation and economic integration at the 37th Asia-Pacific Economic Cooperation Ministerial Meeting 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore-calls-for-stronger-cooperation-on-rules-based-trade--trade-digitalisation-and-economic-integration-at-the-37th-asia-pacific-economic-cooperation-ministerial-meeting/",
       "type": "Published announcement",
@@ -301,90 +378,13 @@
     {
       "category": "Ministries",
       "agency": "METI",
-      "title": "Joint Press Release for the Entry into Force of the MERCOSUR-Singapore Free Trade Agreement between Singapore and Argentina 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/joint-press-release-for-the-entry-into-force-of-the-mercosur-singapore-free-trade-agreement-between-singapore-and-argentina/",
+      "title": "Oral reply to PQs on Businesses and sectors worst-hit by prolonged haze episodes 3. Parliamentary replies",
+      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pqs-on-businesses-and-sectors-worst-hit-by-prolonged-haze-episodes/",
       "type": "Published announcement",
-      "published_date": "2026-11-01",
+      "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Motor Vehicle Financing Restrictions Extended to Individual-Owned Private Hire Cars 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/motor-vehicle-financing-restrictions-extended-to-individual-owned-private-hire-cars/",
-      "type": "Published announcement",
-      "published_date": "2026-10-30",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Address by Minister of State for Energy, Trade and Industry Gan Siow Huang at A*STAR T-Up Awards Ceremony 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/address-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-a-star-t-up-awards-ceremony/",
-      "type": "Published announcement",
-      "published_date": "2026-10-29",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Delivered Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at SWITCH 2026, Breakthrough Energy Fellows: Scaling climate and energy tech through partnerships in Southeast Asia 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/delivered-speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-switch-2026--breakthrough-energy-fellows--scaling-climate-and-energy-tech-through-partnerships-in-southeast-asia/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore – United States 6th Joint Statement on Energy Cooperation 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore---united-states-6th-joint-statement-on-energy-cooperation/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Spotlight: U.S. Forum 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-spotlight--u-s--forum-/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Asian Downstream Summit 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-asian-downstream-summit/",
-      "type": "Published announcement",
-      "published_date": "2026-10-28",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Opening Remarks by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the IAEA@SIEW Forum 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-iaea-siew-forum/",
-      "type": "Published announcement",
-      "published_date": "2026-10-27",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Leadership",
