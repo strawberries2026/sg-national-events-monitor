@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T08:31:56.706612+00:00",
+  "updated_at": "2026-11-06T16:11:15.254536+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -246,32 +246,65 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Digital and Intelligence Service Inaugurates Training Command to Strengthen Training and Professional Development The Digital and Intelligence Service (DIS) inaugurated the DIS Training Command (DTCOM) today.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-nr2/",
+      "type": "Published announcement",
+      "published_date": "2026-11-06",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Fact Sheet: Digital and Intelligence Service Training Command Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-fs2/",
+      "type": "Published announcement",
+      "published_date": "2026-11-06",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Speech by Minister for Defence, Mr Chan Chun Sing, at The Defence Technology Prize Award Ceremony 2026 on 6 Nov 2026 at DSO National Laboratories",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-speech/",
+      "type": "Published announcement",
+      "published_date": "2026-11-06",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Defence Engineers and Scientists Honoured for Excellence and Innovation in Defence Technology Minister for Defence Mr Chan Chun Sing presented the Defence Technology Prize (DTP) to one individual and three teams at the DTP Award Ceremony held at DSO National Laboratories this afternoon.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-06",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Fact Sheet for Defence Tech Prize 2026 Award Ceremony Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-fs/",
+      "type": "Published announcement",
+      "published_date": "2026-11-06",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "The Republic of Singapore Air Force and the Indonesian Air Force Conclude Inaugural Patkor Indopura 2026 The Republic of Singapore Air Force (RSAF) and the Indonesian Air Force (TNI AU) have conducted the first joint fighter air patrol from 3 to 4 November 2026 as part of the inaugural Patkor Indopura.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/4nov26-nr/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "President Tharman Visits the Open Source Unit in the DIS President Tharman Shanmugaratnam visited the Digital and Intelligence Service (DIS) Open Source Unit (OSU) this afternoon. This is President Tharman's inaugural unit visit to the Singapore Armed Forces (SAF).",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/3nov26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Reply to Media Query on ADMM-Plus Initiatives Replies To Media Query",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/2nov26-mq/",
-      "type": "Published announcement",
-      "published_date": "2026-11-02",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -296,7 +329,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -307,7 +340,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -318,7 +351,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -329,7 +362,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -340,7 +373,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -351,7 +384,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -362,7 +395,7 @@
       "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -384,7 +417,7 @@
       "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -599,7 +632,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 51
+    "announcement_count": 54
   },
   "note": "Published announcements only; no future event date inferred."
 }
