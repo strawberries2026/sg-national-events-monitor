@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T16:11:15.254536+00:00",
+  "updated_at": "2026-11-06T21:34:11.516861+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -252,7 +252,7 @@
       "published_date": "2026-11-06",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -263,7 +263,7 @@
       "published_date": "2026-11-06",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -274,7 +274,7 @@
       "published_date": "2026-11-06",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -285,7 +285,7 @@
       "published_date": "2026-11-06",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -296,7 +296,7 @@
       "published_date": "2026-11-06",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
