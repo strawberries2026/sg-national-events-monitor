@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T21:34:11.516861+00:00",
+  "updated_at": "2026-11-07T01:08:12.537911+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -114,6 +114,17 @@
     {
       "category": "Ministries",
       "agency": "MOF",
+      "title": "ABSD framework helps to moderate demand and balance housing priorities Topics Tax-Related (Stamp Duty) Forum Replies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/absd-framework-helps-to-moderate-demand-and-balance-housing-priorities/",
+      "type": "Published announcement",
+      "published_date": "2026-11-07",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
       "title": "Proposal for Increase in CDC Voucher Payout Given Recent Hike in Oil Prices, Higher Core Inflation and Rise in Retrenchment Figures Topics CDC Vouchers Cost of Living Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/proposal-for-increase-in-cdc-voucher-payout-given-recent-hike-in-oil-prices--higher-core-inflation-and-rise-in-retrenchment-figures/",
       "type": "Published announcement",
@@ -206,17 +217,6 @@
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/uptake-of-alternative-net-tonnage-basis-of-taxation-among-qualifying-shipping-enterprises/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Rental Income Declared and Income Tax Assessed by Number of Residential Properties Owned Topics Tax-Related (Income Tax) Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/rental-income-declared-and-income-tax-assessed-by-number-of-residential-properties-owned/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -488,6 +488,17 @@
     {
       "category": "Leadership",
       "agency": "Istana",
+      "title": "Will the world ever get to a multipolar order? Four propositions to consider Lecture by President Tharman Shanmugaratnam on 20 October at the Stockholm School of Economics*",
+      "source_url": "https://www.istana.gov.sg/newsroom/will-the-world-ever-get-to-a-multipolar-order-lecture-by-president-tharman-shanmugaratnam/",
+      "type": "Published announcement",
+      "published_date": "2026-11-07",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "Istana",
       "title": "Transcript of Fireside Chat by President Tharman Shanmugaratnam at the Launch of Lianhe Zaobao English Edition on Thursday, 5 November 2026",
       "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-fireside-chat-by-president-tharman-shanmugaratnam-at-the-launch-of-lianhe-zaobao-english-edition-on-thursday--5-november-2026/",
       "type": "Published announcement",
@@ -580,17 +591,6 @@
       "source_url": "https://www.istana.gov.sg/newsroom/-turning-the-bond-markets-to-advantage---dialogue-between-president-tharman-shanmugaratnam-and-imf-managing-director-kristalina-georgieva/",
       "type": "Published announcement",
       "published_date": "2026-10-07",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "Istana",
-      "title": "Speech by President Tharman Shanmugaratnam at the State Banquet in Honour of President of The Republic of Panama José Raúl Mulino Quintero on Monday, 5 October 2026 at Conrad Singapore Marina Bay",
-      "source_url": "https://www.istana.gov.sg/newsroom/speech-by-president-tharman-shanmugaratnam-at-the-state-banquet-in-honour-of--president-of-the-republic-of-panama--jose-raul-mulino-quintero-on-monday--5-october-2026-at-conrad-singapore-marina-bay/",
-      "type": "Published announcement",
-      "published_date": "2026-10-05",
       "date": null,
       "time_sgt": null,
       "is_new": false
