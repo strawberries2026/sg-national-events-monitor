@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T01:45:17.594387+00:00",
+  "updated_at": "2026-11-08T08:01:42.048933+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -422,6 +422,17 @@
     {
       "category": "Leadership",
       "agency": "PMO",
+      "title": "SM Lee Hsien Loong at the 2026 ABC Boyer Lecture Series People SM Lee Hsien Loong Topics Economy Foreign affairs Safety and security Trade Transcript of Senior Minister Lee Hsien Loong's lecture, \"Engaging Asia from Down Under\", at the 2026 Boyer Lecture Series on 8 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/sm-lee-hsien-loong-at-the-2026-abc-boyer-lecture-series/",
+      "type": "Published announcement",
+      "published_date": "2026-11-08",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
       "title": "PM Lawrence Wong at GovTech's 10th Year Anniversary Dinner People PM Lawrence Wong Topics Science and technology Speech by Prime Minister and Minister for Finance Lawrence Wong at GovTech's 10th Year Anniversary Dinner on 5 November 2026. Speech",
       "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-govtech-10th-year-anniversary-dinner/",
       "type": "Published announcement",
@@ -632,7 +643,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 54
+    "announcement_count": 55
   },
   "note": "Published announcements only; no future event date inferred."
 }
