@@ -2,7 +2,7 @@
   "name": "SG National Events & Leadership Monitor",
   "short_name": "SG Events",
   "description": "Officially published Singapore national events, Parliament sittings and leadership announcements.",
-  "id": "/sg-national-events-monitor/?app=sg-events-2026-v2",
+  "id": "/sg-national-events-monitor/?app=sg-events-2026-v3",
   "start_url": "/sg-national-events-monitor/",
   "scope": "/sg-national-events-monitor/",
   "display": "standalone",
