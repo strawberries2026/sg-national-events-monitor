@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:49:23.013223+00:00",
+  "updated_at": "2026-11-10T02:58:34.504297+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -114,6 +114,17 @@
     {
       "category": "Ministries",
       "agency": "MOF",
+      "title": "About 3 million adult Singaporeans to receive $100 to $250 of Assurance Package Cash in December 2026 Topics Government Transfers For more information on AP Cash, please visit govbenefits.gov.sg",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/about-3-million-adult-singaporeans-to-receive---100-to--250-of-assurance-package-cash-in-december-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-10",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
       "title": "ABSD framework helps to moderate demand and balance housing priorities Topics Tax-Related (Stamp Duty) Forum Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/absd-framework-helps-to-moderate-demand-and-balance-housing-priorities/",
       "type": "Published announcement",
@@ -204,17 +215,6 @@
       "agency": "MOF",
       "title": "Data on Undischarged Bankrupts Listed as Directors of Live Companies and Official Assignee Notification to ACRA Topics ACRA Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/data-on-undischarged-bankrupts-listed-as-directors-of-live-companies-and-official-assignee-notification-to-acra/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Uptake of Alternative Net Tonnage Basis of Taxation Among Qualifying Shipping Enterprises Topics Tax-Related (Corporate Tax) Tax-Related (Others) Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/uptake-of-alternative-net-tonnage-basis-of-taxation-among-qualifying-shipping-enterprises/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
