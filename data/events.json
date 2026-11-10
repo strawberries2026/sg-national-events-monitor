@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-10T02:58:34.504297+00:00",
+  "updated_at": "2026-11-10T10:59:01.422916+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Leadership change in the Ministry of Home Affairs and HTX (Home Team Science and Technology Agency)",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/leadership-change-in-the-ministry-of-home-affairs-and-htx-home-team-science-and-technology-agency/",
+      "type": "Published announcement",
+      "published_date": "2026-11-10",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Security Industry Conference 2026 – Speech by Mr Zhulkarnain Abdul Rahim, Minister of State, Ministry of Home Affairs & Ministry of Foreign Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/security-industry-conference-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-10",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Emergency Medical Services (EMS) Asia 2026 Conference – Speech by Mr Zhulkarnain Abdul Rahim, Minister of State, Ministry of Home Affairs and Ministry of Foreign Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/emergency-medical-services-ems-asia-2026-conference/",
+      "type": "Published announcement",
+      "published_date": "2026-11-10",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -80,39 +113,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "Allowing Singapore citizens to retrieve personal travel history through MyICA mobile application Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/allowing-singapore-citizens-to-retrieve-personal-travel-history-through-myica-mobile-application/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Information-sharing with banks and telcos for individuals whose work passes or immigration status have expired or been cancelled Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/information-sharing-with-banks-and-telcos-for-individuals-whose-work-passes-or-immigration-status-have-expired-or-been-cancelled/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Disclosure of confirmed causes of residential fires following completion of investigations Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/disclosure-of-confirmed-causes-of-residential-fires-following-completion-of-investigations/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "MOF",
       "title": "About 3 million adult Singaporeans to receive $100 to $250 of Assurance Package Cash in December 2026 Topics Government Transfers For more information on AP Cash, please visit govbenefits.gov.sg",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/about-3-million-adult-singaporeans-to-receive---100-to--250-of-assurance-package-cash-in-december-2026/",
@@ -120,7 +120,7 @@
       "published_date": "2026-11-10",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
