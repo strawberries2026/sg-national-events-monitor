@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T10:46:35.738432+00:00",
+  "updated_at": "2026-11-11T18:06:55.662478+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -242,6 +242,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Speech by Minister for Defence Chan Chun Sing at the SAF Leadership and Learning Seminar 2026 at SAFTI Military Institute on 11 November 2026",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/11nov26-speech/",
+      "type": "Published announcement",
+      "published_date": "2026-11-11",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -643,7 +654,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 55
+    "announcement_count": 56
   },
   "note": "Published announcements only; no future event date inferred."
 }
