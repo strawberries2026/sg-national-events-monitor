@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-12T07:38:44.260228+00:00",
+  "updated_at": "2026-11-12T16:19:46.500289+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Singapore’s Investigations into Alice Huang (Huang Le) and Megaspeed International Pte Ltd",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-investigations-into-alice-huang-huang-le-and-megaspeed-international-pte-ltd/",
+      "type": "Published announcement",
+      "published_date": "2026-11-12",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -102,17 +113,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "Strengthening measures to ensure tighter execution of self-exclusion applications to protect vulnerable individuals Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/strengthening-measures-to-ensure-tighter-execution-of-self-exclusion-applications-to-protect-vulnerable-individuals/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "MOF",
       "title": "MOF Invites Singaporeans to Provide Views and Suggestions for Budget 2027 Topics Budget",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/mof-invites-singaporeans-to-provide-views-and-suggestions-for-budget-2027/",
@@ -120,7 +120,7 @@
       "published_date": "2026-11-12",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -246,6 +246,39 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Speech By Minister for Defence Chan Chun Sing at the Total Defence Awards at Padang/Collyer Ballroom, Raffles City Convention Centre on 12 November 2026",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-speech2/",
+      "type": "Published announcement",
+      "published_date": "2026-11-12",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Total Defence Awards 2026: Strengthening our National Resilience Together Minister for Defence Chan Chun Sing was the Guest of Honour at the annual Total Defence Awards 2026 held at the Raffles City Convention Centre, Padang/Collyer Ballroom this evening.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-12",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Speech by Coordinating Minister for Public Services and Minister for Defence Chan Chun Sing at Care Corner Singapore’s Uplift for Life 2026 at Flower Field Hall, Gardens by the Bay on 12 November 2026",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-speech/",
+      "type": "Published announcement",
+      "published_date": "2026-11-12",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Speech by Minister for Defence Chan Chun Sing at the SAF Leadership and Learning Seminar 2026 at SAFTI Military Institute on 11 November 2026",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/11nov26-speech/",
       "type": "Published announcement",
@@ -305,17 +338,6 @@
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-fs/",
       "type": "Published announcement",
       "published_date": "2026-11-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "The Republic of Singapore Air Force and the Indonesian Air Force Conclude Inaugural Patkor Indopura 2026 The Republic of Singapore Air Force (RSAF) and the Indonesian Air Force (TNI AU) have conducted the first joint fighter air patrol from 3 to 4 November 2026 as part of the inaugural Patkor Indopura.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/4nov26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -654,7 +676,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 56
+    "announcement_count": 58
   },
   "note": "Published announcements only; no future event date inferred."
 }
