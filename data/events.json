@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T00:33:25.735559+00:00",
+  "updated_at": "2026-11-12T07:38:44.260228+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -114,6 +114,17 @@
     {
       "category": "Ministries",
       "agency": "MOF",
+      "title": "MOF Invites Singaporeans to Provide Views and Suggestions for Budget 2027 Topics Budget",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/mof-invites-singaporeans-to-provide-views-and-suggestions-for-budget-2027/",
+      "type": "Published announcement",
+      "published_date": "2026-11-12",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
       "title": "About 3 million adult Singaporeans to receive $100 to $250 of Assurance Package Cash in December 2026 Topics Government Transfers For more information on AP Cash, please visit govbenefits.gov.sg",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/about-3-million-adult-singaporeans-to-receive---100-to--250-of-assurance-package-cash-in-december-2026/",
       "type": "Published announcement",
@@ -204,17 +215,6 @@
       "agency": "MOF",
       "title": "Breakdown of Matching Funds Disbursed under Tote Board Enhanced Fundraising Programme by Charity Budget Size Topics Tote Board Parliamentary Replies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/breakdown-of-matching-funds-disbursed-under-tote-board-enhanced-fundraising-programme-by-charity-budget-size/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Data on Undischarged Bankrupts Listed as Directors of Live Companies and Official Assignee Notification to ACRA Topics ACRA Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/data-on-undischarged-bankrupts-listed-as-directors-of-live-companies-and-official-assignee-notification-to-acra/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
