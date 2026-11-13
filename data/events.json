@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-13T10:04:09.509515+00:00",
+  "updated_at": "2026-11-13T17:38:52.565563+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Minister’s Award Presentation Ceremony 2026 - Speech by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/ministers-award-presentation-ceremony-2026-/",
+      "type": "Published announcement",
+      "published_date": "2026-11-13",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Singapore Traffic Games 2026 - Speech by Ms Sim Ann Second Minister for Foreign Affairs and Second Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-traffic-games-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-13",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -85,28 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/enhancing-safeguards-for-accused-persons-with-limited-english-proficiency-through-ai-generated-translations-and-interpreter-contemporaneous-note-keeping/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Addressing hotel booking phishing cases involving genuine booking details and obligations of hotels and booking platforms to notify affected customers Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/addressing-hotel-booking-phishing-cases-involving-genuine-booking-details-and-obligations-of-hotels-and-booking-platforms-to-notify-affected-customers/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Outcome of EASE trial on Bukit Timah Expressway, timeline for enforcement and deployment on other expressways Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/outcome-of-ease-trial-on-bukit-timah-expressway-timeline-for-enforcement-and-deployment-on-other-expressways/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
       "is_new": false
