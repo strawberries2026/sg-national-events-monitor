@@ -1,5 +1,18 @@
 {
-  "updated_at": "2026-11-13T02:40:00.152381+00:00",
-  "events": [],
+  "updated_at": "2026-11-13T10:04:11.973432+00:00",
+  "events": [
+    {
+      "title": "Working Visit by President Tharman Shanmugaratnam to the Kingdom of Thailand on 12 October 2026",
+      "type": "VIP visit",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "venue": "Not confirmed",
+      "source": "https://www.istana.gov.sg/newsroom/working-visit-by-president-tharman-shanmugaratnam-to-the-kingdom-of-thailand-on-12-october-2026/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "upcoming_candidate",
+      "agency": "Istana"
+    }
+  ],
   "note": "Candidate dates extracted from official headlines; verify original article before operational use."
 }
