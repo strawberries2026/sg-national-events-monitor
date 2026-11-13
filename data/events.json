@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:19:46.500289+00:00",
+  "updated_at": "2026-11-13T02:39:58.617450+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -10,7 +10,7 @@
       "published_date": "2026-11-12",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -246,24 +246,24 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
-      "title": "Speech By Minister for Defence Chan Chun Sing at the Total Defence Awards at Padang/Collyer Ballroom, Raffles City Convention Centre on 12 November 2026",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-speech2/",
-      "type": "Published announcement",
-      "published_date": "2026-11-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": true
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
       "title": "Total Defence Awards 2026: Strengthening our National Resilience Together Minister for Defence Chan Chun Sing was the Guest of Honour at the annual Total Defence Awards 2026 held at the Raffles City Convention Centre, Padang/Collyer Ballroom this evening.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-nr/",
       "type": "Published announcement",
       "published_date": "2026-11-12",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Speech By Minister for Defence Chan Chun Sing at the Total Defence Awards at Padang/Collyer Ballroom, Raffles City Convention Centre on 12 November 2026",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-speech2/",
+      "type": "Published announcement",
+      "published_date": "2026-11-12",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -274,7 +274,7 @@
       "published_date": "2026-11-12",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
