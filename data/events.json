@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T03:02:11.701382+00:00",
+  "updated_at": "2026-11-14T10:05:25.692109+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -345,6 +345,61 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "ASEAN signs landmark Digital Economy Agreement, deepens regional integration and strengthens economic partnerships 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/asean-signs-landmark-asean-digital-economy-framework-agreement-14nov26/",
+      "type": "Published announcement",
+      "published_date": "2026-11-14",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Singapore and Bangladesh sign Memorandum of Understanding on carbon credits collaboration 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-bangladesh-sign-memorandum-of-understanding-on-carbon-credits-collaboration-/",
+      "type": "Published announcement",
+      "published_date": "2026-11-14",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Opening remarks by MOS Foo Cexiang at Association Of Singapore Marine And Offshore Energy Industries 58th Anniversary Dinner 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-mos-foo-cexiang-at-as-58th-anniversary-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-11-13",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Deputy Prime Minister and Minister for Trade and Industry (Trade) Gan Kim Yong to attend the 28th Asean Economic Community Council Meeting in the Philippines 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/dpm-to-attend-28th-aecc-meeting-in-philippines/",
+      "type": "Published announcement",
+      "published_date": "2026-11-13",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Remarks by Dr Tan See Leng, Minister for Energy, Trade and Industry, at the Launch Of Mastercard Asia Pacific Innovation Centre of Excellence in Singapore 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/remarks-by-dr-tan-see-leng--minister-for-energy--trade-and-industry--at-the-launch-of-mastercard-asia-pacific-innovation-centre-of-excellence-in-singapore/",
+      "type": "Published announcement",
+      "published_date": "2026-11-12",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Green Economy Partnership Agreement (GEPA) partners welcome significant progress 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/green-economy-partnership-agreement--gepa--partners-welcome-significant-progress/",
       "type": "Published announcement",
@@ -393,61 +448,6 @@
       "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-singapore-s-stance-on-inclusion-of-net-zero-emissions-scenario-at-9th-asean-energy-outlook/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Oral reply to PQ on Impact of haze on solar-generated electricity output 3. Parliamentary replies",
-      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-impact-of-haze-on-solar-generated-electricity-output/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Written reply to PQ on Update on Singapore’s plans for Singapore's low-carbon electricity import and net-zero emissions goal following recent report by Wood Mackenzie 3. Parliamentary replies",
-      "source_url": "https://www.meti.gov.sg/newsroom/written-reply-to-pq-on-update-on-singapore-s-plans-for-singapore-s-low-carbon-electricity-import-and-net-zero-emissions-goal-following-recent-report-by-wood-mackenzie-/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Written reply to PQ on Ten-Year analysis of GDP growth relationship with total and resident employment and real resident income, and divergence of value-added and resident employment growth across sectors 3. Parliamentary replies",
-      "source_url": "https://www.meti.gov.sg/newsroom/written-reply-to-pq-on-ten-year-analysis-of-gdp-growth-relationship-with-total-and-resident-employment-and-real-resident-income--and-divergence-of-value-added-and-resident-employment-growth-across-sectors/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore calls for stronger cooperation on rules-based trade, trade digitalisation and economic integration at the 37th Asia-Pacific Economic Cooperation Ministerial Meeting 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-calls-for-stronger-cooperation-on-rules-based-trade--trade-digitalisation-and-economic-integration-at-the-37th-asia-pacific-economic-cooperation-ministerial-meeting/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Oral reply to PQs on Businesses and sectors worst-hit by prolonged haze episodes 3. Parliamentary replies",
-      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pqs-on-businesses-and-sectors-worst-hit-by-prolonged-haze-episodes/",
-      "type": "Published announcement",
-      "published_date": "2026-11-03",
       "date": null,
       "time_sgt": null,
       "is_new": false
