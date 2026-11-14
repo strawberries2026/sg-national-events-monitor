@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:33:31.874640+00:00",
+  "updated_at": "2026-11-14T20:53:41.239103+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -351,7 +351,7 @@
       "published_date": "2026-11-14",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -461,7 +461,7 @@
       "published_date": "2026-11-14",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
