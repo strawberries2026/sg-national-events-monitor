@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T10:05:25.692109+00:00",
+  "updated_at": "2026-11-14T16:33:31.874640+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -345,13 +345,24 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "TRANSCRIPT OF DEPUTY PRIME MINISTER AND MINISTER FOR TRADE AND INDUSTRY (TRADE) GAN KIM YONG’S MEDIA DOORSTOP ON THE 28th ASEAN ECONOMIC COMMUNITY COUNCIL (AECC) MEETING 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dpm-and-minister-for-trade-and-industry-gan-kim-yong-media-doorstop-on-the-28th-aecc-meeting/",
+      "type": "Published announcement",
+      "published_date": "2026-11-14",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "ASEAN signs landmark Digital Economy Agreement, deepens regional integration and strengthens economic partnerships 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/asean-signs-landmark-asean-digital-economy-framework-agreement-14nov26/",
       "type": "Published announcement",
       "published_date": "2026-11-14",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -362,7 +373,7 @@
       "published_date": "2026-11-14",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -373,7 +384,7 @@
       "published_date": "2026-11-13",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -384,7 +395,7 @@
       "published_date": "2026-11-13",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -395,7 +406,7 @@
       "published_date": "2026-11-12",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -442,15 +453,15 @@
       "is_new": false
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Oral reply to PQ on Singapore’s stance on inclusion of net-zero emissions scenario at 9th ASEAN Energy Outlook 3. Parliamentary replies",
-      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-singapore-s-stance-on-inclusion-of-net-zero-emissions-scenario-at-9th-asean-energy-outlook/",
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "PM Lawrence Wong to Attend the 49th ASEAN Summit and Related Summits in Manila, the Philippines (Nov 2026) People Prime Minister's Office Topics Foreign affairs Governance Prime Minister and Minister for Finance Lawrence Wong will attend the 49th ASEAN Summit and Related Summits in Manila, the Philippines, from 15 to 17 November 2026. Press Release",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-attend-the-49th-asean-summit-and-related-summits-in-manila-the-philippines-nov-2026/",
       "type": "Published announcement",
-      "published_date": "2026-11-04",
+      "published_date": "2026-11-14",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -676,7 +687,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 58
+    "announcement_count": 59
   },
   "note": "Published announcements only; no future event date inferred."
 }

@@ -1,5 +1,18 @@
 {
-  "updated_at": "2026-11-14T10:05:26.458045+00:00",
-  "events": [],
+  "updated_at": "2026-11-14T16:33:34.067739+00:00",
+  "events": [
+    {
+      "title": "PM Lawrence Wong to Attend the 49th ASEAN Summit and Related Summits in Manila, the Philippines (Nov 2026) People Prime Minister's Office Topics Foreign affairs Governance Prime Minister and Minister for Finance Lawrence Wong will attend the 49th ASEAN Summit and Related Summits in Manila, the Philippines, from 15 to 17 November 2026. Press Release",
+      "type": "International summit",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "venue": "Not confirmed",
+      "source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-attend-the-49th-asean-summit-and-related-summits-in-manila-the-philippines-nov-2026/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "upcoming_candidate",
+      "agency": "PMO"
+    }
+  ],
   "note": "Candidate dates extracted from official headlines; verify original article before operational use."
 }
