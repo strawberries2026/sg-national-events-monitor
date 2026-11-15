@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T07:45:24.340235+00:00",
+  "updated_at": "2026-11-15T14:59:46.652887+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -246,6 +246,28 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Minister for Defence Visits Exercise Trident 2026 Minister for Defence Chan Chun Sing visited troops participating in Exercise Trident (XTD) 2026 today at the Shoalwater Bay Training Area (SWBTA) in Queensland, Australia.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/15nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-15",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Infographic: Exercise Trident 2026 Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/15nov26-infographic/",
+      "type": "Published announcement",
+      "published_date": "2026-11-15",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Total Defence Awards 2026: Strengthening our National Resilience Together Minister for Defence Chan Chun Sing was the Guest of Honour at the annual Total Defence Awards 2026 held at the Raffles City Convention Centre, Padang/Collyer Ballroom this evening.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-nr/",
       "type": "Published announcement",
@@ -325,17 +347,6 @@
       "agency": "MINDEF",
       "title": "Defence Engineers and Scientists Honoured for Excellence and Innovation in Defence Technology Minister for Defence Mr Chan Chun Sing presented the Defence Technology Prize (DTP) to one individual and three teams at the DTP Award Ceremony held at DSO National Laboratories this afternoon.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-11-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Fact Sheet for Defence Tech Prize 2026 Award Ceremony Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-fs/",
       "type": "Published announcement",
       "published_date": "2026-11-06",
       "date": null,
@@ -687,7 +698,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 59
+    "announcement_count": 60
   },
   "note": "Published announcements only; no future event date inferred."
 }
