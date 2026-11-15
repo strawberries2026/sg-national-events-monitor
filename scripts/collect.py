@@ -137,8 +137,8 @@ def main():
  for title, link in parliament_refs:
   collected.append({"category":"Parliament","agency":"Parliament","title":title,"source_url":link,"type":"Official reference","published_date":None,"date":None,"time_sgt":None})
  if announcement_count==0:
-  print("No announcement sources refreshed; preserving existing feed",errors)
-  return
+  print("ERROR: No announcement sources refreshed; preserving existing feed",errors)
+  raise SystemExit(1)
  unique={(e["source_url"]+"#"+e["date"] if e.get("date") else e["source_url"]):e for e in collected}
  previous={e.get("source_url") for e in old.get("events",[]) if e.get("source_url")}
  for item in unique.values(): item["is_new"]=bool(previous) and item["source_url"] not in previous
