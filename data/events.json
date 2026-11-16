@@ -1,11 +1,22 @@
 {
-  "updated_at": "2026-11-15T23:59:41.366703+00:00",
+  "updated_at": "2026-11-16T06:08:32.528004+00:00",
   "events": [
     {
       "category": "Ministries",
       "agency": "MHA",
-      "title": "Minister’s Award Presentation Ceremony 2026 - Speech by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/ministers-award-presentation-ceremony-2026-/",
+      "title": "Yellow Ribbon Community Project Awards and Appreciation Luncheon 2026 - Opening Address by Mr Edwin Tong, Minister for Law and Second Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/yellow-ribbon-community-project-awards-and-appreciation-luncheon-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-14",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Singapore Traffic Games 2026 - Speech by Ms Sim Ann Second Minister for Foreign Affairs and Second Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-traffic-games-2026/",
       "type": "Published announcement",
       "published_date": "2026-11-13",
       "date": null,
@@ -15,8 +26,8 @@
     {
       "category": "Ministries",
       "agency": "MHA",
-      "title": "Singapore Traffic Games 2026 - Speech by Ms Sim Ann Second Minister for Foreign Affairs and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-traffic-games-2026/",
+      "title": "Minister’s Award Presentation Ceremony 2026 - Speech by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/ministers-award-presentation-ceremony-2026-/",
       "type": "Published announcement",
       "published_date": "2026-11-13",
       "date": null,
@@ -94,17 +105,6 @@
       "agency": "MHA",
       "title": "Assessing sustained effectiveness of Police scam interventions to guide improvements to intervention methods Written Replies to Parliamentary Questions",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/assessing-sustained-effectiveness-of-police-scam-interventions-to-guide-improvements-to-intervention-methods/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Enhancing safeguards for accused persons with limited English proficiency through AI-generated translations, and interpreter contemporaneous note-keeping Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/enhancing-safeguards-for-accused-persons-with-limited-english-proficiency-through-ai-generated-translations-and-interpreter-contemporaneous-note-keeping/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
@@ -356,19 +356,19 @@
     {
       "category": "Ministries",
       "agency": "METI",
-      "title": "TRANSCRIPT OF DEPUTY PRIME MINISTER AND MINISTER FOR TRADE AND INDUSTRY (TRADE) GAN KIM YONG’S MEDIA DOORSTOP ON THE 28th ASEAN ECONOMIC COMMUNITY COUNCIL (AECC) MEETING 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dpm-and-minister-for-trade-and-industry-gan-kim-yong-media-doorstop-on-the-28th-aecc-meeting/",
+      "title": "Singapore and Türkiye to advance bilateral economic cooperation with establishment of a Türkiye-Singapore Joint Economic and Trade Committee 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-turkiye-to-advance-bilateral-economic-cooperation-with-establishment-of-a-turkiye-singapore-joint-economic-and-trade-committee/",
       "type": "Published announcement",
-      "published_date": "2026-11-14",
+      "published_date": "2026-11-15",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
       "agency": "METI",
-      "title": "ASEAN signs landmark Digital Economy Agreement, deepens regional integration and strengthens economic partnerships 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/asean-signs-landmark-asean-digital-economy-framework-agreement-14nov26/",
+      "title": "Transcript of Deputy Prime Minister and Minister for Trade and Industry (Trade) Gan Kim Yong’s media doorstop on the 28th Asean Economic Community Council (AECC) meeting 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dpm-and-minister-for-trade-and-industry-gan-kim-yong-media-doorstop-on-the-28th-aecc-meeting/",
       "type": "Published announcement",
       "published_date": "2026-11-14",
       "date": null,
@@ -380,6 +380,17 @@
       "agency": "METI",
       "title": "Singapore and Bangladesh sign Memorandum of Understanding on carbon credits collaboration 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-bangladesh-sign-memorandum-of-understanding-on-carbon-credits-collaboration-/",
+      "type": "Published announcement",
+      "published_date": "2026-11-14",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "ASEAN signs landmark Digital Economy Agreement, deepens regional integration and strengthens economic partnerships 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/asean-signs-landmark-asean-digital-economy-framework-agreement-14nov26/",
       "type": "Published announcement",
       "published_date": "2026-11-14",
       "date": null,
@@ -446,17 +457,6 @@
       "agency": "METI",
       "title": "Oral reply to PQ on Review of Required Reserve Margin for Singapore’s electricity market 3. Parliamentary replies",
       "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-review-of-required-reserve-margin-for-singapore-s-electricity-market/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Oral reply to PQ on Indicators to measure how economic growth affects resident income 3. Parliamentary replies",
-      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-indicators-to-measure-how-economic-growth-affects-resident-income/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
@@ -699,6 +699,12 @@
     "successful_count": 7,
     "total_count": 7,
     "announcement_count": 60
+  },
+  "parliament_health": {
+    "order_paper": "loaded",
+    "homepage": "loaded",
+    "fresh_confirmed_sittings": 0,
+    "carried_forward_sittings": 0
   },
   "note": "Published announcements only; no future event date inferred."
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T23:59:42.902341+00:00",
+  "updated_at": "2026-11-16T06:08:34.937162+00:00",
   "events": [
     {
       "title": "PM Lawrence Wong attends 49th ASEAN Summit and Related Summits in Manila",
@@ -17,5 +17,5 @@
       "verification_method": "Manual review of primary PMO announcement"
     }
   ],
-  "note": "Verified records require explicit official-source evidence. Other scraped candidates remain unverified."
+  "note": "Candidate dates extracted from official headlines; verify original article before operational use."
 }
