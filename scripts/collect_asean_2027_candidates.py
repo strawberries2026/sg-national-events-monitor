@@ -9,9 +9,9 @@ from urllib.parse import urlparse
 
 SOURCE = Path("data/events.json")
 OUT = Path("data/asean-2027-review.json")
-KEYWORDS = re.compile(r"\\basean\\b|50th\\s+asean|51st\\s+asean", re.I)
-YEAR = re.compile(r"\\b2027\\b|\\b50th\\s+asean\\b|\\b51st\\s+asean\\b", re.I)
-DATES = re.compile(r"\\b\\d{1,2}\\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+2027\\b", re.I)
+KEYWORDS = re.compile(r"\basean\b|50th\s+asean|51st\s+asean", re.I)
+YEAR = re.compile(r"\b2027\b|\b50th\s+asean\b|\b51st\s+asean\b", re.I)
+DATES = re.compile(r"\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+2027\b", re.I)
 HOSTS = {"mfa.gov.sg", "www.mfa.gov.sg", "pmo.gov.sg", "www.pmo.gov.sg", "istana.gov.sg", "www.istana.gov.sg"}
 def main():
     feed = json.loads(SOURCE.read_text(encoding="utf-8"))
