@@ -30,6 +30,7 @@ def main():
  path=Path("data/events.json")
  old=json.loads(path.read_text()) if path.exists() else {}
  collected=[]; errors=[]; successful_sources=[]; announcement_count=0
+ parliament_health={"order_paper":"not_checked","homepage":"not_checked","fresh_confirmed_sittings":0,"carried_forward_sittings":0}
  for name,cat,url in SOURCES:
   try:
    req=urllib.request.Request(url,headers={"User-Agent":"SGNationalEventsMonitor/1.0 (public announcements; GitHub Actions)"})
@@ -76,9 +77,13 @@ def main():
    try: sitting=dt.strptime(f"{day} {month} {year}","%d %B %Y").date()
    except ValueError: continue
    if today<=sitting<=today+timedelta(days=180):future.add(sitting)
+  parliament_health["order_paper"]="loaded"
+  parliament_health["fresh_confirmed_sittings"]+=len(future)
   for sitting in sorted(future):
    collected.append({"category":"Parliament","agency":"Parliament","title":"Parliament sitting — Order Paper published","source_url":order_url,"type":"Confirmed sitting date (Order Paper)","published_date":None,"date":sitting.isoformat(),"time_sgt":None})
- except Exception as e: errors.append("Parliament Order Paper: "+str(e)[:160])
+ except Exception as e:
+  parliament_health["order_paper"]="failed"
+  errors.append("Parliament Order Paper: "+str(e)[:160])
  # Parliament homepage carries the next sitting announcement, often before an Order Paper exists.
  try:
   home_url="https://www.parliament.gov.sg/"
@@ -97,6 +102,7 @@ def main():
   content=" ".join(" ".join(parser.parts).split())
   pattern=r"Parliament will be sitting on\s+(\d{1,2})\s+([A-Za-z]+)\s+(20\d{2})\.?(?:\s+It will commence at\s+(\d{1,2})[.:](\d{2})\s*(am|pm|noon|midnight)\.?)?"
   today=(datetime.now(timezone.utc)+timedelta(hours=8)).date()
+  parliament_health["homepage"]="loaded"
   for day,month,year,hour,minute,period in re.findall(pattern,content,re.I):
    try:sitting=dt.strptime(f"{day} {month} {year}","%d %B %Y").date()
    except ValueError:continue
@@ -106,14 +112,20 @@ def main():
     h=int(hour)%12
     if period.lower() in ("pm","noon"):h+=12
     clock=f"{h:02d}:{minute}"
+   parliament_health["fresh_confirmed_sittings"]+=1
    collected.append({"category":"Parliament","agency":"Parliament","title":"Parliament sitting — official homepage announcement","source_url":home_url,"type":"Confirmed sitting date (homepage)","published_date":None,"date":sitting.isoformat(),"time_sgt":clock})
- except Exception as e:errors.append("Parliament homepage: "+str(e)[:160])
+ except Exception as e:
+  parliament_health["homepage"]="failed"
+  errors.append("Parliament homepage: "+str(e)[:160])
  # Preserve the last verified future sitting when Parliament temporarily blocks automated requests.
  today=(datetime.now(timezone.utc)+timedelta(hours=8)).date()
  found_dates={e.get("date") for e in collected if e.get("agency")=="Parliament" and e.get("date")}
  for prior in old.get("events",[]):
   if prior.get("agency")=="Parliament" and prior.get("date") and prior["date"]>=today.isoformat() and prior["date"] not in found_dates:
-   collected.append(prior)
+   carried=dict(prior)
+   carried["carried_forward"]=True
+   collected.append(carried)
+   parliament_health["carried_forward_sittings"]+=1
  # Remove duplicate Parliament dates while retaining the homepage record if it contains a time.
  sitting_records=[e for e in collected if e.get("agency")=="Parliament" and e.get("date")]
  best={}
@@ -142,7 +154,7 @@ def main():
  unique={(e["source_url"]+"#"+e["date"] if e.get("date") else e["source_url"]):e for e in collected}
  previous={e.get("source_url") for e in old.get("events",[]) if e.get("source_url")}
  for item in unique.values(): item["is_new"]=bool(previous) and item["source_url"] not in previous
- result={"updated_at":datetime.now(timezone.utc).isoformat(),"events":list(unique.values()),"errors":errors,"source_health":{"successful_sources":successful_sources,"failed_sources":[name for name,_,_ in SOURCES if name not in successful_sources],"successful_count":len(successful_sources),"total_count":len(SOURCES),"announcement_count":announcement_count},"note":"Published announcements only; no future event date inferred."}
+ result={"updated_at":datetime.now(timezone.utc).isoformat(),"events":list(unique.values()),"errors":errors,"source_health":{"successful_sources":successful_sources,"failed_sources":[name for name,_,_ in SOURCES if name not in successful_sources],"successful_count":len(successful_sources),"total_count":len(SOURCES),"announcement_count":announcement_count},"parliament_health":parliament_health,"note":"Published announcements only; no future event date inferred."}
  path.parent.mkdir(parents=True,exist_ok=True)
  path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
  print("Saved",len(unique),"announcements",errors)
