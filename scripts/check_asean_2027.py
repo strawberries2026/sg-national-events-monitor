@@ -2,6 +2,8 @@
 Do not infer confirmed meeting dates from forecast months or arbitrary article text.
 """
 import json
+import re
+from html import unescape
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,17 +19,31 @@ def main():
         "schedule_status": "forecast_only",
         "confirmed_exact_dates": [],
         "last_success_at": old.get("last_success_at"),
+        "last_reachable_at": old.get("last_reachable_at"),
         "note": "MFA planning periods are forecasts, not confirmed dates. Automated retrieval does not verify new dates."
     }
     try:
         request = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0 (compatible; SGNationalEventsMonitor/1.0)"})
         with urllib.request.urlopen(request, timeout=15) as response:
-            body = response.read(500000).decode("utf-8", "replace").lower()
-        if "50th" in body and "51st" in body and "2027" in body:
-            result["source_status"] = "reachable"
-            result["last_success_at"] = result["checked_at"]
+            content_type = response.headers.get("Content-Type", "").lower()
+            body = response.read(500000).decode("utf-8", "replace")
+        result["last_reachable_at"] = result["checked_at"]
+        if "html" not in content_type:
+            result["source_status"] = "unexpected_content_type"
         else:
-            result["source_status"] = "content_unrecognized"
+            # Normalize markup and entities; do not infer exact event dates.
+            without_scripts = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", body, flags=re.I | re.S)
+            plain = unescape(re.sub(r"<[^>]+>", " ", without_scripts))
+            plain = " ".join(plain.lower().split())
+            has_year = "2027" in plain
+            has_schedule = ("asean" in plain and "summit" in plain and
+                            ("50th" in plain or "fiftieth" in plain) and
+                            ("51st" in plain or "fifty-first" in plain))
+            if has_year and has_schedule:
+                result["source_status"] = "schedule_recognized"
+                result["last_success_at"] = result["checked_at"]
+            else:
+                result["source_status"] = "content_unrecognized"
     except Exception as error:
         result["error"] = type(error).__name__
     OUT.parent.mkdir(parents=True, exist_ok=True)
