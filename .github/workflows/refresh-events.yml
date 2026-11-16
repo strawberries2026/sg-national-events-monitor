@@ -27,9 +27,11 @@ jobs:
         run: python scripts/collect_verified_events.py
       - name: Check official ASEAN 2027 planning source
         run: python scripts/check_asean_2027.py
+      - name: Collect ASEAN 2027 announcements for human review
+        run: python scripts/collect_asean_2027_candidates.py
       - name: Commit changes
         run: |
-          git add data/events.json data/verified-events.json data/event-history.json data/asean-2027-health.json
+          git add data/events.json data/verified-events.json data/event-history.json data/asean-2027-health.json data/asean-2027-review.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
