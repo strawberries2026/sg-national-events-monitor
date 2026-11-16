@@ -35,10 +35,13 @@ def main():
             without_scripts = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", body, flags=re.I | re.S)
             plain = unescape(re.sub(r"<[^>]+>", " ", without_scripts))
             plain = " ".join(plain.lower().split())
+            # MFA renders ordinal suffixes as superscripts: 50 th / 51 st.
+            plain = re.sub(r"\b(50|51)\s+(th|st)\b", r"\1\2", plain)
             has_year = "2027" in plain
             has_schedule = ("asean" in plain and "summit" in plain and
                             ("50th" in plain or "fiftieth" in plain) and
                             ("51st" in plain or "fifty-first" in plain))
+            result["content_signals"] = {"year_2027": has_year, "asean": "asean" in plain, "summit": "summit" in plain, "50th": "50th" in plain, "51st": "51st" in plain}
             if has_year and has_schedule:
                 result["source_status"] = "schedule_recognized"
                 result["last_success_at"] = result["checked_at"]
