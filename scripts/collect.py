@@ -95,7 +95,7 @@ def main():
     if not self.skip:self.parts.append(data)
   parser=HomeText();parser.feed(homepage)
   content=" ".join(" ".join(parser.parts).split())
-  pattern=r"Parliament will be sitting on\\s+(\\d{1,2})\\s+([A-Za-z]+)\\s+(20\\d{2})\\.?(?:\\s+It will commence at\\s+(\\d{1,2})[.:](\\d{2})\\s*(am|pm|noon|midnight)\\.?)?"
+  pattern=r"Parliament will be sitting on\s+(\d{1,2})\s+([A-Za-z]+)\s+(20\d{2})\.?(?:\s+It will commence at\s+(\d{1,2})[.:](\d{2})\s*(am|pm|noon|midnight)\.?)?"
   today=(datetime.now(timezone.utc)+timedelta(hours=8)).date()
   for day,month,year,hour,minute,period in re.findall(pattern,content,re.I):
    try:sitting=dt.strptime(f"{day} {month} {year}","%d %B %Y").date()
