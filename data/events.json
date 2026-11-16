@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T07:03:33.819748+00:00",
+  "updated_at": "2026-11-16T15:58:04.329635+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -356,6 +356,28 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Singapore signs 13th Implementation Agreement on carbon credits collaboration under Article 6 of the Paris Agreement with Kenya 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-signs-13th-implementation-agreement-on-carbon-credits-collaboration-under-article-6-of-the-paris-agreement-with-kenya/",
+      "type": "Published announcement",
+      "published_date": "2026-11-16",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Singapore and Colombia signs MOU to advance carbon markets under Article 6 of the Paris Agreement 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-colombia-signs-mou-to-advance-carbon-markets-under-article-6-of-the-paris-agreement/",
+      "type": "Published announcement",
+      "published_date": "2026-11-16",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Singapore and Türkiye to advance bilateral economic cooperation with establishment of a Türkiye-Singapore Joint Economic and Trade Committee 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-turkiye-to-advance-bilateral-economic-cooperation-with-establishment-of-a-turkiye-singapore-joint-economic-and-trade-committee/",
       "type": "Published announcement",
@@ -437,28 +459,6 @@
       "source_url": "https://www.meti.gov.sg/newsroom/green-economy-partnership-agreement--gepa--partners-welcome-significant-progress/",
       "type": "Published announcement",
       "published_date": "2026-11-05",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Oral reply to PQ on Companies benefiting from Energy Efficiency Grant 3. Parliamentary replies",
-      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-companies-benefiting-from-energy-efficiency-grant/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Oral reply to PQ on Review of Required Reserve Margin for Singapore’s electricity market 3. Parliamentary replies",
-      "source_url": "https://www.meti.gov.sg/newsroom/oral-reply-to-pq-on-review-of-required-reserve-margin-for-singapore-s-electricity-market/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
       "is_new": false
