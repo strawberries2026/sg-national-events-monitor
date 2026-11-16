@@ -1,10 +1,17 @@
 {
-  "checked_at": "2026-11-16T06:33:53.798730+00:00",
+  "checked_at": "2026-11-16T06:55:26.048117+00:00",
   "source": "https://www.mfa.gov.sg/newsroom/announcements-and-highlights/invitation-for-proposals-for-sponsorship-of-food-and-drinks--furniture--audio-visual-equipment--event-tokens-and-medical-services-for-high-level-meetings-and-conferences-in-2027/",
-  "source_status": "content_unrecognized",
+  "source_status": "schedule_recognized",
   "schedule_status": "forecast_only",
   "confirmed_exact_dates": [],
-  "last_success_at": null,
-  "last_reachable_at": "2026-11-16T06:33:53.798730+00:00",
-  "note": "MFA planning periods are forecasts, not confirmed dates. Automated retrieval does not verify new dates."
+  "last_success_at": "2026-11-16T06:55:26.048117+00:00",
+  "last_reachable_at": "2026-11-16T06:55:26.048117+00:00",
+  "note": "MFA planning periods are forecasts, not confirmed dates. Automated retrieval does not verify new dates.",
+  "content_signals": {
+    "year_2027": true,
+    "asean": true,
+    "summit": true,
+    "50th": true,
+    "51st": true
+  }
 }
