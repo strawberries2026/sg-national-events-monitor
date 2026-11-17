@@ -77,14 +77,7 @@ def check(name, url, terms):
                         else "unavailable")
     result["access_note"] = "Automated access or retrieval failed; event status and dates remain unverified" if result["status"] != "content_unrecognized" else "Page accessible but event name not recognised"
     return result
-            raw = response.read(300000).decode("utf-8", "replace")
-        parser = VisibleText()
-        parser.feed(raw)
-        visible = re.sub(r"\s+", " ", " ".join(parser.parts)).lower()
-        result["status"] = "source_reachable" if any(t in visible for t in terms) else "content_unrecognized"
-    except Exception as exc:
-        result["error_type"] = type(exc).__name__
-    return result
+
 def main():
     now = datetime.now(timezone.utc).isoformat()
     results = [check(*source) for source in SOURCES]
