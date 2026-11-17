@@ -15,11 +15,31 @@ TARGET = Path("data/verified-events.json")
 HISTORY = Path("data/event-history.json")
 PATTERN = re.compile(r"(?<!\d)(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})(?!\d)", re.I)
 EVENT_TERMS = {
-    "VIP visit": ("official visit", "state visit", "working visit", "visit by", "visiting"),
+    "VIP visit": ("official visit", "state visit", "working visit", "visit by", "visiting", "to visit", "will visit", "travels to", "travel to", "to attend", "attends", "attend the", "overseas visit"),
     "International summit": ("summit", "ministerial meeting", "leaders' meeting"),
     "National event": ("national day parade", "national day rally", "state ceremony"),
     "Major public event": ("grand prix", "fintech festival", "international conference"),
 }
+# Prioritise publicly announced senior-leadership engagements for review.
+# These matches are discovery hints, never proof of identity, dates or attendance.
+LEADERSHIP_TERMS = (
+    "lawrence wong", "tharman shanmugaratnam", "gan kim yong",
+    "prime minister", "deputy prime minister", "president of singapore",
+    "president tharman", "dpm gan", "pm wong",
+)
+TRAVEL_TERMS = (
+    "visit", "travel", "attend", "summit", "meeting", "overseas",
+    "china", "apec", "asean", "bilateral",
+)
+
+def leadership_visit_candidate(record):
+    title = record.get("title", "").lower()
+    return (
+        record.get("agency") in ("PMO", "Istana", "MFA")
+        and any(term in title for term in LEADERSHIP_TERMS)
+        and any(term in title for term in TRAVEL_TERMS)
+    )
+
 class ArticleText(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -63,17 +83,17 @@ def main():
             archived[source] = {**e, "lifecycle_status": "completed"}
     inspected = 0
     failures = 0
-    for record in feed.get("events", []):
+    # Inspect leadership headlines first, even if ministry feeds are long.\n    records = sorted(feed.get("events", []), key=lambda r: not leadership_visit_candidate(r))\n    for record in records:
         title = record.get("title", "")
         lower = title.lower()
-        kind = next((kind for kind, terms in EVENT_TERMS.items() if any(t in lower for t in terms)), None)
+        kind = "VIP visit" if leadership_visit_candidate(record) else next((kind for kind, terms in EVENT_TERMS.items() if any(t in lower for t in terms)), None)
         if not kind or record.get("type") == "Official reference":
             continue
         url = record.get("source_url", "")
         if not url.startswith("https://"):
             continue
         article_text = title
-        if inspected < 12:
+        if inspected < 24:
             inspected += 1
             try:
                 article_text += " " + official_article(url)
@@ -96,7 +116,7 @@ def main():
             "source": url, "date_evidence": "Date in official headline or article; event relationship unverified",
             "verification_status": "candidate_unverified",
             "lifecycle_status": "upcoming_candidate",
-            "agency": record.get("agency", "")
+            "agency": record.get("agency", ""),\n            "review_priority": "senior_leadership" if leadership_visit_candidate(record) else "standard",\n            "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion" if leadership_visit_candidate(record) else "Verify event relationship and dates"
         })
     unique = {e["source"]: e for e in output}
     # Never silently upgrade a candidate to verified based on scraped text.
