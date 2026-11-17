@@ -49,33 +49,60 @@ def check(name, url, terms):
               "date_verification": "not_performed", "review_required": True}
     urls = [url]
     if name == "Shangri-La Dialogue":
-        # Official IISS events index can remain readable when the event landing page
-        # blocks automated requests. Recognition is NOT date verification.
-        urls.append("https://www.iiss.org/events/")
-    failures = []
+        # All fallback pages belong to the official IISS site. A successful
+        # request still only recognises the source, never verifies a date.
+        urls.extend([
+            "https://www.iiss.org/events/",
+            "https://www.iiss.org/iiss-asia/",
+        ])
+    attempts = []
     for candidate in urls:
+        attempt = {"url": candidate}
         try:
             visible = fetch_visible(candidate)
             if visible is None:
-                failures.append("unexpected_content_type")
-                continue
-            if any(t in visible for t in terms):
+                attempt["outcome"] = "unexpected_content_type"
+            elif any(t in visible for t in terms):
+                attempt["outcome"] = "recognized"
+                attempts.append(attempt)
                 result["status"] = "source_reachable"
                 result["checked_source"] = candidate
+                result["attempts"] = attempts
                 if candidate != url:
-                    result["access_note"] = "Official IISS events index fallback; primary landing page unavailable"
+                    result["access_note"] = (
+                        "Recognised via alternate official IISS page; "
+                        "primary page may restrict automated access. "
+                        "Event dates are not verified by this check."
+                    )
                 return result
-            failures.append("content_unrecognized")
+            else:
+                attempt["outcome"] = "content_unrecognized"
         except urllib.error.HTTPError as exc:
-            failures.append("access_restricted" if exc.code in (401, 403, 429) else "http_error")
-            result["http_status"] = exc.code
+            attempt["outcome"] = (
+                "access_restricted" if exc.code in (401, 403, 429)
+                else "http_error"
+            )
+            attempt["http_status"] = exc.code
         except Exception as exc:
-            failures.append("connection_error")
-            result["error_type"] = type(exc).__name__
-    result["status"] = ("access_restricted" if "access_restricted" in failures
-                        else "content_unrecognized" if "content_unrecognized" in failures
-                        else "unavailable")
-    result["access_note"] = "Automated access or retrieval failed; event status and dates remain unverified" if result["status"] != "content_unrecognized" else "Page accessible but event name not recognised"
+            attempt["outcome"] = "connection_error"
+            attempt["error_type"] = type(exc).__name__
+        attempts.append(attempt)
+
+    result["attempts"] = attempts
+    outcomes = {attempt["outcome"] for attempt in attempts}
+    result["status"] = (
+        "access_restricted" if "access_restricted" in outcomes
+        else "content_unrecognized" if "content_unrecognized" in outcomes
+        else "unavailable"
+    )
+    result["access_note"] = (
+        "Official pages were attempted but automated access was restricted; "
+        "event dates remain unverified."
+        if result["status"] == "access_restricted"
+        else "Official page accessible but expected event name not recognised."
+        if result["status"] == "content_unrecognized"
+        else "Official pages could not be retrieved; event dates remain unverified."
+    )
     return result
 
 def main():
