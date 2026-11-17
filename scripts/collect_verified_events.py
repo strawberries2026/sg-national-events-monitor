@@ -83,7 +83,9 @@ def main():
             archived[source] = {**e, "lifecycle_status": "completed"}
     inspected = 0
     failures = 0
-    # Inspect leadership headlines first, even if ministry feeds are long.\n    records = sorted(feed.get("events", []), key=lambda r: not leadership_visit_candidate(r))\n    for record in records:
+    # Inspect leadership headlines first, even if ministry feeds are long.
+    records = sorted(feed.get("events", []), key=lambda r: not leadership_visit_candidate(r))
+    for record in records:
         title = record.get("title", "")
         lower = title.lower()
         kind = "VIP visit" if leadership_visit_candidate(record) else next((kind for kind, terms in EVENT_TERMS.items() if any(t in lower for t in terms)), None)
