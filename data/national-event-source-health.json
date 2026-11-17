@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T05:42:37.756275+00:00",
+  "checked_at": "2026-11-17T05:48:02.881613+00:00",
   "sources": [
     {
       "event": "Singapore Grand Prix (F1)",
@@ -7,7 +7,13 @@
       "status": "source_reachable",
       "date_verification": "not_performed",
       "review_required": true,
-      "checked_source": "https://singaporegp.sg/en/"
+      "checked_source": "https://singaporegp.sg/en/",
+      "attempts": [
+        {
+          "url": "https://singaporegp.sg/en/",
+          "outcome": "recognized"
+        }
+      ]
     },
     {
       "event": "Marina Bay year-end countdown",
@@ -15,7 +21,13 @@
       "status": "source_reachable",
       "date_verification": "not_performed",
       "review_required": true,
-      "checked_source": "https://www.marinabaycountdown.gov.sg/"
+      "checked_source": "https://www.marinabaycountdown.gov.sg/",
+      "attempts": [
+        {
+          "url": "https://www.marinabaycountdown.gov.sg/",
+          "outcome": "recognized"
+        }
+      ]
     },
     {
       "event": "National Day celebrations",
@@ -23,7 +35,13 @@
       "status": "source_reachable",
       "date_verification": "not_performed",
       "review_required": true,
-      "checked_source": "https://www.ndp.gov.sg/"
+      "checked_source": "https://www.ndp.gov.sg/",
+      "attempts": [
+        {
+          "url": "https://www.ndp.gov.sg/",
+          "outcome": "recognized"
+        }
+      ]
     },
     {
       "event": "Chingay Parade",
@@ -31,7 +49,13 @@
       "status": "source_reachable",
       "date_verification": "not_performed",
       "review_required": true,
-      "checked_source": "https://www.chingay.gov.sg/"
+      "checked_source": "https://www.chingay.gov.sg/",
+      "attempts": [
+        {
+          "url": "https://www.chingay.gov.sg/",
+          "outcome": "recognized"
+        }
+      ]
     },
     {
       "event": "Shangri-La Dialogue",
@@ -39,8 +63,23 @@
       "status": "access_restricted",
       "date_verification": "not_performed",
       "review_required": true,
-      "http_status": 403,
-      "access_note": "Automated access or retrieval failed; event status and dates remain unverified"
+      "attempts": [
+        {
+          "url": "https://www.iiss.org/events/shangri-la-dialogue/shangri-la-dialogue-2027/",
+          "outcome": "access_restricted",
+          "http_status": 403
+        },
+        {
+          "url": "https://www.iiss.org/events/",
+          "outcome": "access_restricted",
+          "http_status": 403
+        },
+        {
+          "url": "https://www.iiss.org/iiss-asia/",
+          "outcome": "content_unrecognized"
+        }
+      ],
+      "access_note": "Official pages were attempted but automated access was restricted; event dates remain unverified."
     },
     {
       "event": "Major international summits",
@@ -48,7 +87,13 @@
       "status": "source_reachable",
       "date_verification": "not_performed",
       "review_required": true,
-      "checked_source": "https://www.mfa.gov.sg/"
+      "checked_source": "https://www.mfa.gov.sg/",
+      "attempts": [
+        {
+          "url": "https://www.mfa.gov.sg/",
+          "outcome": "recognized"
+        }
+      ]
     }
   ],
   "note": "Source availability and keyword recognition only. No dates are automatically verified or published."

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T05:42:34.095642+00:00",
+  "updated_at": "2026-11-17T05:48:00.059217+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -10,7 +10,7 @@
       "published_date": "2026-11-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -362,7 +362,7 @@
       "published_date": "2026-11-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
