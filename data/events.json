@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-17T00:53:12.633562+00:00",
+  "updated_at": "2026-11-17T05:42:34.095642+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Malay/Muslim Organisations Rehabilitation Network (MMORN) Forum 2026 – Speech by Mr Zhulkarnain Abdul Rahim, Minister of State, Ministry of Home Affairs and Foreign Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/malay-muslim-organisations-rehabilitation-network-mmorn-forum-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -94,17 +105,6 @@
       "agency": "MHA",
       "title": "Senior access to manned Police counters and targeted face-to-face assistance amid progressive roll-out of self-help kiosks and counter closures Written Replies to Parliamentary Questions",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/senior-access-to-manned-police-counters-and-targeted-face-to-face-assistance-amid-progressive-roll-out-of-self-help-kiosks-and-counter-closures/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Assessing sustained effectiveness of Police scam interventions to guide improvements to intervention methods Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/assessing-sustained-effectiveness-of-police-scam-interventions-to-guide-improvements-to-intervention-methods/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
@@ -356,13 +356,24 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Release of Third Quarter 2026 Economic Survey of Singapore 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/release-of-third-quarter-2026-economic-survey-of-singapore/",
+      "type": "Published announcement",
+      "published_date": "2026-11-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "MDDI-METI Joint Media Statement on US Interim Final Rule on Addressing Remote Access to Advanced Semiconductors 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
       "type": "Published announcement",
       "published_date": "2026-11-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -448,17 +459,6 @@
       "source_url": "https://www.meti.gov.sg/newsroom/dpm-to-attend-28th-aecc-meeting-in-philippines/",
       "type": "Published announcement",
       "published_date": "2026-11-13",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Remarks by Dr Tan See Leng, Minister for Energy, Trade and Industry, at the Launch Of Mastercard Asia Pacific Innovation Centre of Excellence in Singapore 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/remarks-by-dr-tan-see-leng--minister-for-energy--trade-and-industry--at-the-launch-of-mastercard-asia-pacific-innovation-centre-of-excellence-in-singapore/",
-      "type": "Published announcement",
-      "published_date": "2026-11-12",
       "date": null,
       "time_sgt": null,
       "is_new": false

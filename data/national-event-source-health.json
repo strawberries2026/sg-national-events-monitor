@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T00:53:14.123778+00:00",
+  "checked_at": "2026-11-17T05:42:37.756275+00:00",
   "sources": [
     {
       "event": "Singapore Grand Prix (F1)",
@@ -35,7 +35,7 @@
     },
     {
       "event": "Shangri-La Dialogue",
-      "source": "https://www.iiss.org/events/iiss-shangri-la-dialogue/",
+      "source": "https://www.iiss.org/events/shangri-la-dialogue/shangri-la-dialogue-2027/",
       "status": "access_restricted",
       "date_verification": "not_performed",
       "review_required": true,
