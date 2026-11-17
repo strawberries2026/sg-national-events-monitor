@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T22:24:52.537612+00:00",
+  "updated_at": "2026-11-17T00:53:12.633562+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -356,6 +356,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "MDDI-METI Joint Media Statement on US Interim Final Rule on Addressing Remote Access to Advanced Semiconductors 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+      "type": "Published announcement",
+      "published_date": "2026-11-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Singapore signs 13th Implementation Agreement on carbon credits collaboration under Article 6 of the Paris Agreement with Kenya 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore-signs-13th-implementation-agreement-on-carbon-credits-collaboration-under-article-6-of-the-paris-agreement-with-kenya/",
       "type": "Published announcement",
@@ -448,17 +459,6 @@
       "source_url": "https://www.meti.gov.sg/newsroom/remarks-by-dr-tan-see-leng--minister-for-energy--trade-and-industry--at-the-launch-of-mastercard-asia-pacific-innovation-centre-of-excellence-in-singapore/",
       "type": "Published announcement",
       "published_date": "2026-11-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Green Economy Partnership Agreement (GEPA) partners welcome significant progress 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/green-economy-partnership-agreement--gepa--partners-welcome-significant-progress/",
-      "type": "Published announcement",
-      "published_date": "2026-11-05",
       "date": null,
       "time_sgt": null,
       "is_new": false

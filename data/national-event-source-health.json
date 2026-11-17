@@ -1,48 +1,54 @@
 {
-  "checked_at": "2026-11-16T22:24:54.787320+00:00",
+  "checked_at": "2026-11-17T00:53:14.123778+00:00",
   "sources": [
     {
       "event": "Singapore Grand Prix (F1)",
       "source": "https://singaporegp.sg/en/",
       "status": "source_reachable",
       "date_verification": "not_performed",
-      "review_required": true
+      "review_required": true,
+      "checked_source": "https://singaporegp.sg/en/"
     },
     {
       "event": "Marina Bay year-end countdown",
       "source": "https://www.marinabaycountdown.gov.sg/",
       "status": "source_reachable",
       "date_verification": "not_performed",
-      "review_required": true
+      "review_required": true,
+      "checked_source": "https://www.marinabaycountdown.gov.sg/"
     },
     {
       "event": "National Day celebrations",
       "source": "https://www.ndp.gov.sg/",
       "status": "source_reachable",
       "date_verification": "not_performed",
-      "review_required": true
+      "review_required": true,
+      "checked_source": "https://www.ndp.gov.sg/"
     },
     {
       "event": "Chingay Parade",
       "source": "https://www.chingay.gov.sg/",
       "status": "source_reachable",
       "date_verification": "not_performed",
-      "review_required": true
+      "review_required": true,
+      "checked_source": "https://www.chingay.gov.sg/"
     },
     {
       "event": "Shangri-La Dialogue",
       "source": "https://www.iiss.org/events/iiss-shangri-la-dialogue/",
-      "status": "unavailable",
+      "status": "access_restricted",
       "date_verification": "not_performed",
       "review_required": true,
-      "error_type": "HTTPError"
+      "http_status": 403,
+      "access_note": "Automated access or retrieval failed; event status and dates remain unverified"
     },
     {
       "event": "Major international summits",
       "source": "https://www.mfa.gov.sg/",
       "status": "source_reachable",
       "date_verification": "not_performed",
-      "review_required": true
+      "review_required": true,
+      "checked_source": "https://www.mfa.gov.sg/"
     }
   ],
   "note": "Source availability and keyword recognition only. No dates are automatically verified or published."
