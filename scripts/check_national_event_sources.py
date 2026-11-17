@@ -13,7 +13,7 @@ SOURCES = [
     ("Marina Bay year-end countdown", "https://www.marinabaycountdown.gov.sg/", ("countdown",)),
     ("National Day celebrations", "https://www.ndp.gov.sg/", ("national day",)),
     ("Chingay Parade", "https://www.chingay.gov.sg/", ("chingay",)),
-    ("Shangri-La Dialogue", "https://www.iiss.org/events/iiss-shangri-la-dialogue/", ("shangri-la",)),
+    ("Shangri-La Dialogue", "https://www.iiss.org/events/shangri-la-dialogue/shangri-la-dialogue-2027/", ("shangri-la",)),
     ("Major international summits", "https://www.mfa.gov.sg/", ("summit",)),
 ]
 class VisibleText(HTMLParser):
