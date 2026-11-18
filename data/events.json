@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-18T03:26:53.055240+00:00",
+  "updated_at": "2026-11-18T07:07:59.996623+00:00",
   "events": [
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "National Day Awards Investiture 2026 – Speech by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security, and Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/national-day-awards-investiture-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-17",
-      "date": null,
-      "time_sgt": null,
-      "is_new": true
-    },
     {
       "category": "Ministries",
       "agency": "MHA",
       "title": "Malay/Muslim Organisations Rehabilitation Network (MMORN) Forum 2026 – Speech by Mr Zhulkarnain Abdul Rahim, Minister of State, Ministry of Home Affairs and Foreign Affairs",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/malay-muslim-organisations-rehabilitation-network-mmorn-forum-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "National Day Awards Investiture 2026 – Speech by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security, and Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/national-day-awards-investiture-2026/",
       "type": "Published announcement",
       "published_date": "2026-11-17",
       "date": null,
@@ -356,13 +356,24 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at Breakbulk Asia 2026 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-breakbulk-asia-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-18",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the SIT-CEVA Joint Innovation Lab Opening 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-sit-ceva-joint-innovation-lab-opening/",
       "type": "Published announcement",
       "published_date": "2026-11-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -453,17 +464,6 @@
       "is_new": false
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Speech by Senior Minister of State Low Yen Ling at the Association of Catering Professionals Singapore (ACAPS) Friendship Night 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-senior-minister-of-state-low-yen-ling-at-the-association-of-catering-professionals-singapore--acaps--friendship-night-/",
-      "type": "Published announcement",
-      "published_date": "2026-11-13",
-      "date": null,
-      "time_sgt": null,
-      "is_new": true
-    },
-    {
       "category": "Leadership",
       "agency": "PMO",
       "title": "PM Lawrence Wong at the Closing Ceremony of the 49th ASEAN Summit and Related Summits People PM Lawrence Wong Topics Economy Foreign affairs Governance Speech by Prime Minister and Minister for Finance Lawrence Wong at the 49th ASEAN Summit and Related Summits on 17 November 2026. Speech",
@@ -472,7 +472,7 @@
       "published_date": "2026-11-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -483,7 +483,7 @@
       "published_date": "2026-11-17",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
