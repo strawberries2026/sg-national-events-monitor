@@ -118,7 +118,9 @@ def main():
             "source": url, "date_evidence": "Date in official headline or article; event relationship unverified",
             "verification_status": "candidate_unverified",
             "lifecycle_status": "upcoming_candidate",
-            "agency": record.get("agency", ""),\n            "review_priority": "senior_leadership" if leadership_visit_candidate(record) else "standard",\n            "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion" if leadership_visit_candidate(record) else "Verify event relationship and dates"
+            "agency": record.get("agency", ""),
+            "review_priority": "senior_leadership" if leadership_visit_candidate(record) else "standard",
+            "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion" if leadership_visit_candidate(record) else "Verify event relationship and dates"
         })
     unique = {e["source"]: e for e in output}
     # Never silently upgrade a candidate to verified based on scraped text.
