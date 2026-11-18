@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-17T08:01:56.989865+00:00",
+  "updated_at": "2026-11-18T03:26:53.055240+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "National Day Awards Investiture 2026 – Speech by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security, and Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/national-day-awards-investiture-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -94,17 +105,6 @@
       "agency": "MHA",
       "title": "Data on scam victims accepting referrals to Victim Care Cadre Programme or community support services and reasons for declining support Written Replies to Parliamentary Questions",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/data-on-scam-victims-accepting-referrals-to-victim-care-cadre-programme-or-community-support-services-and-reasons-for-declining-support/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Senior access to manned Police counters and targeted face-to-face assistance amid progressive roll-out of self-help kiosks and counter closures Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/senior-access-to-manned-police-counters-and-targeted-face-to-face-assistance-amid-progressive-roll-out-of-self-help-kiosks-and-counter-closures/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
       "date": null,
@@ -356,6 +356,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the SIT-CEVA Joint Innovation Lab Opening 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-sit-ceva-joint-innovation-lab-opening/",
+      "type": "Published announcement",
+      "published_date": "2026-11-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Release of Third Quarter 2026 Economic Survey of Singapore 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/release-of-third-quarter-2026-economic-survey-of-singapore/",
       "type": "Published announcement",
@@ -444,24 +455,35 @@
     {
       "category": "Ministries",
       "agency": "METI",
-      "title": "Opening remarks by MOS Foo Cexiang at Association Of Singapore Marine And Offshore Energy Industries 58th Anniversary Dinner 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/opening-remarks-by-mos-foo-cexiang-at-as-58th-anniversary-dinner/",
+      "title": "Speech by Senior Minister of State Low Yen Ling at the Association of Catering Professionals Singapore (ACAPS) Friendship Night 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-senior-minister-of-state-low-yen-ling-at-the-association-of-catering-professionals-singapore--acaps--friendship-night-/",
       "type": "Published announcement",
       "published_date": "2026-11-13",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Deputy Prime Minister and Minister for Trade and Industry (Trade) Gan Kim Yong to attend the 28th Asean Economic Community Council Meeting in the Philippines 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/dpm-to-attend-28th-aecc-meeting-in-philippines/",
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "PM Lawrence Wong at the Closing Ceremony of the 49th ASEAN Summit and Related Summits People PM Lawrence Wong Topics Economy Foreign affairs Governance Speech by Prime Minister and Minister for Finance Lawrence Wong at the 49th ASEAN Summit and Related Summits on 17 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-closing-ceremony-of-the-49th-asean-summit-and-related-summits/",
       "type": "Published announcement",
-      "published_date": "2026-11-13",
+      "published_date": "2026-11-17",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "PM Lawrence Wong to Visit the People's Republic of China (Nov 2026) People Prime Minister's Office Topics Foreign affairs Governance Prime Minister and Minister for Finance Lawrence Wong will make a working visit to Shenzhen and Beijing from 18 to 21 November 2026. Press Release",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-the-peoples-republic-of-china-nov-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-17",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -536,17 +558,6 @@
       "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-inauguration-of-the-new-campus-of-the-singapore-indian-fine-arts-society/",
       "type": "Published announcement",
       "published_date": "2026-10-31",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong at the Singapore Chinese Chamber of Commerce and Industry’s 120th Anniversary Dinner People PM Lawrence Wong Topics Economy Science and technology Trade Speech by Prime Minister and Minister for Finance Lawrence Wong at the Singapore Chinese Chamber of Commerce and Industry (SCCCI)’s 120th Anniversary Dinner on 30 October 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-singapore-chinese-chamber-of-commerce-and-industry-sccci-120th-anniversary-dinner/",
-      "type": "Published announcement",
-      "published_date": "2026-10-30",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -698,7 +709,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 60
+    "announcement_count": 61
   },
   "parliament_health": {
     "order_paper": "loaded",

@@ -1,21 +1,6 @@
 {
-  "updated_at": "2026-11-17T08:01:58.587868+00:00",
+  "updated_at": "2026-11-18T03:26:57.598322+00:00",
   "events": [
-    {
-      "title": "PM Lawrence Wong attends 49th ASEAN Summit and Related Summits in Manila",
-      "type": "VIP visit",
-      "start": "2026-11-15",
-      "end": "2026-11-17",
-      "venue": "Manila, Philippines",
-      "source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-attend-the-49th-asean-summit-and-related-summits-in-manila-the-philippines-nov-2026/",
-      "date_evidence": "PMO official press release dated 14 November 2026 explicitly states attendance from 15 to 17 November 2026.",
-      "verification_status": "verified",
-      "lifecycle_status": "ongoing",
-      "agency": "PMO",
-      "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-attend-the-49th-asean-summit-and-related-summits-in-manila-the-philippines-nov-2026/",
-      "verified_on": "2026-11-16",
-      "verification_method": "Manual review of primary PMO announcement"
-    },
     {
       "title": "PM Lawrence Wong visits China for APEC Economic Leaders' Meeting and bilateral engagements",
       "type": "VIP visit",
