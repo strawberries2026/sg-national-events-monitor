@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T16:30:21.743085+00:00",
+  "updated_at": "2026-11-18T23:03:31.070370+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -362,7 +362,7 @@
       "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -472,7 +472,7 @@
       "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -571,7 +571,7 @@
       "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
