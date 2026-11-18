@@ -21,6 +21,8 @@ jobs:
         run: |
           echo "Trigger: ${{ github.event_name }}"
           date -u '+Run started (UTC): %Y-%m-%d %H:%M:%S'
+      - name: Validate Python collector syntax
+        run: python -m compileall -q scripts
       - name: Collect public announcements
         run: python scripts/collect.py
       - name: Extract explicitly dated upcoming event candidates
