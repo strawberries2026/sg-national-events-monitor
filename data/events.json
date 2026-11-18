@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T08:19:39.912821+00:00",
+  "updated_at": "2026-11-18T16:30:21.743085+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -252,7 +252,7 @@
       "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -356,6 +356,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Singapore marks 14th Implementation Agreement on carbon credits with Zambia at COP31 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-marks-14th-implementation-agreement-on-carbon-credits-with-zambia-at-cop31/",
+      "type": "Published announcement",
+      "published_date": "2026-11-18",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at Breakbulk Asia 2026 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-breakbulk-asia-2026/",
       "type": "Published announcement",
@@ -453,15 +464,15 @@
       "is_new": false
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "ASEAN signs landmark Digital Economy Agreement, deepens regional integration and strengthens economic partnerships 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/asean-signs-landmark-asean-digital-economy-framework-agreement-14nov26/",
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "PM Lawrence Wong’s Op-Ed for the 33rd APEC Economic Leaders' Meeting in Shenzhen, the People’s Republic of China People PM Lawrence Wong Topics Foreign affairs Op-Ed by Prime Minister and Minister for Finance Lawrence Wong ahead of the 33rd APEC Economic Leaders' Meeting (AELM) in Shenzhen, the People's Republic of China (PRC) on 19 November 2026. Article",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-op-ed-for-the-33rd-apec-economic-leaders-meeting-in-shenzhen-the-peoples-republic-of-china/",
       "type": "Published announcement",
-      "published_date": "2026-11-14",
+      "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -472,7 +483,7 @@
       "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
@@ -553,14 +564,14 @@
     },
     {
       "category": "Leadership",
-      "agency": "PMO",
-      "title": "Minister Chee Hong Tat at the Nanyang Hwu Clan General Association 80th Anniversary Dinner People PMO Ministers Topics Multi-racial and multi-religious society Population Youth Speech by Minister for National Development Chee Hong Tat at the Nanyang Hwu Clan General Association 80th Anniversary Dinner on 1 November 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-nanyang-hwu-clan-general-association-80th-anniversary-dinner/",
+      "agency": "Istana",
+      "title": "Toast Speech by President Tharman Shanmugaratnam at the Welcome Lunch in Honour of Her Imperial Highness Princess Aiko of Japan on 18 November 2026 at The Villa, Istana",
+      "source_url": "https://www.istana.gov.sg/newsroom/toast-speech-by-president-tharman-shanmugaratnam-at-the-welcome-lunch-in-honour-of-her-imperial-highness-princess-aiko-of-japan-on-18-november-2026-at-the-villa--istana/",
       "type": "Published announcement",
-      "published_date": "2026-11-01",
+      "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -657,17 +668,6 @@
       "source_url": "https://www.istana.gov.sg/newsroom/working-visit-by-president-tharman-shanmugaratnam-to-the-kingdom-of-thailand-on-12-october-2026/",
       "type": "Published announcement",
       "published_date": "2026-10-11",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "Istana",
-      "title": "‘Turning the bond markets to advantage’: Dialogue between President Tharman Shanmugaratnam and IMF Managing Director Kristalina Georgieva on 7 October 2026 at the Lee Kuan Yew School of Public Policy",
-      "source_url": "https://www.istana.gov.sg/newsroom/-turning-the-bond-markets-to-advantage---dialogue-between-president-tharman-shanmugaratnam-and-imf-managing-director-kristalina-georgieva/",
-      "type": "Published announcement",
-      "published_date": "2026-10-07",
       "date": null,
       "time_sgt": null,
       "is_new": false

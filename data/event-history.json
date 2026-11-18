@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T08:19:46.130298+00:00",
+  "updated_at": "2026-11-18T16:30:30.426009+00:00",
   "events": [
     {
       "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Clean Energy Summit (ACES) 2026 2.",
@@ -75,6 +75,20 @@
       "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-attend-the-49th-asean-summit-and-related-summits-in-manila-the-philippines-nov-2026/",
       "verified_on": "2026-11-16",
       "verification_method": "Manual review of primary PMO announcement"
+    },
+    {
+      "title": "DPM Gan Kim Yong at the Singapore FinTech Festival 2026 People DPM Gan Kim Yong Topics Economy Finance Science and technology Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade) and Chairman of Monetary Authority of Singapore Gan Kim Yong at the Singapore FinTech Festival 2026. Speech",
+      "type": "Major public event",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "venue": "Not confirmed",
+      "source": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-singapore-fintech-festival-2026/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "completed",
+      "agency": "PMO",
+      "review_priority": "standard",
+      "review_note": "Verify event relationship and dates"
     }
   ],
   "note": "Historical candidates are not automatically verified."
