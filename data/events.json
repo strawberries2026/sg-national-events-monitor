@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T07:07:59.996623+00:00",
+  "updated_at": "2026-11-18T08:19:39.912821+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -246,6 +246,17 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Singapore and Thai Armies Successfully Conclude 26th Edition of Exercise Kocha Singa The Singapore Army and the Royal Thai Army (RTA) successfully conducted the 26th edition of Exercise Kocha Singa (XKS) in Kanchanaburi, Thailand from 10 to 18 November 2026.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/18nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-18",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Minister for Defence Visits Exercise Trident 2026 Minister for Defence Chan Chun Sing visited troops participating in Exercise Trident (XTD) 2026 today at the Shoalwater Bay Training Area (SWBTA) in Queensland, Australia.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/15nov26-nr/",
       "type": "Published announcement",
@@ -344,17 +355,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Defence Engineers and Scientists Honoured for Excellence and Innovation in Defence Technology Minister for Defence Mr Chan Chun Sing presented the Defence Technology Prize (DTP) to one individual and three teams at the DTP Award Ceremony held at DSO National Laboratories this afternoon.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-11-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "METI",
       "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at Breakbulk Asia 2026 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-breakbulk-asia-2026/",
@@ -362,7 +362,7 @@
       "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -466,6 +466,17 @@
     {
       "category": "Leadership",
       "agency": "PMO",
+      "title": "DPM Gan Kim Yong at the Singapore FinTech Festival 2026 People DPM Gan Kim Yong Topics Economy Finance Science and technology Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade) and Chairman of Monetary Authority of Singapore Gan Kim Yong at the Singapore FinTech Festival 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-singapore-fintech-festival-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-18",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
       "title": "PM Lawrence Wong at the Closing Ceremony of the 49th ASEAN Summit and Related Summits People PM Lawrence Wong Topics Economy Foreign affairs Governance Speech by Prime Minister and Minister for Finance Lawrence Wong at the 49th ASEAN Summit and Related Summits on 17 November 2026. Speech",
       "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-closing-ceremony-of-the-49th-asean-summit-and-related-summits/",
       "type": "Published announcement",
@@ -547,17 +558,6 @@
       "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-nanyang-hwu-clan-general-association-80th-anniversary-dinner/",
       "type": "Published announcement",
       "published_date": "2026-11-01",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong at the Inauguration of the New Campus of the Singapore Indian Fine Arts Society (Oct 2026) People PM Lawrence Wong Topics Arts, culture and heritage Speech by Prime Minister and Minister for Finance Lawrence Wong at the Inauguration of the New Campus of the Singapore Indian Fine Arts Society (SIFAS) on 31 October 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-inauguration-of-the-new-campus-of-the-singapore-indian-fine-arts-society/",
-      "type": "Published announcement",
-      "published_date": "2026-10-31",
       "date": null,
       "time_sgt": null,
       "is_new": false

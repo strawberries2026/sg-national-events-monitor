@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T07:08:04.018539+00:00",
+  "updated_at": "2026-11-18T08:19:46.130298+00:00",
   "events": [
     {
       "title": "PM Lawrence Wong visits China for APEC Economic Leaders' Meeting and bilateral engagements",
@@ -15,6 +15,20 @@
       "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-the-peoples-republic-of-china-nov-2026/",
       "verified_on": "2026-11-17",
       "verification_method": "Manual review of primary PMO announcement"
+    },
+    {
+      "title": "DPM Gan Kim Yong at the Singapore FinTech Festival 2026 People DPM Gan Kim Yong Topics Economy Finance Science and technology Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade) and Chairman of Monetary Authority of Singapore Gan Kim Yong at the Singapore FinTech Festival 2026. Speech",
+      "type": "Major public event",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "venue": "Not confirmed",
+      "source": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-singapore-fintech-festival-2026/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "upcoming_candidate",
+      "agency": "PMO",
+      "review_priority": "standard",
+      "review_note": "Verify event relationship and dates"
     }
   ],
   "note": "Candidate dates extracted from official headlines; verify original article before operational use."
