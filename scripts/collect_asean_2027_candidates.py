@@ -10,7 +10,9 @@ from urllib.parse import urlparse
 SOURCE = Path("data/events.json")
 OUT = Path("data/asean-2027-review.json")
 KEYWORDS = re.compile(r"\basean\b|50th\s+asean|51st\s+asean", re.I)
-YEAR = re.compile(r"\b2027\b|\b50th\s+asean\b|\b51st\s+asean\b", re.I)
+YEAR = re.compile(r"\b2027\b|\b50th\s+asean\b|\b51st\s+asean\b|\basean\s+(?:chairmanship|chair|summit|meetings?)\b", re.I)
+CONTEXT = re.compile(r"\b(?:singapore|chairmanship|chairing|hosting|host|summit|meetings?|calendar|schedule)\b", re.I)
+OLD_YEAR = re.compile(r"\b202[0-6]\b", re.I)
 DATES = re.compile(r"\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+2027\b", re.I)
 HOSTS = {"mfa.gov.sg", "www.mfa.gov.sg", "pmo.gov.sg", "www.pmo.gov.sg", "istana.gov.sg", "www.istana.gov.sg"}
 def main():
@@ -22,7 +24,9 @@ def main():
         host = urlparse(url).hostname
         if event.get("agency") not in ("MFA", "PMO", "Istana") or host not in HOSTS:
             continue
-        if not KEYWORDS.search(title) or not YEAR.search(title):
+        if not KEYWORDS.search(title) or not YEAR.search(title) or not CONTEXT.search(title):
+            continue
+        if OLD_YEAR.search(title) and "2027" not in title:
             continue
         candidates[url] = {
             "title": title,
