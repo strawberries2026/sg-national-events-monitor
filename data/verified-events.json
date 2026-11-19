@@ -15,6 +15,21 @@
       "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-the-peoples-republic-of-china-nov-2026/",
       "verified_on": "2026-11-17",
       "verification_method": "Manual review of primary PMO announcement"
+    },
+    {
+      "title": "IISS Shangri-La Dialogue 2027",
+      "type": "International summit",
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "venue": "Singapore",
+      "source": "https://www.iiss.org/events/iiss-shangri-la-dialogue",
+      "date_evidence": "Official IISS event webpage screenshot supplied on 20 November 2026 explicitly states 28th–30th May 2027, Singapore. Exact 2027 page URL not captured.",
+      "verification_status": "verified",
+      "lifecycle_status": "upcoming",
+      "agency": "IISS",
+      "verified_source": "https://www.iiss.org/events/iiss-shangri-la-dialogue",
+      "verified_on": "2026-11-20",
+      "verification_method": "Manual review of user-provided screenshot showing official iiss.org event page"
     }
   ],
   "note": "Candidate dates extracted from official headlines; verify original article before operational use."
