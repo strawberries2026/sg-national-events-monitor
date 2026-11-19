@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T04:05:06.862869+00:00",
+  "updated_at": "2026-11-19T12:52:02.277182+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -323,30 +323,19 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Fact Sheet for Defence Tech Prize 2026 Award Ceremony Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-fs/",
+      "type": "Published announcement",
+      "published_date": "2026-11-06",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Digital and Intelligence Service Inaugurates Training Command to Strengthen Training and Professional Development The Digital and Intelligence Service (DIS) inaugurated the DIS Training Command (DTCOM) today.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-nr2/",
-      "type": "Published announcement",
-      "published_date": "2026-11-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Fact Sheet: Digital and Intelligence Service Training Command Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-fs2/",
-      "type": "Published announcement",
-      "published_date": "2026-11-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Speech by Minister for Defence, Mr Chan Chun Sing, at The Defence Technology Prize Award Ceremony 2026 on 6 Nov 2026 at DSO National Laboratories",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-speech/",
       "type": "Published announcement",
       "published_date": "2026-11-06",
       "date": null,
@@ -466,6 +455,17 @@
     {
       "category": "Leadership",
       "agency": "PMO",
+      "title": "PM Lawrence Wong at the 33rd APEC Economic Leaders’ Meeting in Shenzhen, the People’s Republic of China People PM Lawrence Wong Topics Economy Foreign affairs Governance Remarks by Prime Minister and Minister for Finance Lawrence Wong at the 33rd APEC Economic Leaders' Meeting (AELM) in Shenzhen, the People's Republic of China (PRC) on 19 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-33rd-apec-economic-leaders-meeting-in-shenzhen-the-peoples-republic-of-china/",
+      "type": "Published announcement",
+      "published_date": "2026-11-19",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
       "title": "PM Lawrence Wong’s Op-Ed for the 33rd APEC Economic Leaders' Meeting in Shenzhen, the People’s Republic of China People PM Lawrence Wong Topics Foreign affairs Op-Ed by Prime Minister and Minister for Finance Lawrence Wong ahead of the 33rd APEC Economic Leaders' Meeting (AELM) in Shenzhen, the People's Republic of China (PRC) on 19 November 2026. Article",
       "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-op-ed-for-the-33rd-apec-economic-leaders-meeting-in-shenzhen-the-peoples-republic-of-china/",
       "type": "Published announcement",
@@ -547,17 +547,6 @@
       "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-graduation-ceremony-of-chinese-community-leadership-programme-nov-2026/",
       "type": "Published announcement",
       "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "Minister Chee Hong Tat at the Tung Ann District Guild 95th Anniversary Dinner People PMO Ministers Topics Multi-racial and multi-religious society Youth Speech by Minister for National Development Chee Hong Tat at the Tung Ann District Guild 95th Anniversary Dinner on 1 November 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-tung-ann-district-guild-95th-anniversary-dinner/",
-      "type": "Published announcement",
-      "published_date": "2026-11-01",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -709,7 +698,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 61
+    "announcement_count": 60
   },
   "parliament_health": {
     "order_paper": "loaded",

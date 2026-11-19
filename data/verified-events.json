@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-19T04:05:12.075348+00:00",
+  "updated_at": "2026-11-19T12:52:11.038521+00:00",
   "events": [
+    {
+      "title": "PM Lawrence Wong at the 33rd APEC Economic Leaders’ Meeting in Shenzhen, the People’s Republic of China People PM Lawrence Wong Topics Economy Foreign affairs Governance Remarks by Prime Minister and Minister for Finance Lawrence Wong at the 33rd APEC Economic Leaders' Meeting (AELM) in Shenzhen, the People's Republic of China (PRC) on 19 November 2026. Speech",
+      "type": "VIP visit",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "venue": "Not confirmed",
+      "source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-33rd-apec-economic-leaders-meeting-in-shenzhen-the-peoples-republic-of-china/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "upcoming_candidate",
+      "agency": "PMO",
+      "review_priority": "senior_leadership",
+      "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion"
+    },
     {
       "title": "PM Lawrence Wong’s Op-Ed for the 33rd APEC Economic Leaders' Meeting in Shenzhen, the People’s Republic of China People PM Lawrence Wong Topics Foreign affairs Op-Ed by Prime Minister and Minister for Finance Lawrence Wong ahead of the 33rd APEC Economic Leaders' Meeting (AELM) in Shenzhen, the People's Republic of China (PRC) on 19 November 2026. Article",
       "type": "VIP visit",

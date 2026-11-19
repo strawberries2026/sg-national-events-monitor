@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T04:05:12.957019+00:00",
+  "checked_at": "2026-11-19T12:52:12.951591+00:00",
   "sources": [
     {
       "event": "Singapore Grand Prix (F1)",
@@ -84,16 +84,16 @@
     {
       "event": "Major international summits",
       "source": "https://www.mfa.gov.sg/",
-      "status": "source_reachable",
+      "status": "content_unrecognized",
       "date_verification": "not_performed",
       "review_required": true,
-      "checked_source": "https://www.mfa.gov.sg/",
       "attempts": [
         {
           "url": "https://www.mfa.gov.sg/",
-          "outcome": "recognized"
+          "outcome": "content_unrecognized"
         }
-      ]
+      ],
+      "access_note": "Official page accessible but expected event name not recognised."
     }
   ],
   "note": "Source availability and keyword recognition only. No dates are automatically verified or published."
