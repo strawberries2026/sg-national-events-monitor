@@ -1,0 +1,30 @@
+name: Events Phase 1 preview regression
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - '.github/workflows/events-phase1-regression.yml'
+  workflow_dispatch:
+jobs:
+  check-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check script syntax and preview sections
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text()
+          for marker in ('id="event-pulse"','id="announcement-highlights"','id="event-summary"','id="event-list"','id="calendar"'):
+              assert marker in s, f'Missing {marker}'
+          assert 'No verified event dates match the selected filters' in s
+          assert 'Latest published announcements' in s
+          assert 'Published announcements are not necessarily confirmed future events' in s
+          scripts=re.findall(r'<script(?:\\s[^>]*)?>(.*?)</script>',s,re.S|re.I)
+          assert scripts, 'No inline script found'
+          Path('/tmp/events-inline.js').write_text('\\n'.join(scripts))
+          print('Preview markup checks passed')
+          PY
+          node --check /tmp/events-inline.js
