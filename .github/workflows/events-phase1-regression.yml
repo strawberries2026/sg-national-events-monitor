@@ -24,7 +24,7 @@ jobs:
           assert 'Published announcements are not necessarily confirmed future events' in s
           scripts=re.findall(r'<script(?:\\s[^>]*)?>(.*?)</script>',s,re.S|re.I)
           assert scripts, 'No inline script found'
-          Path('/tmp/events-inline.js').write_text(chr(10).join(scripts).replace('\\n',chr(10)))
+          Path('/tmp/events-inline.js').write_text(chr(10).join(scripts))
           print('Preview markup checks passed')
           PY
           node --check /tmp/events-inline.js
