@@ -28,3 +28,38 @@ jobs:
           print('Preview markup checks passed')
           PY
           node --check /tmp/events-inline.js
+  mobile-browser-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium browser test dependency
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Test mobile dashboard and filters
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/events-http.log 2>&1 &
+          node <<'JS'
+          const {chromium,devices}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            const page=await browser.newPage({...devices['Pixel 7']});
+            const errors=[];
+            page.on('pageerror',e=>errors.push(e.message));
+            await page.goto('http://127.0.0.1:8765/',{waitUntil:'domcontentloaded'});
+            await page.locator('#event-pulse').waitFor();
+            await page.waitForFunction(()=>!document.querySelector('#event-pulse').textContent.includes('Checking verified events'),{timeout:20000});
+            await page.locator('#event-window').selectOption('7');
+            await page.locator('#event-type').selectOption('National event');
+            await page.locator('#event-summary').waitFor();
+            await page.locator('#announcement-highlights').waitFor();
+            const text=await page.locator('#event-pulse').innerText();
+            if(!text.includes('Published announcements'))throw Error('Missing monitoring summary');
+            if(errors.length)throw Error('Browser errors: '+errors.join(' | '));
+            await browser.close();
+            console.log('Mobile Chromium dashboard and filter smoke passed');
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
