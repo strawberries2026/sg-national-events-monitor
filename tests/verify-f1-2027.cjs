@@ -47,5 +47,14 @@ assert.match(output,/2028-02-15[^<]*2028-02-20/, 'Airshow 2028 dates must render
 assert.match(output,/Singapore Grand Prix/, 'F1 must render');
 assert.match(output,/2027-10-08[^<]*2027-10-10/, 'F1 2027 dates must render');
 
-console.log('F1 2027 and Singapore Airshow 2028 regression checks passed (data, dashboard rendering and integration).');
+
+// Official-source health panel must distinguish event verification from website reachability.
+assert.ok(html.includes("id=\"national-source-health\""), 'Official-source health panel must exist');
+assert.ok(html.includes("Verified event links"), 'Verified event links heading must appear');
+assert.ok(html.includes("Official website reachability (not event-date verification)"), 'Reachability must not imply verified dates');
+assert.ok(html.includes("age>7?' · STALE (over 7 days)'"), 'Stale source reports must be flagged');
+assert.ok(html.includes("e.verified_source||e.source"), 'Verified event links must point to official sources');
+assert.ok(html.includes("Promise.allSettled([load('data/verified-events.json'),load('data/national-event-source-health.json')]"), 'Source-health panel must tolerate one feed failing');
+
+console.log('F1, Airshow and official-source panel regression checks passed.');
 // Browser/Android visual checks and live deployment checks are still required.
