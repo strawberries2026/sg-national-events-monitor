@@ -1,0 +1,78 @@
+name: Events Phase 1 preview regression
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - '.github/workflows/events-phase1-regression.yml'
+  workflow_dispatch:
+jobs:
+  check-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check script syntax and preview sections
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text()
+          for marker in ('id="event-pulse"','id="announcement-highlights"','id="event-summary"','id="event-list"','id="calendar"'):
+              assert marker in s, f'Missing {marker}'
+          assert 'No verified event dates match the selected filters' in s
+          assert 'Latest published announcements' in s
+          assert 'Published announcements are not necessarily confirmed future events' in s
+          scripts=re.findall(r'<script(?:\\s[^>]*)?>(.*?)</script>',s,re.S|re.I)
+          assert scripts, 'No inline script found'
+          Path('/tmp/events-inline.js').write_text(chr(10).join(scripts))
+          import json
+          events=json.loads(Path('data/verified-events.json').read_text())['events']
+          expected=[
+            ('IISS Shangri-La Dialogue 2027','2027-05-28','2027-05-30','International summit'),
+            ('National Day Parade 2027','2027-08-09','2027-08-09','National event'),
+          ]
+          for title,start,end,kind in expected:
+              matches=[e for e in events if title in e.get('title','')]
+              assert len(matches)==1, f'Expected one verified event: {title}'
+              e=matches[0]
+              assert (e['start'],e['end'],e['type'])==(start,end,kind), f'Incorrect dates or type: {title}'
+              assert e.get('verification_status')=='verified' and e.get('source','').startswith('https://')
+          print('2027 event data checks passed')
+          print('Preview markup checks passed')
+          PY
+          node --check /tmp/events-inline.js
+  mobile-browser-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium browser test dependency
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Test mobile dashboard and filters
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/events-http.log 2>&1 &
+          node <<'JS'
+          const {chromium,devices}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            const page=await browser.newPage({...devices['Pixel 7']});
+            const errors=[];
+            page.on('pageerror',e=>errors.push(e.message));
+            await page.goto('http://127.0.0.1:8765/',{waitUntil:'domcontentloaded'});
+            await page.locator('#event-pulse').waitFor({state:'attached'});
+            await page.waitForFunction(()=>!document.querySelector('#event-pulse').textContent.includes('Checking verified events'),{timeout:20000});
+            await page.locator('#event-window').selectOption('7',{force:true});
+            await page.locator('#event-type').selectOption('National event',{force:true});
+            await page.locator('#event-summary').waitFor({state:'attached'});
+            await page.locator('#announcement-highlights').waitFor({state:'attached'});
+            const text=await page.locator('#event-pulse').innerText();
+            if(!text.includes('Published announcements'))throw Error('Missing monitoring summary');
+            if(errors.length)throw Error('Browser errors: '+errors.join(' | '));
+            await browser.close();
+            console.log('Mobile Chromium dashboard and filter smoke passed');
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS

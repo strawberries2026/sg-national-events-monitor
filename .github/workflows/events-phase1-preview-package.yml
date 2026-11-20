@@ -1,0 +1,35 @@
+name: Events Phase 1 preview package
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - '.github/workflows/events-phase1-preview-package.yml'
+  workflow_dispatch:
+jobs:
+  preview-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate preview assets
+        run: |
+          test -f index.html
+          test -f manifest.webmanifest
+          test -f sw.js
+          test -f data/events.json
+          test -f data/verified-events.json
+          python3 -m json.tool manifest.webmanifest >/dev/null
+          python3 -m json.tool data/events.json >/dev/null
+          python3 -m json.tool data/verified-events.json >/dev/null
+      - name: Assemble preview ZIP
+        run: |
+          mkdir -p /tmp/events-preview
+          cp index.html manifest.webmanifest sw.js /tmp/events-preview/
+          cp -r data /tmp/events-preview/
+          if [ -d icons ]; then cp -r icons /tmp/events-preview/; fi
+          cd /tmp/events-preview
+          zip -qr "$GITHUB_WORKSPACE/sg-events-pr7-preview.zip" .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sg-events-pr7-preview
+          path: sg-events-pr7-preview.zip
+          retention-days: 7

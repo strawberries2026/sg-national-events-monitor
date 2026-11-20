@@ -15,6 +15,36 @@
       "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-the-peoples-republic-of-china-nov-2026/",
       "verified_on": "2026-11-17",
       "verification_method": "Manual review of primary PMO announcement"
+    },
+    {
+      "title": "IISS Shangri-La Dialogue 2027",
+      "type": "International summit",
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "venue": "Singapore",
+      "source": "https://www.iiss.org/events/iiss-shangri-la-dialogue",
+      "date_evidence": "Official IISS event webpage screenshot supplied on 20 November 2026 explicitly states 28th–30th May 2027, Singapore. Exact 2027 page URL not captured.",
+      "verification_status": "verified",
+      "lifecycle_status": "upcoming",
+      "agency": "IISS",
+      "verified_source": "https://www.iiss.org/events/iiss-shangri-la-dialogue",
+      "verified_on": "2026-11-20",
+      "verification_method": "Manual review of user-provided screenshot showing official iiss.org event page"
+    },
+    {
+      "title": "National Day Parade 2027 — NS60",
+      "type": "National event",
+      "start": "2027-08-09",
+      "end": "2027-08-09",
+      "venue": "The Padang, Singapore",
+      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/25aug26-nr/",
+      "date_evidence": "MINDEF news release dated 25 August 2026 confirms NDP 2027 will be held at the Padang to commemorate 60 years of National Service; 9 August is Singapore National Day. Rehearsal, preview and ticketing dates are not announced in this source.",
+      "verification_status": "verified",
+      "lifecycle_status": "upcoming",
+      "agency": "MINDEF",
+      "verified_source": "https://www.mindef.gov.sg/news-and-events/latest-releases/25aug26-nr/",
+      "verified_on": "2026-11-20",
+      "verification_method": "Manual review of primary MINDEF news release and ministerial speech"
     }
   ],
   "note": "Candidate dates extracted from official headlines; verify original article before operational use."
