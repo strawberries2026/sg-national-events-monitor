@@ -26,5 +26,26 @@ assert.equal(airshows[0].end, '2028-02-20');
 assert.equal(airshows[0].verification_status, 'verified');
 assert.ok(!data.events.some(e => /Singapore Airshow/i.test(e.title) && e.start.startsWith('2027-')), 'There must be no 2027 Airshow edition');
 
-console.log('F1 2027 and Singapore Airshow 2028 regression checks passed (data and static integration).');
+
+// Verify that both event titles are mapped into the dashboard's verified-event group.
+const vm = require('node:vm');
+const section = html.slice(html.indexOf('const nationalEventSources='), html.indexOf('function renderLeadershipBriefing()'));
+assert.ok(section.startsWith('const nationalEventSources='), 'National event renderer must be found');
+const elements = Object.fromEntries(['national-events-list','national-events-preview','national-next-event'].map(id => [id, {innerHTML:'',textContent:''}]));
+const context = {
+  document:{getElementById:id=>elements[id]||null},
+  featuredEvents:data.events,
+  singaporeDay:()=> '2026-11-20',
+  dayAfter:(date,n)=>{const d=new Date(date+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10);},
+  esc:s=>String(s),
+};
+vm.runInNewContext(section+';renderNationalEvents();',context,{timeout:1000});
+const output=elements['national-events-list'].innerHTML;
+assert.match(output,/Verified beyond 90 days/, 'Future verified group must appear');
+assert.match(output,/Singapore Airshow/, 'Singapore Airshow must render');
+assert.match(output,/2028-02-15[^<]*2028-02-20/, 'Airshow 2028 dates must render');
+assert.match(output,/Singapore Grand Prix/, 'F1 must render');
+assert.match(output,/2027-10-08[^<]*2027-10-10/, 'F1 2027 dates must render');
+
+console.log('F1 2027 and Singapore Airshow 2028 regression checks passed (data, dashboard rendering and integration).');
 // Browser/Android visual checks and live deployment checks are still required.
