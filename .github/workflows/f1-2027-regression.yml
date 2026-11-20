@@ -1,0 +1,24 @@
+name: F1 2027 verified-event regression
+on:
+  push:
+    branches:
+      - feat/f1-singapore-2027-verified-event
+  pull_request:
+    paths:
+      - 'data/verified-events.json'
+      - 'index.html'
+      - 'tests/verify-f1-2027.cjs'
+      - '.github/workflows/f1-2027-regression.yml'
+  workflow_dispatch:
+jobs:
+  verify-f1:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify Singapore Grand Prix 2027 event data and integration
+        run: node tests/verify-f1-2027.cjs
