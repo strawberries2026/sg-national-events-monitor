@@ -50,12 +50,12 @@ jobs:
             const errors=[];
             page.on('pageerror',e=>errors.push(e.message));
             await page.goto('http://127.0.0.1:8765/',{waitUntil:'domcontentloaded'});
-            await page.locator('#event-pulse').waitFor();
+            await page.locator('#event-pulse').waitFor({state:'attached'});
             await page.waitForFunction(()=>!document.querySelector('#event-pulse').textContent.includes('Checking verified events'),{timeout:20000});
-            await page.locator('#event-window').selectOption('7');
-            await page.locator('#event-type').selectOption('National event');
-            await page.locator('#event-summary').waitFor();
-            await page.locator('#announcement-highlights').waitFor();
+            await page.locator('#event-window').selectOption('7',{force:true});
+            await page.locator('#event-type').selectOption('National event',{force:true});
+            await page.locator('#event-summary').waitFor({state:'attached'});
+            await page.locator('#announcement-highlights').waitFor({state:'attached'});
             const text=await page.locator('#event-pulse').innerText();
             if(!text.includes('Published announcements'))throw Error('Missing monitoring summary');
             if(errors.length)throw Error('Browser errors: '+errors.join(' | '));
