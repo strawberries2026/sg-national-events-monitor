@@ -45,6 +45,21 @@
       "verified_source": "https://www.mindef.gov.sg/news-and-events/latest-releases/25aug26-nr/",
       "verified_on": "2026-11-20",
       "verification_method": "Manual review of primary MINDEF news release and ministerial speech"
+    },
+    {
+      "title": "Formula 1 Singapore Airlines Singapore Grand Prix 2027",
+      "type": "Major international event",
+      "start": "2027-10-08",
+      "end": "2027-10-10",
+      "venue": "Marina Bay Street Circuit, Singapore",
+      "source": "https://www.formula1.com/en/racing/2027/singapore",
+      "date_evidence": "Official Formula 1 2027 race calendar confirms Singapore Grand Prix 8–10 October 2027; Formula 1 event page lists race on Sunday 10 October. Session start times are TBC.",
+      "verification_status": "verified",
+      "lifecycle_status": "upcoming",
+      "agency": "Formula 1 / FIA",
+      "verified_source": "https://www.formula1.com/en/racing/2027/singapore",
+      "verified_on": "2026-11-20",
+      "verification_method": "Manual review of official Formula 1 event page and 2027 championship calendar"
     }
   ],
   "note": "Candidate dates extracted from official headlines; verify original article before operational use."
