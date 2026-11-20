@@ -25,6 +25,19 @@ jobs:
           scripts=re.findall(r'<script(?:\\s[^>]*)?>(.*?)</script>',s,re.S|re.I)
           assert scripts, 'No inline script found'
           Path('/tmp/events-inline.js').write_text(chr(10).join(scripts))
+          import json
+          events=json.loads(Path('data/verified-events.json').read_text())['events']
+          expected=[
+            ('IISS Shangri-La Dialogue 2027','2027-05-28','2027-05-30','International summit'),
+            ('National Day Parade 2027','2027-08-09','2027-08-09','National event'),
+          ]
+          for title,start,end,kind in expected:
+              matches=[e for e in events if title in e.get('title','')]
+              assert len(matches)==1, f'Expected one verified event: {title}'
+              e=matches[0]
+              assert (e['start'],e['end'],e['type'])==(start,end,kind), f'Incorrect dates or type: {title}'
+              assert e.get('verification_status')=='verified' and e.get('source','').startswith('https://')
+          print('2027 event data checks passed')
           print('Preview markup checks passed')
           PY
           node --check /tmp/events-inline.js
