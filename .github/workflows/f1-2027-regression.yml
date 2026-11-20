@@ -22,3 +22,17 @@ jobs:
           node-version: '22'
       - name: Verify Singapore Grand Prix 2027 event data and integration
         run: node tests/verify-f1-2027.cjs
+      - name: Assemble isolated preview
+        run: |
+          mkdir -p preview/data preview/icons
+          cp index.html manifest.webmanifest preview/
+          cp data/events.json data/verified-events.json preview/data/
+          cp -r icons/. preview/icons/
+          if test -f service-worker.js; then cp service-worker.js preview/; fi
+          if test -f sw.js; then cp sw.js preview/; fi
+          cd preview && zip -r ../sg-national-events-f1-2027-preview.zip .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sg-national-events-f1-2027-preview
+          path: sg-national-events-f1-2027-preview.zip
+          retention-days: 7
