@@ -60,6 +60,21 @@
       "verified_source": "https://www.formula1.com/en/racing/2027/singapore",
       "verified_on": "2026-11-20",
       "verification_method": "Manual review of official Formula 1 event page and 2027 championship calendar"
+    },
+    {
+      "title": "Singapore Airshow 2028",
+      "type": "Major public event",
+      "start": "2028-02-15",
+      "end": "2028-02-20",
+      "venue": "Changi Exhibition Centre, Singapore",
+      "source": "https://www.singaporeairshow.com/the-show/about-singapore-airshow",
+      "date_evidence": "Official Singapore Airshow organiser confirms 15–20 February 2028 at Changi Exhibition Centre. Biennial event; no 2027 edition.",
+      "verification_status": "verified",
+      "lifecycle_status": "upcoming",
+      "agency": "Experia Events / Singapore Airshow",
+      "verified_source": "https://www.singaporeairshow.com/the-show/about-singapore-airshow",
+      "verified_on": "2026-11-20",
+      "verification_method": "Manual verification of official Singapore Airshow organiser website"
     }
   ],
   "note": "Candidate dates extracted from official headlines; verify original article before operational use."
