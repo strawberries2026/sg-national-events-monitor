@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T21:02:02.916697+00:00",
+  "updated_at": "2026-11-20T02:13:02.897694+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -325,17 +325,6 @@
       "agency": "MINDEF",
       "title": "Fact Sheet for Defence Tech Prize 2026 Award Ceremony Others",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-fs/",
-      "type": "Published announcement",
-      "published_date": "2026-11-06",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Digital and Intelligence Service Inaugurates Training Command to Strengthen Training and Professional Development The Digital and Intelligence Service (DIS) inaugurated the DIS Training Command (DTCOM) today.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-nr2/",
       "type": "Published announcement",
       "published_date": "2026-11-06",
       "date": null,
@@ -698,7 +687,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 60
+    "announcement_count": 59
   },
   "parliament_health": {
     "order_paper": "loaded",
