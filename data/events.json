@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-20T02:13:02.897694+00:00",
+  "updated_at": "2026-11-20T10:07:21.539572+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Home Team Festival 2026 - Soundbite by Mr Goh Pei Ming, Senior Minister of State, Ministry of Home Affairs & Ministry of Social and Family Development",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/home-team-festival-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-20",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -96,17 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/emergency-medical-services-ems-asia-2026-conference/",
       "type": "Published announcement",
       "published_date": "2026-11-10",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Data on scam victims accepting referrals to Victim Care Cadre Programme or community support services and reasons for declining support Written Replies to Parliamentary Questions",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/data-on-scam-victims-accepting-referrals-to-victim-care-cadre-programme-or-community-support-services-and-reasons-for-declining-support/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
       "date": null,
       "time_sgt": null,
       "is_new": false
