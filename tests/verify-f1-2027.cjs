@@ -18,5 +18,13 @@ assert.ok(html.includes('<option value="Major public event">'), 'Event filter mu
 assert.ok(html.includes('event.pattern.test(e.title||\'\')'), 'National event list must match verified event titles');
 assert.ok(html.includes('renderNationalEvents();'), 'National events rendering must be invoked');
 assert.ok(html.includes("fetch('data/verified-events.json?ts='"), 'Verified event feed must be fetched');
-console.log('F1 2027 regression checks passed (data and static integration).');
+
+const airshows = data.events.filter(e => /Singapore Airshow/i.test(e.title));
+assert.equal(airshows.length, 1, 'Expected exactly one Singapore Airshow record');
+assert.equal(airshows[0].start, '2028-02-15');
+assert.equal(airshows[0].end, '2028-02-20');
+assert.equal(airshows[0].verification_status, 'verified');
+assert.ok(!data.events.some(e => /Singapore Airshow/i.test(e.title) && e.start.startsWith('2027-')), 'There must be no 2027 Airshow edition');
+
+console.log('F1 2027 and Singapore Airshow 2028 regression checks passed (data and static integration).');
 // Browser/Android visual checks and live deployment checks are still required.
