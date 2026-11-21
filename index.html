@@ -312,7 +312,7 @@ function renderNationalEvents(){
  if(!root||!preview||!nextRoot)return;
  const today=singaporeDay(),near30=dayAfter(today,30),near90=dayAfter(today,90),limit=dayAfter(today,730);
  const items=nationalEventSources.map(event=>{
-  const matches=featuredEvents.filter(e=>e.verification_status==='verified'&&e.start>=today&&e.start<=limit&&event.pattern.test(e.title||'')&&String(e.source||'').startsWith('https://')).sort((a,b)=>a.start.localeCompare(b.start));
+  const matches=featuredEvents.filter(e=>e.verification_status==='verified'&&e.start&&e.end&&e.end>=today&&e.start<=limit&&event.pattern.test(e.title||'')&&String(e.source||'').startsWith('https://')).sort((a,b)=>a.start.localeCompare(b.start));
   const match=matches[0],start=match?match.start:null,end=match?match.end:null;
   const reference=event.officialStart&&event.officialStart>=today?event.officialStart:null;
   const url=match?match.source:event.url;
