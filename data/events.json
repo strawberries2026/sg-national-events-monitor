@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T00:19:30.322413+00:00",
+  "updated_at": "2026-11-21T07:24:52.341255+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -531,17 +531,6 @@
     },
     {
       "category": "Leadership",
-      "agency": "PMO",
-      "title": "Minister Chee Hong Tat at the Graduation Ceremony of Chinese Community Leadership Programme (Nov 2026) People PMO Ministers Topics Arts, culture and heritage Speech by Minister for National Development Chee Hong Tat at the Graduation Ceremony of Chinese Community Leadership Programme on 4 November 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/minister-chee-hong-tat-at-the-graduation-ceremony-of-chinese-community-leadership-programme-nov-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
       "agency": "Istana",
       "title": "Speech by President Tharman Shanmugaratnam at the Welcome Lunch in Honour of Her Imperial Highness Princess Aiko of Japan on 18 November 2026 at The Villa, Istana",
       "source_url": "https://www.istana.gov.sg/newsroom/speech-by-president-tharman-shanmugaratnam-at-the-welcome-lunch-in-honour-of-her-imperial-highness-princess-aiko-of-japan-on-18-november-2026-at-the-villa--istana/",
@@ -687,7 +676,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 59
+    "announcement_count": 58
   },
   "parliament_health": {
     "order_paper": "loaded",
