@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T18:38:16.342410+00:00",
+  "updated_at": "2026-11-21T00:19:30.322413+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -246,24 +246,24 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
-      "title": "958 Cadets Graduate as SAF Specialists and Military Experts Minister for Defence Chan Chun Sing reviewed the 69/26 Specialist Cadet and Military Expert Graduation Parade (SMGP) at Pasir Laba Camp this evening.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/20nov26-nr2/",
-      "type": "Published announcement",
-      "published_date": "2026-11-20",
-      "date": null,
-      "time_sgt": null,
-      "is_new": true
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
       "title": "Speech by Minster for Defence Chan Chun Sing at the 69/26 Specialist Cadet and Military Expert Graduation Parade at Pasir Laba Camp on 20 November 2026",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/20nov26-speech/",
       "type": "Published announcement",
       "published_date": "2026-11-20",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "958 Cadets Graduate as SAF Specialists and Military Experts Minister for Defence Chan Chun Sing reviewed the 69/26 Specialist Cadet and Military Expert Graduation Parade (SMGP) at Pasir Laba Camp this evening.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/20nov26-nr2/",
+      "type": "Published announcement",
+      "published_date": "2026-11-20",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -549,7 +549,7 @@
       "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
