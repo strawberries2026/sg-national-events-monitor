@@ -312,13 +312,13 @@ function renderNationalEvents(){
  if(!root||!preview||!nextRoot)return;
  const today=singaporeDay(),near30=dayAfter(today,30),near90=dayAfter(today,90),limit=dayAfter(today,730);
  const items=nationalEventSources.map(event=>{
-  const matches=featuredEvents.filter(e=>e.verification_status==='verified'&&e.start>=today&&e.start<=limit&&event.pattern.test(e.title||'')&&String(e.source||'').startsWith('https://')).sort((a,b)=>a.start.localeCompare(b.start));
+  const matches=featuredEvents.filter(e=>e.verification_status==='verified'&&e.start&&e.end&&e.end>=today&&e.start<=limit&&event.pattern.test(e.title||'')&&String(e.source||'').startsWith('https://')).sort((a,b)=>a.start.localeCompare(b.start));
   const match=matches[0],start=match?match.start:null,end=match?match.end:null;
   const reference=event.officialStart&&event.officialStart>=today?event.officialStart:null;
   const url=match?match.source:event.url;
   const delta=start?Math.max(0,Math.round((Date.parse(start+'T00:00:00Z')-Date.parse(today+'T00:00:00Z'))/86400000)):null;
   const referenceLabel=event.referenceStatus==='tentative'?'Provisional organiser dates: ':'Published reference: ';
-  const dateLabel=start?'Verified '+start+(end&&end!==start?' – '+end:'')+(delta===0?' · Today':delta===1?' · Tomorrow':' · In '+delta+' days'):reference?referenceLabel+reference+(event.officialEnd&&event.officialEnd!==reference?' – '+event.officialEnd:'')+' · '+(event.referenceNote||'Not verified in event feed'):'Date not verified in feed';
+  const dateLabel=start?'Verified '+start+(end&&end!==start?' – '+end:'')+(start<today?' · Ongoing':delta===0?' · Today':delta===1?' · Tomorrow':' · In '+delta+' days'):reference?referenceLabel+reference+(event.officialEnd&&event.officialEnd!==reference?' – '+event.officialEnd:'')+' · '+(event.referenceNote||'Not verified in event feed'):'Date not verified in feed';
   return {event,start,dateLabel,url,reference};
  });
  const soon=items.filter(item=>item.start&&item.start<=near90).sort((a,b)=>a.start.localeCompare(b.start));
@@ -328,7 +328,7 @@ function renderNationalEvents(){
  const undated=items.filter(item=>!item.start&&!item.reference).sort((a,b)=>a.event.name.localeCompare(b.event.name));
  const renderRow=({event,dateLabel,url})=>'<div class="national-event-row"><div class="national-event-copy"><strong>'+esc(event.name)+'</strong><small>'+esc(event.label)+' · '+esc(dateLabel)+'</small></div><a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer" aria-label="'+esc(event.name)+' official information">Official info ↗</a></div>';
  const near30Count=soon.filter(item=>item.start<=near30).length;
- nextRoot.innerHTML=soon.length?'<a href="'+esc(soon[0].url)+'" target="_blank" rel="noopener noreferrer"><strong>Next verified event within 90 days: '+esc(soon[0].event.name)+'</strong><small>'+esc(soon[0].dateLabel)+' · Official source ↗</small></a>':'<p class="muted">No major national events verified within the next 90 days. This does not mean none are planned.</p>';
+ nextRoot.innerHTML=soon.length?'<a href="'+esc(soon[0].url)+'" target="_blank" rel="noopener noreferrer"><strong>Current or next verified event within 90 days: '+esc(soon[0].event.name)+'</strong><small>'+esc(soon[0].dateLabel)+' · Official source ↗</small></a>':'<p class="muted">No major national events verified within the next 90 days. This does not mean none are planned.</p>';
  const priority=[...soon,...refSoon].slice(0,2);
  preview.innerHTML='<div class="national-preview-label">Next 90 days · '+soon.length+' verified · '+near30Count+' within 30 days</div>'+(priority.length?priority.map(renderRow).join(''):'<p class="muted">No verified, provisional or published-reference event dates within 90 days. Longer-term and undated events are available below.</p>');
  const groups=[
