@@ -514,11 +514,26 @@ const initialSection=bottomSections.find(item=>'#'+item.element.id===location.ha
 })();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(err=>console.warn('Offline support unavailable',err)));}</script><script>(function(){const target=document.getElementById("pwa-launch-status");if(!target)return;const standalone=window.matchMedia("(display-mode: standalone)").matches||window.matchMedia("(display-mode: fullscreen)").matches||window.navigator.standalone===true;target.firstChild.textContent=standalone?"App mode: standalone ✓ · ":"App mode: browser/shortcut · ";})();</script><script>(function(){
 const root=document.getElementById('national-source-health');if(!root)return;
-fetch('data/national-event-source-health.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('unavailable');return r.json()}).then(d=>{
-const sources=Array.isArray(d.sources)?d.sources:[];
-const good=sources.filter(x=>x.status==='source_reachable').length;
+const safeUrl=url=>{try{const u=new URL(url);return u.protocol==='https:'?u.href:null}catch{return null}};
+const line=(title,detail,url)=>{const p=document.createElement('p');p.style.margin='8px 0';const valid=safeUrl(url);if(valid){const a=document.createElement('a');a.href=valid;a.target='_blank';a.rel='noopener noreferrer';a.textContent=title;p.appendChild(a)}else{p.appendChild(document.createTextNode(title))}p.appendChild(document.createTextNode(' · '+detail));root.appendChild(p)};
+const load=path=>fetch(path+'?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Feed unavailable');return r.json()});
+Promise.allSettled([load('data/verified-events.json'),load('data/national-event-source-health.json')]).then(([eventsResult,healthResult])=>{
+root.replaceChildren();
+const heading=document.createElement('p');heading.style.fontWeight='bold';heading.textContent='Verified event links';root.appendChild(heading);
+if(eventsResult.status==='fulfilled'){
+const events=Array.isArray(eventsResult.value.events)?eventsResult.value.events:[];
+const today=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Singapore'});
+const future=events.filter(e=>e.verification_status==='verified'&&e.end>=today).sort((a,b)=>a.start.localeCompare(b.start));
+if(!future.length)line('No upcoming verified events','Check official announcements',null);
+for(const e of future)line(e.title,e.start+(e.end!==e.start?' – '+e.end:'')+' · Verified '+(e.verified_on||'date not recorded'),e.verified_source||e.source);
+}else line('Verified event feed unavailable','Check the latest deployment',null);
+const sub=document.createElement('p');sub.style.fontWeight='bold';sub.style.marginTop='14px';sub.textContent='Official website reachability (not event-date verification)';root.appendChild(sub);
+if(healthResult.status==='fulfilled'){
+const d=healthResult.value;const sources=Array.isArray(d.sources)?d.sources:[];
 const when=d.checked_at?new Date(d.checked_at).toLocaleString('en-SG',{timeZone:'Asia/Singapore',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'}):'unknown';
-const summary=document.createElement('p');summary.textContent=good+' of '+sources.length+' sources recognised · Last checked '+when+' SGT';root.replaceChildren(summary);
-for(const x of sources){const p=document.createElement('p');p.style.margin='8px 0';const a=document.createElement('a');a.href=x.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent=x.event;const label=x.status==='source_reachable'?'Recognised':x.status==='unavailable'?'Access failed ('+(x.error_type||'unknown')+')':x.status==='content_unrecognized'?'Content needs review':'Needs review';p.append(a,document.createTextNode(' · '+label));root.appendChild(p);}
-}).catch(()=>{root.textContent='Source health report unavailable. Confirm the latest GitHub Actions run.'});
+const age=d.checked_at?(Date.now()-Date.parse(d.checked_at))/86400000:null;
+const note=document.createElement('p');note.textContent='Last source check: '+when+' SGT'+(age!==null&&age>7?' · STALE (over 7 days)':'');root.appendChild(note);
+for(const x of sources)line(x.event,x.status==='source_reachable'?'Website recognised':x.status==='access_restricted'?'Automated access restricted':x.status==='content_unrecognized'?'Content needs review':'Needs review',x.source);
+}else line('Source health report unavailable','Official event links above remain accessible',null);
+});
 })();</script><script>const APP_VERSION="4.10.2",APP_VERSION_DISPLAY_DATE="19 Nov 2026";document.getElementById("app-version").textContent="Version "+APP_VERSION;document.getElementById("app-version-date").textContent="Version display updated: "+APP_VERSION_DISPLAY_DATE;</script></body></html>
