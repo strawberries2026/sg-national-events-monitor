@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phase 2 — Official Announcements Preview</title>
+<style>body{font:16px system-ui,sans-serif;background:#f4f7fb;color:#17263d;margin:0;padding:16px}main{max-width:720px;margin:auto}header,article{background:white;border:1px solid #d8e0ea;border-radius:12px;padding:16px;margin-bottom:12px}h1{font-size:1.35rem}h2{font-size:1.05rem;margin:8px 0}label{display:block;margin-top:12px}select{width:100%;padding:12px;border:1px solid #8796aa;border-radius:8px}a{color:#075da8;overflow-wrap:anywhere}.meta{color:#4b6079;font-size:.9rem}.status{padding:8px 0}button{padding:10px 16px;border-radius:8px;border:1px solid #8796aa;background:#fff}</style>
+</head><body><main><header><h1>Official Announcements — Phase 2 Preview</h1>
+<p>This preview reads the existing public announcements dataset. It does not collect CNA or social-media posts and does not confirm future event dates.</p>
+<label for="agency">Agency</label><select id="agency"><option value="all">All supported agencies</option></select>
+<p id="status" class="status" role="status">Loading announcements…</p><button id="retry" type="button">Refresh</button></header>
+<section id="results" aria-live="polite"></section>
+<footer><p class="meta">Public information for general reference only. Not for operational decision-making. No private itineraries or movement tracking. Developed by Desmond Song.</p></footer></main>
+<script>
+'use strict';
+const allowed=new Set(['PMO','ISTANA','MFA','MHA','MOF','MINDEF','PARLIAMENT']);
+const root=document.getElementById('results'),agency=document.getElementById('agency'),status=document.getElementById('status');
+let entries=[];
+const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'?u.href:null}catch{return null}};
+function draw(){root.replaceChildren();const shown=entries.filter(x=>agency.value==='all'||x.agency===agency.value).slice(0,80);status.textContent=entries.length?shown.length+' announcements displayed. Publication dates are not event dates.':'No eligible announcements found.';
+for(const item of shown){const article=document.createElement('article');const heading=document.createElement('h2');heading.textContent=item.title;const meta=document.createElement('p');meta.className='meta';meta.textContent=item.agency+' · Published '+(item.published_date||'date unknown')+' · Official-source announcement (event date unverified)';const link=document.createElement('a');link.href=item.source_url;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Open official announcement';article.append(heading,meta,link);root.append(article)}}
+async function load(){status.textContent='Loading announcements…';root.replaceChildren();try{const response=await fetch('../data/events.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const payload=await response.json();if(!Array.isArray(payload.events))throw Error('Invalid events format');const seen=new Set();entries=payload.events.filter(x=>{if(!x||x.type!=='Published announcement'||!allowed.has(String(x.agency||'').toUpperCase())||!safeUrl(x.source_url)||typeof x.title!=='string'||!x.title.trim())return false;const key=x.source_url.toLowerCase().replace(/\/$/,'');if(seen.has(key))return false;seen.add(key);return true}).map(x=>({agency:x.agency.toUpperCase(),title:x.title,source_url:safeUrl(x.source_url),published_date:/^\d{4}-\d{2}-\d{2}$/.test(x.published_date||'')?x.published_date:null})).sort((a,b)=>(b.published_date||'').localeCompare(a.published_date||''));agency.replaceChildren(new Option('All supported agencies','all'));for(const name of [...new Set(entries.map(x=>x.agency))].sort())agency.add(new Option(name,name));draw()}catch(err){status.textContent='Announcement feed unavailable. Existing event calendar remains unaffected.';entries=[];root.replaceChildren()}}
+agency.addEventListener('change',draw);document.getElementById('retry').addEventListener('click',load);load();
+</script></body></html>
