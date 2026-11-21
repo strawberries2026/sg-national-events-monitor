@@ -1,21 +1,6 @@
 {
-  "updated_at": "2026-11-21T15:33:04.625157+00:00",
+  "updated_at": "2026-11-21T21:03:29.533778+00:00",
   "events": [
-    {
-      "title": "PM Lawrence Wong visits China for APEC Economic Leaders' Meeting and bilateral engagements",
-      "type": "VIP visit",
-      "start": "2026-11-18",
-      "end": "2026-11-21",
-      "venue": "Shenzhen and Beijing, China",
-      "source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-the-peoples-republic-of-china-nov-2026/",
-      "date_evidence": "PMO press release dated 17 November 2026: Shenzhen 18–19 November for APEC; Beijing 20–21 November for bilateral engagements.",
-      "verification_status": "verified",
-      "lifecycle_status": "upcoming",
-      "agency": "PMO",
-      "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-the-peoples-republic-of-china-nov-2026/",
-      "verified_on": "2026-11-17",
-      "verification_method": "Manual review of primary PMO announcement"
-    },
     {
       "title": "IISS Shangri-La Dialogue 2027",
       "type": "International summit",
