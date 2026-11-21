@@ -1,0 +1,14 @@
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const html=fs.readFileSync('preview/phase2-official-feed.html','utf8');
+assert.match(html,/<meta name="viewport"/);
+assert.match(html,/fetch\('\.\.\/data\/events\.json'/);
+assert.match(html,/new URL\(value\)/);
+assert.match(html,/u\.protocol==='https:'/);
+assert.match(html,/textContent=item\.title/);
+assert.match(html,/rel='noopener noreferrer'/);
+assert.match(html,/feed unavailable|Announcement feed unavailable/i);
+assert.match(html,/Published announcement/);
+assert.doesNotMatch(html,/innerHTML\s*=/);
+console.log('Phase 2 preview static smoke checks passed');
