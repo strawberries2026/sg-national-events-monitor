@@ -1,0 +1,24 @@
+name: Phase 2 news checks
+on:
+  pull_request:
+    paths:
+      - 'scripts/news-normalizer.cjs'
+      - 'scripts/official-announcements-adapter.cjs'
+      - 'tests/news-normalizer.test.cjs'
+      - 'tests/official-announcements-adapter.test.cjs'
+      - '.github/workflows/phase2-news-checks.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Node runtime
+        run: node --version
+      - name: Test normalizer
+        run: node tests/news-normalizer.test.cjs
+      - name: Test official announcements adapter
+        run: node tests/official-announcements-adapter.test.cjs
