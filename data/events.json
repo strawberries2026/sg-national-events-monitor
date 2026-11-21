@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T07:24:52.341255+00:00",
+  "updated_at": "2026-11-21T15:32:53.440953+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -246,6 +246,17 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Singapore and Brunei Darussalam Conclude 50th Anniversary Commemorations of Bilateral Defence Relations at Closing Dinner Singapore and Brunei Darussalam concluded our year-long commemorations of the 50th anniversary of bilateral defence relations with a Closing Dinner held on 21 November 2026.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/21nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-21",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Speech by Minster for Defence Chan Chun Sing at the 69/26 Specialist Cadet and Military Expert Graduation Parade at Pasir Laba Camp on 20 November 2026",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/20nov26-speech/",
       "type": "Published announcement",
@@ -314,17 +325,6 @@
       "agency": "MINDEF",
       "title": "Speech By Minister for Defence Chan Chun Sing at the Total Defence Awards at Padang/Collyer Ballroom, Raffles City Convention Centre on 12 November 2026",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-speech2/",
-      "type": "Published announcement",
-      "published_date": "2026-11-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Speech by Coordinating Minister for Public Services and Minister for Defence Chan Chun Sing at Care Corner Singapore’s Uplift for Life 2026 at Flower Field Hall, Gardens by the Bay on 12 November 2026",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-speech/",
       "type": "Published announcement",
       "published_date": "2026-11-12",
       "date": null,
