@@ -71,6 +71,14 @@ jobs:
             await page.locator('#announcement-highlights').waitFor({state:'attached'});
             const text=await page.locator('#event-pulse').innerText();
             if(!text.includes('Published announcements'))throw Error('Missing monitoring summary');
+            await page.waitForFunction(()=>{const p=document.querySelector('#event-pulse');return p&&/Published announcements: [1-9][0-9]*/.test(p.textContent)},{timeout:20000});
+            const announcements=page.locator('#announcement-highlights article');
+            if(await announcements.count()===0)throw Error('Announcement cards missing');
+            const details=announcements.first().locator('details');
+            if(await details.count()!==1)throw Error('Expandable announcement title missing');
+            if(await details.getAttribute('open')!==null)throw Error('Announcement title should start collapsed');
+            await details.locator('summary').click({force:true});
+            if(await details.getAttribute('open')===null)throw Error('Announcement title failed to expand');
             if(errors.length)throw Error('Browser errors: '+errors.join(' | '));
             await browser.close();
             console.log('Mobile Chromium dashboard and filter smoke passed');
