@@ -49,9 +49,12 @@ def check(name, url, terms):
               "date_verification": "not_performed", "review_required": True}
     urls = [url]
     if name == "Marina Bay year-end countdown":
-        # URA is the preferred organiser reference; the dedicated countdown
-        # site is a secondary source only. Neither confirms an event date.
-        urls.append("https://www.marinabaycountdown.gov.sg/")
+        # Check the URA organiser landing page first, then its announcement
+        # archive. A past edition is never evidence of an upcoming date.
+        urls.extend([
+            "https://www.ura.gov.sg/Corporate/Media-Room/Media-Releases",
+            "https://www.marinabaycountdown.gov.sg/",
+        ])
     if name == "Shangri-La Dialogue":
         # All fallback pages belong to the official IISS site. A successful
         # request still only recognises the source, never verifies a date.
@@ -74,8 +77,8 @@ def check(name, url, terms):
                 result["attempts"] = attempts
                 if candidate != url:
                     result["access_note"] = (
-                        "Recognised via secondary countdown website; URA remains "
-                        "the preferred organiser reference. Event dates are not verified."
+                        "Recognised via a secondary reference page; URA remains "
+                        "the preferred organiser. Event dates are not verified."
                         if name == "Marina Bay year-end countdown" else
                         "Recognised via alternate official IISS page; "
                         "primary page may restrict automated access. "
