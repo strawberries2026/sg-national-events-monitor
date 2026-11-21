@@ -318,7 +318,7 @@ function renderNationalEvents(){
   const url=match?match.source:event.url;
   const delta=start?Math.max(0,Math.round((Date.parse(start+'T00:00:00Z')-Date.parse(today+'T00:00:00Z'))/86400000)):null;
   const referenceLabel=event.referenceStatus==='tentative'?'Provisional organiser dates: ':'Published reference: ';
-  const dateLabel=start?'Verified '+start+(end&&end!==start?' – '+end:'')+(delta===0?' · Today':delta===1?' · Tomorrow':' · In '+delta+' days'):reference?referenceLabel+reference+(event.officialEnd&&event.officialEnd!==reference?' – '+event.officialEnd:'')+' · '+(event.referenceNote||'Not verified in event feed'):'Date not verified in feed';
+  const dateLabel=start?'Verified '+start+(end&&end!==start?' – '+end:'')+(start<today?' · Ongoing':delta===0?' · Today':delta===1?' · Tomorrow':' · In '+delta+' days'):reference?referenceLabel+reference+(event.officialEnd&&event.officialEnd!==reference?' – '+event.officialEnd:'')+' · '+(event.referenceNote||'Not verified in event feed'):'Date not verified in feed';
   return {event,start,dateLabel,url,reference};
  });
  const soon=items.filter(item=>item.start&&item.start<=near90).sort((a,b)=>a.start.localeCompare(b.start));
