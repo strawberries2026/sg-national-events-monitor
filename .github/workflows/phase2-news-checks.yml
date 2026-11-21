@@ -8,6 +8,8 @@ on:
       - 'tests/official-announcements-adapter.test.cjs'
       - 'tests/phase2-preview-smoke.test.cjs'
       - 'tests/phase2-leadership-filters.test.cjs'
+      - 'tests/phase2-real-dataset.test.cjs'
+      - 'data/events.json'
       - 'preview/phase2-official-feed.html'
       - '.github/workflows/phase2-news-checks.yml'
   workflow_dispatch:
@@ -29,3 +31,5 @@ jobs:
         run: node tests/phase2-preview-smoke.test.cjs
       - name: Test leadership keyword filters
         run: node tests/phase2-leadership-filters.test.cjs
+      - name: Test actual announcement dataset
+        run: node tests/phase2-real-dataset.test.cjs
