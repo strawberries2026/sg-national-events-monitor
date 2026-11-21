@@ -1,0 +1,15 @@
+'use strict';
+const assert = require('node:assert/strict');
+const {httpsUrl,validDate,normalize,deduplicate}=require('../scripts/news-normalizer.cjs');
+const source={id:'cna',name:'CNA',kind:'news'};
+assert.equal(httpsUrl('javascript:alert(1)'),null);
+assert.equal(validDate('2027-02-29'),null);
+assert.equal(validDate('2028-02-29'),'2028-02-29');
+const record=normalize({title:'  PM  visits  ',url:'https://www.channelnewsasia.com/example',published_at:'2026-11-21T01:00:00Z',event_start:'2026-11-21'},source);
+assert.equal(record.title,'PM visits');
+assert.equal(record.verification_status,'reported');
+assert.equal(record.event_start,'2026-11-21');
+assert.equal(record.published_at,'2026-11-21T01:00:00.000Z');
+assert.equal(normalize({title:'Unsafe',url:'http://example.com'},source),null);
+assert.equal(deduplicate([record,record]).length,1);
+console.log('Phase 2 news normalizer fixture checks passed');

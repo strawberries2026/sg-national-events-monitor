@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "description": "Candidate public information sources. disabled until permitted feed endpoint and terms verified.",
+  "sources": [
+    {
+      "id": "istana",
+      "name": "Istana",
+      "kind": "official",
+      "homepage": "https://www.istana.gov.sg/",
+      "enabled": false,
+      "feed_url": null,
+      "verification": "pending"
+    },
+    {
+      "id": "pmo",
+      "name": "Prime Minister's Office",
+      "kind": "official",
+      "homepage": "https://www.pmo.gov.sg/",
+      "enabled": false,
+      "feed_url": null,
+      "verification": "pending"
+    },
+    {
+      "id": "mfa",
+      "name": "Ministry of Foreign Affairs",
+      "kind": "official",
+      "homepage": "https://www.mfa.gov.sg/",
+      "enabled": false,
+      "feed_url": null,
+      "verification": "pending"
+    },
+    {
+      "id": "parliament",
+      "name": "Parliament of Singapore",
+      "kind": "official",
+      "homepage": "https://www.parliament.gov.sg/",
+      "enabled": false,
+      "feed_url": null,
+      "verification": "pending"
+    },
+    {
+      "id": "cna",
+      "name": "CNA",
+      "kind": "news",
+      "homepage": "https://www.channelnewsasia.com/",
+      "enabled": false,
+      "feed_url": null,
+      "verification": "pending"
+    },
+    {
+      "id": "straits-times",
+      "name": "The Straits Times",
+      "kind": "news",
+      "homepage": "https://www.straitstimes.com/",
+      "enabled": false,
+      "feed_url": null,
+      "verification": "pending"
+    }
+  ]
+}
