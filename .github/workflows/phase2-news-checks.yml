@@ -3,6 +3,8 @@ on:
   pull_request:
     paths:
       - 'scripts/news-normalizer.cjs'
+      - 'scripts/phase2-fetch-budget.cjs'
+      - 'tests/phase2-fetch-budget.test.cjs'
       - 'scripts/official-announcements-adapter.cjs'
       - 'tests/news-normalizer.test.cjs'
       - 'tests/official-announcements-adapter.test.cjs'
@@ -27,6 +29,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check Node runtime
         run: node --version
+      - name: Test opt-in fetch budget and cache policy
+        run: node tests/phase2-fetch-budget.test.cjs
       - name: Test normalizer
         run: node tests/news-normalizer.test.cjs
       - name: Test official announcements adapter
