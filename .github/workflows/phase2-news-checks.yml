@@ -4,6 +4,8 @@ on:
     paths:
       - 'scripts/news-normalizer.cjs'
       - 'scripts/phase2-fetch-budget.cjs'
+      - 'scripts/phase2-budget-ledger.cjs'
+      - 'tests/phase2-budget-ledger.test.cjs'
       - 'tests/phase2-fetch-budget.test.cjs'
       - 'scripts/official-announcements-adapter.cjs'
       - 'tests/news-normalizer.test.cjs'
@@ -31,6 +33,8 @@ jobs:
         run: node --version
       - name: Test opt-in fetch budget and cache policy
         run: node tests/phase2-fetch-budget.test.cjs
+      - name: Test persisted budget ledger
+        run: node tests/phase2-budget-ledger.test.cjs
       - name: Test normalizer
         run: node tests/news-normalizer.test.cjs
       - name: Test official announcements adapter
