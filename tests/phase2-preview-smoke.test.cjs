@@ -10,5 +10,8 @@ assert.match(html,/textContent=item\.title/);
 assert.match(html,/rel='noopener noreferrer'/);
 assert.match(html,/feed unavailable|Announcement feed unavailable/i);
 assert.match(html,/Published announcement/);
+assert.match(html,/No matching announcements in this dataset/);
+assert.match(html,/keyword filters are not exhaustive/);
+assert.match(html,/Publication dates are not event dates/);
 assert.doesNotMatch(html,/innerHTML\s*=/);
 console.log('Phase 2 preview static smoke checks passed');
