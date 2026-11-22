@@ -20,6 +20,18 @@ jobs:
           python3 -m json.tool manifest.webmanifest >/dev/null
           python3 -m json.tool data/events.json >/dev/null
           python3 -m json.tool data/verified-events.json >/dev/null
+      - name: Refresh source-health data for preview only
+        run: |
+          python3 scripts/check_national_event_sources.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('data/national-event-source-health.json').read_text())
+          countdown=next(x for x in report['sources'] if x['event']=='Marina Bay year-end countdown')
+          assert countdown['source']=='https://www.ura.gov.sg/'
+          assert countdown['date_verification']=='not_performed'
+          print('Preview source health refreshed:', report['checked_at'])
+          PY
       - name: Assemble preview ZIP
         run: |
           mkdir -p /tmp/events-preview
