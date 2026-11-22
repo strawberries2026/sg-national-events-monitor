@@ -1,0 +1,42 @@
+name: Countdown live source-health check
+on:
+  pull_request:
+    paths:
+      - 'scripts/check_national_event_sources.py'
+      - '.github/workflows/countdown-source-live-check.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regenerate source-health report without committing
+        run: python scripts/check_national_event_sources.py
+      - name: Validate URA-first report and unverified dates
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("data/national-event-source-health.json").read_text())
+          c=next(x for x in d["sources"] if x["event"]=="Marina Bay year-end countdown")
+          assert c["source"]=="https://www.ura.gov.sg/", c
+          assert c["date_verification"]=="not_performed", c
+          assert c["review_required"] is True, c
+          assert c["attempts"][0]["url"]=="https://www.ura.gov.sg/", c
+          print("Countdown primary source:",c["source"])
+          print("Countdown source status:",c["status"])
+          print("Countdown checked source:",c.get("checked_source","none"))
+          print("Countdown attempts:",[(a["url"],a["outcome"]) for a in c["attempts"]])
+          PY
+      - name: Upload regenerated report for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: countdown-live-source-health
+          path: data/national-event-source-health.json
+          retention-days: 7

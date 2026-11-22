@@ -10,7 +10,7 @@ from pathlib import Path
 TARGET = Path("data/national-event-source-health.json")
 SOURCES = [
     ("Singapore Grand Prix (F1)", "https://singaporegp.sg/en/", ("grand prix", "2027")),
-    ("Marina Bay year-end countdown", "https://www.marinabaycountdown.gov.sg/", ("countdown",)),
+    ("Marina Bay year-end countdown", "https://www.ura.gov.sg/", ("countdown", "marina bay")),
     ("National Day celebrations", "https://www.ndp.gov.sg/", ("national day",)),
     ("Chingay Parade", "https://www.chingay.gov.sg/", ("chingay",)),
     ("Shangri-La Dialogue", "https://www.iiss.org/events/shangri-la-dialogue/shangri-la-dialogue-2027/", ("shangri-la",)),
@@ -48,6 +48,13 @@ def check(name, url, terms):
     result = {"event": name, "source": url, "status": "unavailable",
               "date_verification": "not_performed", "review_required": True}
     urls = [url]
+    if name == "Marina Bay year-end countdown":
+        # Check the URA organiser landing page first, then its announcement
+        # archive. A past edition is never evidence of an upcoming date.
+        urls.extend([
+            "https://www.ura.gov.sg/Corporate/Media-Room/Media-Releases",
+            "https://www.marinabaycountdown.gov.sg/",
+        ])
     if name == "Shangri-La Dialogue":
         # All fallback pages belong to the official IISS site. A successful
         # request still only recognises the source, never verifies a date.
@@ -70,6 +77,9 @@ def check(name, url, terms):
                 result["attempts"] = attempts
                 if candidate != url:
                     result["access_note"] = (
+                        "Recognised via a secondary reference page; URA remains "
+                        "the preferred organiser. Event dates are not verified."
+                        if name == "Marina Bay year-end countdown" else
                         "Recognised via alternate official IISS page; "
                         "primary page may restrict automated access. "
                         "Event dates are not verified by this check."

@@ -1,5 +1,10 @@
 name: Events Phase 1 preview package
 on:
+  push:
+    branches:
+      - enhance/ura-countdown-source-priority
+    paths:
+      - '.github/workflows/events-phase1-preview-package.yml'
   pull_request:
     paths:
       - 'index.html'
@@ -20,6 +25,18 @@ jobs:
           python3 -m json.tool manifest.webmanifest >/dev/null
           python3 -m json.tool data/events.json >/dev/null
           python3 -m json.tool data/verified-events.json >/dev/null
+      - name: Refresh source-health data for preview only
+        run: |
+          python3 scripts/check_national_event_sources.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('data/national-event-source-health.json').read_text())
+          countdown=next(x for x in report['sources'] if x['event']=='Marina Bay year-end countdown')
+          assert countdown['source']=='https://www.ura.gov.sg/'
+          assert countdown['date_verification']=='not_performed'
+          print('Preview source health refreshed:', report['checked_at'])
+          PY
       - name: Assemble preview ZIP
         run: |
           mkdir -p /tmp/events-preview
@@ -33,3 +50,13 @@ jobs:
           name: sg-events-pr7-preview
           path: sg-events-pr7-preview.zip
           retention-days: 7
+
+      - name: Deploy isolated HTTPS preview on branch push only
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'enhance/ura-countdown-source-priority'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN" && test -n "$CLOUDFLARE_ACCOUNT_ID"
+          npx --yes wrangler@3 pages project create sg-national-events-pr14-preview --production-branch main || echo 'Project creation skipped or project already exists'
+          npx --yes wrangler@3 pages deploy /tmp/events-preview --project-name sg-national-events-pr14-preview --branch pr14-android-preview
