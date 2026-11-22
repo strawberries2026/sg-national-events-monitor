@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T08:04:16.573107+00:00",
+  "updated_at": "2026-11-22T16:11:50.766885+00:00",
   "events": [
     {
       "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Clean Energy Summit (ACES) 2026 2.",
@@ -132,6 +132,20 @@
       "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-the-peoples-republic-of-china-nov-2026/",
       "verified_on": "2026-11-17",
       "verification_method": "Manual review of primary PMO announcement"
+    },
+    {
+      "title": "DPM Gan Kim Yong's Op-Ed for the 22nd Joint Council for Bilateral Cooperation People DPM Gan Kim Yong Topics Economy Foreign affairs Science and technology Trade Op-ed by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong ahead of the 22nd Joint Council for Bilateral Cooperation (JCBC) Meetings on 22nd November 2026. Article",
+      "type": "VIP visit",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "venue": "Not confirmed",
+      "source": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-s-op-ed-for-the-22nd-joint-council-for-bilateral-cooperation/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "completed",
+      "agency": "PMO",
+      "review_priority": "senior_leadership",
+      "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion"
     }
   ],
   "note": "Historical candidates are not automatically verified."

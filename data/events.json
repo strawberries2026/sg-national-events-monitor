@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T08:04:03.921697+00:00",
+  "updated_at": "2026-11-22T16:11:36.545304+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -444,8 +444,19 @@
     {
       "category": "Leadership",
       "agency": "PMO",
+      "title": "PM Lawrence Wong to Visit Australia (Nov 2026) People Prime Minister's Office Topics Foreign affairs Prime Minister and Minister for Finance Lawrence Wong will make an Official Visit to Australia from 23 to 25 November 2026. Press Release",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-australia-nov-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-22",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
       "title": "DPM Gan Kim Yong's Op-Ed for the 22nd Joint Council for Bilateral Cooperation People DPM Gan Kim Yong Topics Economy Foreign affairs Science and technology Trade Op-ed by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong ahead of the 22nd Joint Council for Bilateral Cooperation (JCBC) Meetings on 22nd November 2026. Article",
-      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-s-op-ed-for-the-22nd-joint-council-for-bilateral-cooperation/",
+      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-op-ed-for-the-22nd-joint-council-for-bilateral-cooperation/",
       "type": "Published announcement",
       "published_date": "2026-11-22",
       "date": null,
@@ -514,17 +525,6 @@
       "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-attend-the-49th-asean-summit-and-related-summits-in-manila-the-philippines-nov-2026/",
       "type": "Published announcement",
       "published_date": "2026-11-14",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "SM Lee Hsien Loong at the 2026 ABC Boyer Lecture Series People SM Lee Hsien Loong Topics Economy Foreign affairs Safety and security Trade Transcript of Senior Minister Lee Hsien Loong's lecture, \"Engaging Asia from Down Under\", at the 2026 Boyer Lecture Series on 8 November 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/sm-lee-hsien-loong-at-the-2026-abc-boyer-lecture-series/",
-      "type": "Published announcement",
-      "published_date": "2026-11-08",
       "date": null,
       "time_sgt": null,
       "is_new": false
