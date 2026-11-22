@@ -16,6 +16,8 @@ assert.match(html,/health: not independently verified/);
 assert.match(html,/parseAgencyHealth\(payload\)/);
 assert.match(html,/Verified refresh/);
 assert.match(html,/Verified failure/);
+assert.match(html,/last_success_at/);
+assert.match(html,/Number\.isFinite\(stamp\)/);
 assert.match(html,/3-hour preview threshold/);
 assert.match(html,/updateHealth\(\{failed:true\}\)/);
 assert.match(html,/No matching announcements in this dataset/);
