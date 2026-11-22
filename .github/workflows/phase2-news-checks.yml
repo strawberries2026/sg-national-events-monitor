@@ -12,6 +12,7 @@ on:
       - 'tests/phase2-source-registry.test.cjs'
       - 'data/news-source-registry.json'
       - 'scripts/build-phase2-offline-preview.cjs'
+      - 'tests/phase2-offline-artifact.test.cjs'
       - 'data/events.json'
       - 'preview/phase2-official-feed.html'
       - '.github/workflows/phase2-news-checks.yml'
@@ -40,6 +41,8 @@ jobs:
         run: node tests/phase2-source-registry.test.cjs
       - name: Build standalone Android preview
         run: node scripts/build-phase2-offline-preview.cjs
+      - name: Verify built offline Android artifact
+        run: node tests/phase2-offline-artifact.test.cjs
       - name: Upload Android preview HTML
         uses: actions/upload-artifact@v4
         with:
