@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-21T21:03:29.533778+00:00",
+  "updated_at": "2026-11-22T01:08:41.639483+00:00",
   "events": [
+    {
+      "title": "DPM Gan Kim Yong's Op-Ed for the for the 22nd Joint Council for Bilateral Cooperation People DPM Gan Kim Yong Topics Economy Science and technology Trade Op-ed by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong ahead of the 22nd Joint Council for Bilateral Cooperation (JCBC) Meetings on 22nd November 2026. Article",
+      "type": "VIP visit",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "venue": "Not confirmed",
+      "source": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-s-op-ed-for-the-for-the-22nd-joint-council-for-bilateral-cooperation/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "upcoming_candidate",
+      "agency": "PMO",
+      "review_priority": "senior_leadership",
+      "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion"
+    },
     {
       "title": "IISS Shangri-La Dialogue 2027",
       "type": "International summit",
