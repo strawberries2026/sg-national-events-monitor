@@ -26,5 +26,13 @@ const {reserveWithCas}=require('../scripts/phase2-budget-reservation.cjs');
  await assert.rejects(()=>malformed.load(),/base64/);
  const rejected=makeGithubContentsStore({request:async(req)=>req.method==='GET'?{status:200,body:{sha:'old',encoding:'base64',content:Buffer.from(encodeLedgerDocument(new Map())).toString('base64')}}:{status:422},owner:'example',repo:'monitor',branch:'state',path:'budget.json'});
  await assert.rejects(()=>reserveWithCas({...rejected,sourceId:'pmo',enabled:true,now:'2026-11-22T01:00:00Z'}),/422/);
+ for(const status of [401,403,404,429,500,503]){
+  const failedRead=makeGithubContentsStore({request:async()=>({status}),owner:'example',repo:'monitor',branch:'state',path:'budget.json'});
+  await assert.rejects(()=>reserveWithCas({...failedRead,sourceId:'pmo',enabled:true,now:'2026-11-22T01:00:00Z'}),/unavailable/);
+  const failedWrite=makeGithubContentsStore({request:async(req)=>req.method==='GET'?{status:200,body:{sha:'old',encoding:'base64',content:Buffer.from(encodeLedgerDocument(new Map())).toString('base64')}}:{status},owner:'example',repo:'monitor',branch:'state',path:'budget.json'});
+  await assert.rejects(()=>reserveWithCas({...failedWrite,sourceId:'pmo',enabled:true,now:'2026-11-22T01:00:00Z'}),/write failed/);
+ }
+ const networkFailure=makeGithubContentsStore({request:async()=>{throw Error('network unavailable')},owner:'example',repo:'monitor',branch:'state',path:'budget.json'});
+ await assert.rejects(()=>reserveWithCas({...networkFailure,sourceId:'pmo',enabled:true,now:'2026-11-22T01:00:00Z'}),/network unavailable/);
  console.log('Phase 2 mock GitHub Contents adapter tests passed');
 })().catch(e=>{console.error(e);process.exitCode=1});
