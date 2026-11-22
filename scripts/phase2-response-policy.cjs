@@ -3,7 +3,7 @@
 function retryAfterMs(header,now){
  if(header===null||header===undefined)return null;
  const value=String(header).trim();
- if(/^\d+$/.test(value))return Math.min(Number(value)*1000,86400000);
+ if(/^\d+$/.test(value)){const seconds=Number(value);return Number.isFinite(seconds)?Math.min(seconds*1000,86400000):86400000;}
  const date=Date.parse(value);
  const current=Date.parse(now);
  if(!Number.isFinite(date)||!Number.isFinite(current))return null;
