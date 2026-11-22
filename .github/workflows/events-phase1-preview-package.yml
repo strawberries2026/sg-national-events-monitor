@@ -1,5 +1,10 @@
 name: Events Phase 1 preview package
 on:
+  push:
+    branches:
+      - enhance/ura-countdown-source-priority
+    paths:
+      - '.github/workflows/events-phase1-preview-package.yml'
   pull_request:
     paths:
       - 'index.html'
@@ -45,3 +50,13 @@ jobs:
           name: sg-events-pr7-preview
           path: sg-events-pr7-preview.zip
           retention-days: 7
+
+      - name: Deploy isolated HTTPS preview on branch push only
+        if: github.event_name == 'push' && github.ref == 'refs/heads/enhance/ura-countdown-source-priority'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN" && test -n "$CLOUDFLARE_ACCOUNT_ID"
+          npx --yes wrangler@3 pages project create sg-national-events-pr14-preview --production-branch main || echo 'Project creation skipped or project already exists'
+          npx --yes wrangler@3 pages deploy /tmp/events-preview --project-name sg-national-events-pr14-preview --branch pr14-android-preview
