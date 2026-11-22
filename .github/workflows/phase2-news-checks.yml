@@ -7,6 +7,8 @@ on:
       - 'scripts/phase2-budget-ledger.cjs'
       - 'scripts/phase2-budget-reservation.cjs'
       - 'scripts/phase2-github-ledger-prototype.cjs'
+      - 'scripts/phase2-github-contents-adapter.cjs'
+      - 'tests/phase2-github-contents-adapter.test.cjs'
       - 'tests/phase2-github-ledger-prototype.test.cjs'
       - 'scripts/phase2-response-policy.cjs'
       - 'tests/phase2-response-policy.test.cjs'
@@ -47,6 +49,8 @@ jobs:
         run: node tests/phase2-response-policy.test.cjs
       - name: Test versioned ledger prototype
         run: node tests/phase2-github-ledger-prototype.test.cjs
+      - name: Test mocked GitHub Contents adapter
+        run: node tests/phase2-github-contents-adapter.test.cjs
       - name: Test normalizer
         run: node tests/news-normalizer.test.cjs
       - name: Test official announcements adapter
