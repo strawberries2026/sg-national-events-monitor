@@ -1,0 +1,32 @@
+name: PR14 isolated HTTPS preview (manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check preview configuration
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          test -n "$CF_TOKEN" || { echo "::error::Missing CLOUDFLARE_API_TOKEN secret"; exit 1; }
+          test -n "$CF_ACCOUNT" || { echo "::error::Missing CLOUDFLARE_ACCOUNT_ID secret"; exit 1; }
+      - name: Build isolated preview
+        run: |
+          python3 scripts/check_national_event_sources.py
+          mkdir -p /tmp/national-events-pr14-preview
+          cp index.html manifest.webmanifest sw.js /tmp/national-events-pr14-preview/
+          cp -r data /tmp/national-events-pr14-preview/
+          if [ -d icons ]; then cp -r icons /tmp/national-events-pr14-preview/; fi
+          python3 -m json.tool /tmp/national-events-pr14-preview/data/national-event-source-health.json >/dev/null
+      - name: Deploy to separate Cloudflare Pages preview project
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx --yes wrangler@3 pages deploy /tmp/national-events-pr14-preview --project-name sg-national-events-pr14-preview --branch pr14-android-preview
