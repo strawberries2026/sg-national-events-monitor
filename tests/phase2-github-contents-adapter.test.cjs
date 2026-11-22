@@ -1,0 +1,26 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {makeGithubContentsStore}=require('../scripts/phase2-github-contents-adapter.cjs');
+const {encodeLedgerDocument}=require('../scripts/phase2-github-ledger-prototype.cjs');
+const {reserveWithCas}=require('../scripts/phase2-budget-reservation.cjs');
+(async()=>{
+ let sha=0,content=encodeLedgerDocument(new Map()),putCalls=0;
+ const request=async(req)=>{
+  if(req.method==='GET')return {status:200,body:{sha:String(sha),encoding:'base64',content:Buffer.from(content).toString('base64')}};
+  putCalls++;
+  if(req.body.sha!==String(sha))return {status:409};
+  content=Buffer.from(req.body.content,'base64').toString('utf8');sha++;return {status:200};
+ };
+ const store=makeGithubContentsStore({request,owner:'example',repo:'monitor',branch:'state',path:'budget.json'});
+ const args={...store,sourceId:'pmo',enabled:true,dailyCap:1,now:'2026-11-22T01:00:00Z',minimumIntervalMs:0};
+ const results=await Promise.all([reserveWithCas(args),reserveWithCas(args)]);
+ assert.equal(results.filter(x=>x.allowed).length,1);
+ assert.equal(putCalls>=1,true);
+ const forbidden=makeGithubContentsStore({request:async()=>({status:403}),owner:'example',repo:'monitor',branch:'state',path:'budget.json'});
+ await assert.rejects(()=>forbidden.load(),/unavailable/);
+ const missing=makeGithubContentsStore({request:async()=>({status:404}),owner:'example',repo:'monitor',branch:'state',path:'budget.json'});
+ await assert.rejects(()=>missing.load(),/unavailable/);
+ const conflict=makeGithubContentsStore({request:async(req)=>req.method==='GET'?{status:200,body:{sha:'old',encoding:'base64',content:Buffer.from(encodeLedgerDocument(new Map())).toString('base64')}}:{status:409},owner:'example',repo:'monitor',branch:'state',path:'budget.json'});
+ assert.equal((await reserveWithCas({...conflict,sourceId:'pmo',enabled:true,now:'2026-11-22T01:00:00Z',maxConflicts:1})).reason,'concurrent_conflict');
+ console.log('Phase 2 mock GitHub Contents adapter tests passed');
+})().catch(e=>{console.error(e);process.exitCode=1});
