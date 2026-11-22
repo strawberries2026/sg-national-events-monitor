@@ -1,0 +1,83 @@
+name: Phase 2 news checks
+on:
+  pull_request:
+    paths:
+      - 'scripts/news-normalizer.cjs'
+      - 'scripts/phase2-fetch-budget.cjs'
+      - 'scripts/phase2-budget-ledger.cjs'
+      - 'scripts/phase2-budget-reservation.cjs'
+      - 'scripts/phase2-github-ledger-prototype.cjs'
+      - 'scripts/phase2-github-contents-adapter.cjs'
+      - 'tests/phase2-github-contents-adapter.test.cjs'
+      - 'tests/phase2-github-ledger-prototype.test.cjs'
+      - 'scripts/phase2-response-policy.cjs'
+      - 'scripts/phase2-source-health.cjs'
+      - 'scripts/phase2-agency-health.cjs'
+      - 'tests/phase2-agency-health.test.cjs'
+      - 'tests/phase2-source-health.test.cjs'
+      - 'tests/phase2-response-policy.test.cjs'
+      - 'tests/phase2-budget-reservation.test.cjs'
+      - 'tests/phase2-budget-ledger.test.cjs'
+      - 'tests/phase2-fetch-budget.test.cjs'
+      - 'scripts/official-announcements-adapter.cjs'
+      - 'tests/news-normalizer.test.cjs'
+      - 'tests/official-announcements-adapter.test.cjs'
+      - 'tests/phase2-preview-smoke.test.cjs'
+      - 'tests/phase2-leadership-filters.test.cjs'
+      - 'tests/phase2-real-dataset.test.cjs'
+      - 'tests/phase2-source-registry.test.cjs'
+      - 'data/news-source-registry.json'
+      - 'scripts/build-phase2-offline-preview.cjs'
+      - 'tests/phase2-offline-artifact.test.cjs'
+      - 'data/events.json'
+      - 'preview/phase2-official-feed.html'
+      - '.github/workflows/phase2-news-checks.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Node runtime
+        run: node --version
+      - name: Test opt-in fetch budget and cache policy
+        run: node tests/phase2-fetch-budget.test.cjs
+      - name: Test persisted budget ledger
+        run: node tests/phase2-budget-ledger.test.cjs
+      - name: Test concurrent request reservations
+        run: node tests/phase2-budget-reservation.test.cjs
+      - name: Test provider rate-limit policy
+        run: node tests/phase2-response-policy.test.cjs
+      - name: Test versioned ledger prototype
+        run: node tests/phase2-github-ledger-prototype.test.cjs
+      - name: Test mocked GitHub Contents adapter
+        run: node tests/phase2-github-contents-adapter.test.cjs
+      - name: Test source freshness and health
+        run: node tests/phase2-source-health.test.cjs
+      - name: Test verified agency health metadata
+        run: node tests/phase2-agency-health.test.cjs
+      - name: Test normalizer
+        run: node tests/news-normalizer.test.cjs
+      - name: Test official announcements adapter
+        run: node tests/official-announcements-adapter.test.cjs
+      - name: Test mobile preview static checks
+        run: node tests/phase2-preview-smoke.test.cjs
+      - name: Test leadership keyword filters
+        run: node tests/phase2-leadership-filters.test.cjs
+      - name: Test actual announcement dataset
+        run: node tests/phase2-real-dataset.test.cjs
+      - name: Guard verified news source registry
+        run: node tests/phase2-source-registry.test.cjs
+      - name: Build standalone Android preview
+        run: node scripts/build-phase2-offline-preview.cjs
+      - name: Verify built offline Android artifact
+        run: node tests/phase2-offline-artifact.test.cjs
+      - name: Upload Android preview HTML
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase2-android-offline-preview
+          path: dist/phase2-android-preview.html
+          retention-days: 7

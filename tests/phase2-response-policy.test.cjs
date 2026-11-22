@@ -1,0 +1,17 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {retryAfterMs,responsePolicy}=require('../scripts/phase2-response-policy.cjs');
+const now='2026-11-22T00:00:00Z';
+assert.equal(retryAfterMs('120',now),120000);
+assert.equal(retryAfterMs('Sun, 22 Nov 2026 00:05:00 GMT',now),300000);
+assert.equal(retryAfterMs('bad',now),null);
+assert.equal(retryAfterMs('999999999999999999999999999999999999',now),86400000);
+assert.equal(retryAfterMs('0',now),0);
+assert.equal(responsePolicy({status:429,retryAfter:'bad',now}).waitMs,60000);
+assert.deepEqual(responsePolicy({status:200,now}),{outcome:'success',retry:false,waitMs:0});
+assert.equal(responsePolicy({status:429,retryAfter:'120',now}).waitMs,120000);
+assert.equal(responsePolicy({status:503,retryAfter:'30',now,failures:2}).waitMs,240000);
+assert.equal(responsePolicy({status:500,now}).retry,true);
+assert.equal(responsePolicy({status:403,now}).retry,false);
+assert.throws(()=>responsePolicy({status:0,now}));
+console.log('Phase 2 provider rate-limit response policy tests passed');

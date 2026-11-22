@@ -1,0 +1,16 @@
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const html=fs.readFileSync('dist/phase2-android-preview.html','utf8');
+const data=JSON.parse(fs.readFileSync('data/events.json','utf8'));
+assert.ok(html.includes('const embeddedAnnouncements='));
+assert.ok(!html.includes("fetch('../data/events.json'"),'offline file must not request the repository dataset');
+assert.ok(html.includes('Promise.resolve({ok:true,json:async()=>embeddedAnnouncements})'));
+assert.ok(html.includes('id="leader"')&&html.includes('id="agency"'));
+assert.ok(html.includes('https://www.channelnewsasia.com/singapore'));
+assert.ok(html.includes('https://www.straitstimes.com/singapore'));
+assert.ok(html.includes('Dataset last updated:'));
+assert.ok(!html.includes('innerHTML='));
+assert.ok(Array.isArray(data.events)&&data.events.length>0);
+assert.ok(html.includes(JSON.stringify(data.updated_at)),'snapshot must include source update timestamp');
+console.log('Offline Android artifact smoke checks passed; snapshot contains '+data.events.length+' event records');

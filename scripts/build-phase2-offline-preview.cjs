@@ -1,0 +1,14 @@
+'use strict';
+const fs=require('node:fs');
+const path=require('node:path');
+const html=fs.readFileSync('preview/phase2-official-feed.html','utf8');
+const data=JSON.parse(fs.readFileSync('data/events.json','utf8'));
+const fetchExpression="fetch('../data/events.json',{cache:'no-store'})";
+if(!html.includes(fetchExpression))throw Error('Expected preview fetch expression not found');
+const serialized=JSON.stringify(data).replace(/</g,'\\u003c').replace(/>/g,'\\u003e').replace(/&/g,'\\u0026');
+const replacement="Promise.resolve({ok:true,json:async()=>embeddedAnnouncements})";
+let output=html.replace(fetchExpression,replacement);
+output=output.replace("'use strict';","'use strict';\nconst embeddedAnnouncements="+serialized+";");
+fs.mkdirSync('dist',{recursive:true});
+fs.writeFileSync(path.join('dist','phase2-android-preview.html'),output);
+console.log('Created offline, single-file Android preview from current official dataset');

@@ -1,0 +1,10 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {validateAgencyHealth}=require('../scripts/phase2-agency-health.cjs');
+const now='2026-11-22T10:00:00Z';
+assert.deepEqual(validateAgencyHealth({PMO:{status:'verified_refresh',last_success_at:'2026-11-22T09:00:00Z'}},{now}),{PMO:{status:'verified_refresh',last_success_at:'2026-11-22T09:00:00Z'}});
+assert.throws(()=>validateAgencyHealth({PMO:{status:'verified_refresh',last_success_at:'2026-11-23T09:00:00Z'}},{now}));
+assert.throws(()=>validateAgencyHealth({UNKNOWN:{status:'verified_refresh',last_success_at:'2026-11-22T09:00:00Z'}},{now}));
+assert.throws(()=>validateAgencyHealth({PMO:{status:'verified_refresh',last_success_at:'bad'}},{now}));
+assert.throws(()=>validateAgencyHealth({PMO:{status:'assumed_success',last_success_at:'2026-11-22T09:00:00Z'}},{now}));
+console.log('Phase 2 agency health metadata validation tests passed');
