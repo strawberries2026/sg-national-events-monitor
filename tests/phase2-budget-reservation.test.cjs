@@ -1,0 +1,22 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {reserveInMemory,reserveWithCas}=require('../scripts/phase2-budget-reservation.cjs');
+(async()=>{
+ const ledger=new Map();
+ assert.equal(reserveInMemory(ledger,{sourceId:'pmo',now:'2026-11-22T00:00:00Z'}).reason,'disabled');
+ assert.equal(ledger.size,0);
+ assert.equal(reserveInMemory(ledger,{sourceId:'pmo',enabled:true,dailyCap:1,now:'2026-11-22T00:00:00Z'}).allowed,true);
+ assert.equal(reserveInMemory(ledger,{sourceId:'pmo',enabled:true,dailyCap:1,now:'2026-11-22T02:00:00Z'}).reason,'daily_cap');
+ let revision=0,state=new Map();
+ const load=async()=>({revision:String(revision),ledger:new Map(state)});
+ const compareAndSwap=async(expected,next)=>{await Promise.resolve();if(expected!==String(revision))return false;state=next;revision++;return true};
+ const args={load,compareAndSwap,sourceId:'mfa',enabled:true,dailyCap:1,now:'2026-11-22T00:00:00Z',minimumIntervalMs:0};
+ const results=await Promise.all([reserveWithCas(args),reserveWithCas(args)]);
+ assert.equal(results.filter(x=>x.allowed).length,1,'two overlapping attempts must not both reserve');
+ assert.equal(state.get('mfa').used,1);
+ assert.equal((await reserveWithCas(args)).reason,'daily_cap');
+ assert.equal((await reserveWithCas({...args,enabled:false,sourceId:'disabled'})).reason,'disabled');
+ const failed=await reserveWithCas({load:async()=>({revision:'0',ledger:new Map()}),compareAndSwap:async()=>false,sourceId:'pmo',enabled:true,now:'2026-11-22T00:00:00Z',maxConflicts:1});
+ assert.equal(failed.reason,'concurrent_conflict');
+ console.log('Phase 2 atomic reservation contract and overlap tests passed');
+})().catch(err=>{console.error(err);process.exitCode=1});
