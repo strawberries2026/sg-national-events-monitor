@@ -9,6 +9,8 @@ on:
       - 'tests/phase2-preview-smoke.test.cjs'
       - 'tests/phase2-leadership-filters.test.cjs'
       - 'tests/phase2-real-dataset.test.cjs'
+      - 'tests/phase2-source-registry.test.cjs'
+      - 'data/news-source-registry.json'
       - 'data/events.json'
       - 'preview/phase2-official-feed.html'
       - '.github/workflows/phase2-news-checks.yml'
@@ -33,3 +35,5 @@ jobs:
         run: node tests/phase2-leadership-filters.test.cjs
       - name: Test actual announcement dataset
         run: node tests/phase2-real-dataset.test.cjs
+      - name: Guard verified news source registry
+        run: node tests/phase2-source-registry.test.cjs
