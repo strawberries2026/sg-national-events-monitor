@@ -11,6 +11,8 @@ on:
       - 'tests/phase2-github-contents-adapter.test.cjs'
       - 'tests/phase2-github-ledger-prototype.test.cjs'
       - 'scripts/phase2-response-policy.cjs'
+      - 'scripts/phase2-source-health.cjs'
+      - 'tests/phase2-source-health.test.cjs'
       - 'tests/phase2-response-policy.test.cjs'
       - 'tests/phase2-budget-reservation.test.cjs'
       - 'tests/phase2-budget-ledger.test.cjs'
@@ -51,6 +53,8 @@ jobs:
         run: node tests/phase2-github-ledger-prototype.test.cjs
       - name: Test mocked GitHub Contents adapter
         run: node tests/phase2-github-contents-adapter.test.cjs
+      - name: Test source freshness and health
+        run: node tests/phase2-source-health.test.cjs
       - name: Test normalizer
         run: node tests/news-normalizer.test.cjs
       - name: Test official announcements adapter
