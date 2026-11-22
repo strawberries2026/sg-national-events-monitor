@@ -1,0 +1,14 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {sourceHealth}=require('../scripts/phase2-source-health.cjs');
+const now='2026-11-22T08:00:00Z';
+assert.equal(sourceHealth({now}).status,'disabled');
+assert.equal(sourceHealth({enabled:true,now}).status,'awaiting_first_update');
+assert.equal(sourceHealth({enabled:true,now,lastError:'HTTP 503'}).status,'failed');
+assert.equal(sourceHealth({enabled:true,now,lastSuccessAt:'2026-11-22T07:30:00Z'}).status,'fresh');
+assert.equal(sourceHealth({enabled:true,now,lastSuccessAt:'2026-11-22T05:00:00Z'}).status,'stale');
+const failure=sourceHealth({enabled:true,now,lastSuccessAt:'2026-11-22T07:00:00Z',lastError:'HTTP 503'});
+assert.equal(failure.status,'failed');
+assert.equal(failure.ageMinutes,60);
+assert.throws(()=>sourceHealth({enabled:true,now,lastSuccessAt:'2026-11-23T00:00:00Z'}));
+console.log('Phase 2 source freshness and health tests passed');
