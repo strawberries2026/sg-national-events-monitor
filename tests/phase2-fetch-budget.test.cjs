@@ -1,6 +1,6 @@
 'use strict';
 const assert=require('node:assert/strict');
-const {singaporeDay,canFetch,cacheKey,addOnce}=require('../scripts/phase2-fetch-budget.cjs');
+const {singaporeDay,canFetch,budgetForDay,recordAttempt,cacheKey,addOnce}=require('../scripts/phase2-fetch-budget.cjs');
 assert.equal(singaporeDay('2026-11-21T16:30:00Z'),'11/22/2026'.replace(/(\d+)\/(\d+)\/(\d+)/,(_,m,d,y)=>y+'-'+m.padStart(2,'0')+'-'+d.padStart(2,'0'))); 
 assert.deepEqual(canFetch({enabled:false,now:'2026-11-22T00:00:00Z'}),{allowed:false,reason:'disabled'});
 assert.equal(canFetch({enabled:true,used:24,dailyCap:24,now:'2026-11-22T00:00:00Z'}).reason,'daily_cap');
@@ -11,4 +11,11 @@ assert.equal(cacheKey({sourceId:'pmo',url:'https://example.gov.sg/a#fragment'}),
 assert.throws(()=>cacheKey({sourceId:'pmo',url:'http://example.com/a'}));
 const cache=new Map(),item={sourceId:'pmo',url:'https://example.gov.sg/a',title:'Notice'};
 assert.equal(addOnce(cache,item),true);assert.equal(addOnce(cache,item),false);assert.equal(cache.size,1);
+const ledger=new Map();
+assert.deepEqual(budgetForDay(ledger,'pmo','2026-11-21T15:59:00Z'),{day:'2026-11-21',used:0,lastAttemptAt:null});
+assert.equal(recordAttempt(ledger,'pmo','2026-11-21T15:59:00Z').used,1);
+assert.equal(recordAttempt(ledger,'pmo','2026-11-21T15:59:30Z').used,2);
+assert.equal(budgetForDay(ledger,'pmo','2026-11-21T16:00:00Z').used,0);
+assert.equal(recordAttempt(ledger,'pmo','2026-11-21T16:00:00Z').day,'2026-11-22');
+assert.equal(budgetForDay(ledger,'mfa','2026-11-21T16:00:00Z').used,0);
 console.log('Phase 2 opt-in fetch budget and cache policy tests passed');
