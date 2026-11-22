@@ -1,0 +1,14 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {singaporeDay,canFetch,cacheKey,addOnce}=require('../scripts/phase2-fetch-budget.cjs');
+assert.equal(singaporeDay('2026-11-21T16:30:00Z'),'11/22/2026'.replace(/(\d+)\/(\d+)\/(\d+)/,(_,m,d,y)=>y+'-'+m.padStart(2,'0')+'-'+d.padStart(2,'0'))); 
+assert.deepEqual(canFetch({enabled:false,now:'2026-11-22T00:00:00Z'}),{allowed:false,reason:'disabled'});
+assert.equal(canFetch({enabled:true,used:24,dailyCap:24,now:'2026-11-22T00:00:00Z'}).reason,'daily_cap');
+assert.equal(canFetch({enabled:true,used:2,now:'2026-11-22T00:30:00Z',lastAttemptAt:'2026-11-22T00:00:00Z'}).reason,'minimum_interval');
+assert.equal(canFetch({enabled:true,used:2,now:'2026-11-22T02:00:00Z',lastAttemptAt:'2026-11-22T00:00:00Z'}).allowed,true);
+assert.throws(()=>canFetch({enabled:true,used:-1,now:'2026-11-22T00:00:00Z'}));
+assert.equal(cacheKey({sourceId:'pmo',url:'https://example.gov.sg/a#fragment'}),'pmo|https://example.gov.sg/a');
+assert.throws(()=>cacheKey({sourceId:'pmo',url:'http://example.com/a'}));
+const cache=new Map(),item={sourceId:'pmo',url:'https://example.gov.sg/a',title:'Notice'};
+assert.equal(addOnce(cache,item),true);assert.equal(addOnce(cache,item),false);assert.equal(cache.size,1);
+console.log('Phase 2 opt-in fetch budget and cache policy tests passed');
