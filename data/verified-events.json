@@ -2,18 +2,20 @@
   "updated_at": "2026-11-22T21:52:37.811006+00:00",
   "events": [
     {
-      "title": "PM Lawrence Wong to Visit Australia (Nov 2026) People Prime Minister's Office Topics Foreign affairs Prime Minister and Minister for Finance Lawrence Wong will make an Official Visit to Australia from 23 to 25 November 2026. Press Release",
+      "title": "PM Lawrence Wong — Official Visit to Australia (23–25 Nov 2026)",
       "type": "VIP visit",
-      "start": "2026-11-25",
+      "start": "2026-11-23",
       "end": "2026-11-25",
-      "venue": "Not confirmed",
+      "venue": "Canberra and Sydney, Australia",
       "source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-australia-nov-2026/",
-      "date_evidence": "Date in official headline or article; event relationship unverified",
-      "verification_status": "candidate_unverified",
-      "lifecycle_status": "upcoming_candidate",
+      "date_evidence": "PMO press release dated 22 November 2026 explicitly confirms official visit to Canberra and Sydney from 23 to 25 November 2026 for the 11th Singapore–Australia Annual Leaders’ Meeting.",
+      "verification_status": "verified",
+      "lifecycle_status": "ongoing",
       "agency": "PMO",
       "review_priority": "senior_leadership",
-      "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion"
+      "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-australia-nov-2026/",
+      "verified_on": "2026-11-23",
+      "verification_method": "Manual verification of PMO primary-source press release"
     },
     {
       "title": "IISS Shangri-La Dialogue 2027",
@@ -76,5 +78,5 @@
       "verification_method": "Manual verification of official Singapore Airshow organiser website"
     }
   ],
-  "note": "Candidate dates extracted from official headlines; verify original article before operational use."
+  "note": "Future dates are shown as verified only after manual confirmation against official sources; extracted candidates remain unverified."
 }
