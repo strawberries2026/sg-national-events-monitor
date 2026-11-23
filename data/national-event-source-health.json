@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T11:08:24.848481+00:00",
+  "checked_at": "2026-11-23T22:42:47.371676+00:00",
   "sources": [
     {
       "event": "Singapore Grand Prix (F1)",
@@ -76,7 +76,8 @@
         },
         {
           "url": "https://www.iiss.org/iiss-asia/",
-          "outcome": "content_unrecognized"
+          "outcome": "access_restricted",
+          "http_status": 403
         }
       ],
       "access_note": "Official pages were attempted but automated access was restricted; event dates remain unverified."
