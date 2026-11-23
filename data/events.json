@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T21:52:25.131312+00:00",
+  "updated_at": "2026-11-23T02:29:00.112742+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -114,6 +114,28 @@
     {
       "category": "Ministries",
       "agency": "MOF",
+      "title": "Government Raises Annual Value Threshold for Social Support Schemes from March 2027 to Provide Continued Support for Singaporeans Topics Government Transfers Social Policies",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/government-raises-annual-value-threshold-for-social-support-schemes-from-march-2027-to-provide-continued-support-for-singaporeans/",
+      "type": "Published announcement",
+      "published_date": "2026-11-23",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
+      "title": "Government Will Grant One-Off Property Tax Rebate for All Owner-Occupied Residential Properties in 2027 Topics IRAS Tax-Related (Property Tax)",
+      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/government-will-grant-one-off-property-tax-rebate-for-all-owner-occupied-residential-properties-in-2027/",
+      "type": "Published announcement",
+      "published_date": "2026-11-23",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MOF",
       "title": "MOF Invites Singaporeans to Provide Views and Suggestions for Budget 2027 Topics Budget",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/mof-invites-singaporeans-to-provide-views-and-suggestions-for-budget-2027/",
       "type": "Published announcement",
@@ -201,28 +223,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MOF",
-      "title": "Breakdown of $566.7 Million Tax Arrears by Taxpayer Type, Taxpayers Experiencing Financial Hardship and Payment Arrangements Topics Tax-Related (GST) Tax-Related (Income Tax) Tax-Related (Property Tax) Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/breakdown-of--566-7-million-tax-arrears-by-taxpayer-type--taxpayers-experiencing-financial-hardship-and-payment-arrangements/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MOF",
-      "title": "Breakdown of Matching Funds Disbursed under Tote Board Enhanced Fundraising Programme by Charity Budget Size Topics Tote Board Parliamentary Replies",
-      "source_url": "https://www.mof.gov.sg/news-resources/newsroom/breakdown-of-matching-funds-disbursed-under-tote-board-enhanced-fundraising-programme-by-charity-budget-size/",
-      "type": "Published announcement",
-      "published_date": "2026-11-04",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "MFA",
       "title": "Announcements and Highlights Details of upcoming events and ongoing initiatives can be found here.",
       "source_url": "https://www.mfa.gov.sg/newsroom/announcements-and-highlights/",
@@ -242,6 +242,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Minister for Defence Chan Chun Sing Visiting Japan to Further Defence Cooperation Minister for Defence Chan Chun Sing will make an introductory visit to Japan from 24 to 25 Nov 2026.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-23",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -314,17 +325,6 @@
       "agency": "MINDEF",
       "title": "Total Defence Awards 2026: Strengthening our National Resilience Together Minister for Defence Chan Chun Sing was the Guest of Honour at the annual Total Defence Awards 2026 held at the Raffles City Convention Centre, Padang/Collyer Ballroom this evening.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-11-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Speech By Minister for Defence Chan Chun Sing at the Total Defence Awards at Padang/Collyer Ballroom, Raffles City Convention Centre on 12 November 2026",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-speech2/",
       "type": "Published announcement",
       "published_date": "2026-11-12",
       "date": null,

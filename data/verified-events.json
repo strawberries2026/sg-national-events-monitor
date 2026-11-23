@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T21:52:37.811006+00:00",
+  "updated_at": "2026-11-23T02:29:07.887653+00:00",
   "events": [
     {
       "title": "PM Lawrence Wong — Official Visit to Australia (23–25 Nov 2026)",
@@ -16,6 +16,20 @@
       "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-australia-nov-2026/",
       "verified_on": "2026-11-23",
       "verification_method": "Manual verification of PMO primary-source press release"
+    },
+    {
+      "title": "Minister for Defence Chan Chun Sing Visiting Japan to Further Defence Cooperation Minister for Defence Chan Chun Sing will make an introductory visit to Japan from 24 to 25 Nov 2026.",
+      "type": "VIP visit",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "venue": "Not confirmed",
+      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/23nov26-nr/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "upcoming_candidate",
+      "agency": "MINDEF",
+      "review_priority": "standard",
+      "review_note": "Verify event relationship and dates"
     },
     {
       "title": "IISS Shangri-La Dialogue 2027",
@@ -78,5 +92,5 @@
       "verification_method": "Manual verification of official Singapore Airshow organiser website"
     }
   ],
-  "note": "Future dates are shown as verified only after manual confirmation against official sources; extracted candidates remain unverified."
+  "note": "Candidate dates extracted from official headlines; verify original article before operational use."
 }
