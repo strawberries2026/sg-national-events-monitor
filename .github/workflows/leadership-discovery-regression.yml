@@ -1,0 +1,23 @@
+name: Leadership visit discovery regression
+on:
+  pull_request:
+    paths:
+      - 'scripts/collect_leadership_visits.py'
+      - 'scripts/collect_verified_events.py'
+      - 'tests/test_leadership_discovery.py'
+      - '.github/workflows/leadership-discovery-regression.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile collectors and run offline leadership discovery tests
+        run: |
+          python -m compileall -q scripts
+          python -m unittest discover -s tests -p test_leadership_discovery.py -v
