@@ -1,0 +1,17 @@
+name: Verified event history regression
+on:
+  pull_request:
+    paths:
+      - 'scripts/collect_verified_events.py'
+      - 'tests/test_verified_event_history.py'
+      - '.github/workflows/verified-event-history-regression.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate collector syntax and archive safety
+        run: |
+          python -m compileall -q scripts
+          python -m unittest discover -s tests -p test_verified_event_history.py -v
