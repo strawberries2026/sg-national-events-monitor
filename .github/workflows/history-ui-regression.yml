@@ -1,0 +1,16 @@
+name: Historical archive UI regression
+on:
+  pull_request:
+    paths:
+      - 'history.html'
+      - 'index.html'
+      - 'tests/test_history_ui.py'
+      - '.github/workflows/history-ui-regression.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify archive UI and data contract
+        run: python -m unittest discover -s tests -p test_history_ui.py -v
