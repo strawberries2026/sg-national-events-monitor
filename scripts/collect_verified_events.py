@@ -76,10 +76,10 @@ def main():
     output = []
     old = json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {}
     history = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"events": []}
-    archived = {e.get("source"): e for e in history.get("events", []) if e.get("source")}
+    archived = {e.get("source"): e for e in history.get("events", []) if e.get("source") and e.get("verification_status") == "verified"}
     previous = {e.get("source"): e for e in old.get("events", []) if e.get("source")}
     for source, e in previous.items():
-        if e.get("end", "") < today.isoformat():
+        if e.get("verification_status") == "verified" and e.get("end", "") < today.isoformat():
             archived[source] = {**e, "lifecycle_status": "completed"}
     inspected = 0
     failures = 0
@@ -128,12 +128,16 @@ def main():
     for source, e in previous.items():
         if e.get("verification_status") == "verified" and e.get("end", "") >= today.isoformat():
             unique[source] = e
+    # Keep a single canonical state per source: active verified records leave the archive.
+    for source, event in previous.items():
+        if event.get("verification_status") == "verified" and event.get("end", "") >= today.isoformat():
+            archived.pop(source, None)
     result = {"updated_at": datetime.now(timezone.utc).isoformat(),
               "events": list(unique.values()),
               "note": "Candidate dates extracted from official headlines; verify original article before operational use."}
     TARGET.parent.mkdir(parents=True, exist_ok=True)
     TARGET.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    HISTORY.write_text(json.dumps({"updated_at": result["updated_at"], "events": list(archived.values()), "note": "Historical candidates are not automatically verified."}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    HISTORY.write_text(json.dumps({"updated_at": result["updated_at"], "events": list(archived.values()), "note": "Archive contains only previously manually verified events. Unverified candidates are excluded."}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print("Saved", len(unique), "unverified event candidates; inspected", inspected, "fetch failures", failures)
 if __name__ == "__main__":
     main()
