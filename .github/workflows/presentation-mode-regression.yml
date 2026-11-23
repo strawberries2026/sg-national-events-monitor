@@ -1,0 +1,16 @@
+name: Presentation mode regression
+on:
+  pull_request:
+    paths:
+      - 'presentation.html'
+      - 'data/verified-events.json'
+      - 'tests/test_presentation_mode.py'
+      - '.github/workflows/presentation-mode-regression.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify presentation view contract
+        run: python -m unittest discover -s tests -p test_presentation_mode.py -v
