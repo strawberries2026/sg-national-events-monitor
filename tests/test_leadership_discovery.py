@@ -16,6 +16,17 @@ class LeadershipDiscoveryTests(unittest.TestCase):
         self.assertFalse(result["candidates"][0]["date_verified"])
         self.assertEqual(result["candidates"][0]["status"], "needs_official_date_and_identity_review")
 
+    def test_president_and_dpm_official_announcements(self):
+        feed = {"events": [
+            {"agency": "Istana", "title": "President Tharman to Visit Japan", "source_url": "https://www.istana.gov.sg/newsroom/president-visit"},
+            {"agency": "PMO", "title": "Deputy Prime Minister Gan Kim Yong to Visit Malaysia", "source_url": "https://www.pmo.gov.sg/newsroom/dpm-visit"},
+            {"agency": "MFA", "title": "President Tharman to Visit Japan", "source_url": "https://www.mfa.gov.sg/newsroom/president-visit"},
+            {"agency": "PMO", "title": "PM Lawrence Wong gives local speech", "source_url": "https://www.pmo.gov.sg/newsroom/local-speech"},
+        ]}
+        result = build(feed, {})
+        self.assertEqual(len(result["candidates"]), 3)
+        self.assertTrue(all(not item["date_verified"] for item in result["candidates"]))
+
     def test_first_detection_is_preserved(self):
         url = "https://www.istana.gov.sg/newsroom/visit"
         feed = {"events": [{"agency": "Istana", "title": "President Tharman to Visit Australia", "source_url": url}]}
