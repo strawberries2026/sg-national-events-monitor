@@ -1,0 +1,47 @@
+name: PM Australia visit preview verification
+on:
+  pull_request:
+    paths:
+      - 'data/verified-events.json'
+      - '.github/workflows/pm-australia-visit-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify PMO visit record and lifecycle
+        run: |
+          python3 - <<'PY'
+          import json
+          from datetime import date
+          from pathlib import Path
+          data=json.loads(Path('data/verified-events.json').read_text())
+          matches=[e for e in data['events'] if e.get('source')=='https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-australia-nov-2026/']
+          assert len(matches)==1, 'Expected exactly one PMO Australia visit record'
+          e=matches[0]
+          assert e['verification_status']=='verified'
+          assert e['start']=='2026-11-23' and e['end']=='2026-11-25'
+          assert e['type']=='VIP visit'
+          assert 'Australia' in e['venue']
+          for day in (23,24,25):
+              today=date(2026,11,day)
+              assert date.fromisoformat(e['start'])<=today<=date.fromisoformat(e['end'])
+          assert date.fromisoformat(e['end'])<date(2026,11,26)
+          print('PM Australia visit record and 23–25 November date coverage PASS')
+          PY
+      - name: Package isolated Android preview (no production deployment)
+        run: |
+          mkdir -p /tmp/pm-australia-preview
+          cp index.html manifest.webmanifest sw.js /tmp/pm-australia-preview/
+          cp -r data /tmp/pm-australia-preview/
+          if [ -d icons ]; then cp -r icons /tmp/pm-australia-preview/; fi
+          cd /tmp/pm-australia-preview
+          zip -qr "$GITHUB_WORKSPACE/pm-australia-pr15-preview.zip" .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pm-australia-pr15-preview
+          path: pm-australia-pr15-preview.zip
+          retention-days: 7
