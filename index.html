@@ -283,7 +283,7 @@ function renderImportantDates(){
   entries.push({date:e.date,title:'Parliament sitting'+(e.time_sgt?' · '+e.time_sgt+' SGT':''),category:'Parliament',url:e.source_url||'https://www.parliament.gov.sg/',key:'parliament-'+e.date});
  }
  if(feedState.outlook==='Loaded')for(const e of featuredEvents.filter(e=>e.end>=today&&e.start<=limit)){
-  entries.push({date:e.start<today?today:e.start,title:e.title,category:e.type||'Official event',url:e.source||'',key:'event-'+e.title+'-'+e.start});
+  entries.push({date:e.start<today?today:e.start,displayDate:e.start,endDate:e.end,ongoing:e.start<=today&&e.end>=today,title:e.title,category:e.type||'Official event',url:e.source||'',key:'event-'+e.title+'-'+e.start});
  }
  const unique=[...new Map(entries.sort((a,b)=>a.date.localeCompare(b.date)).map(e=>[e.key,e])).values()].slice(0,5);
  const root=document.getElementById('highlights-list');
@@ -291,7 +291,9 @@ function renderImportantDates(){
  root.innerHTML=unique.map(e=>{
   const delta=Math.round((Date.parse(e.date+'T00:00:00Z')-Date.parse(today+'T00:00:00Z'))/86400000);
   const date=new Date(e.date+'T12:00:00Z'),day=date.toLocaleDateString('en-SG',{timeZone:'Asia/Singapore',day:'numeric'}),month=date.toLocaleDateString('en-SG',{timeZone:'Asia/Singapore',month:'short'});
-  const content='<span class="highlight-date"><b>'+esc(day)+'</b><small>'+esc(month)+'</small></span><span class="highlight-copy"><strong>'+esc(e.title)+'</strong><span>'+esc(e.category)+' · '+esc(e.date)+'</span></span><span class="highlight-countdown">'+(delta===0?'Today':delta===1?'Tomorrow':'In '+delta+' days')+'</span>';
+  const status=e.ongoing?'Ongoing':delta===0?'Today':delta===1?'Tomorrow':'In '+delta+' days';
+  const dateLabel=e.displayDate?(e.displayDate+(e.endDate&&e.endDate!==e.displayDate?' – '+e.endDate:'')):e.date;
+  const content='<span class="highlight-date"><b>'+esc(day)+'</b><small>'+esc(month)+'</small></span><span class="highlight-copy"><strong>'+esc(e.title)+'</strong><span>'+esc(e.category)+' · '+esc(dateLabel)+'</span></span><span class="highlight-countdown">'+esc(status)+'</span>';
   return e.url.startsWith('https://')?'<a class="highlight-row" href="'+esc(e.url)+'" target="_blank" rel="noopener noreferrer" aria-label="'+esc(e.title)+' official source">'+content+'</a>':'<div class="highlight-row">'+content+'</div>';
  }).join('')||'<p class="muted">No verified dates in the next 30 days. This does not mean no events are planned.</p>';
 }
