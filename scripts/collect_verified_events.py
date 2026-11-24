@@ -70,16 +70,26 @@ def official_article(url):
     parser.feed(page)
     return " ".join(" ".join(parser.parts).split())[:20000]
 
+def verified_end(event):
+    if event.get("verification_status") != "verified":
+        return None
+    try:
+        start = datetime.strptime(event.get("start", ""), "%Y-%m-%d").date()
+        end = datetime.strptime(event.get("end") or event.get("start", ""), "%Y-%m-%d").date()
+        return end if end >= start else None
+    except (ValueError, TypeError):
+        return None
+
 def main():
     feed = json.loads(SOURCE.read_text(encoding="utf-8"))
     today = (datetime.now(timezone.utc) + timedelta(hours=8)).date()
     output = []
     old = json.loads(TARGET.read_text(encoding="utf-8")) if TARGET.exists() else {}
     history = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {"events": []}
-    archived = {e.get("source"): e for e in history.get("events", []) if e.get("source") and e.get("verification_status") == "verified"}
+    archived = {e.get("source"): e for e in history.get("events", []) if e.get("source") and verified_end(e) is not None and verified_end(e) < today}
     previous = {e.get("source"): e for e in old.get("events", []) if e.get("source")}
     for source, e in previous.items():
-        if e.get("verification_status") == "verified" and e.get("end", "") < today.isoformat():
+        if verified_end(e) is not None and verified_end(e) < today:
             archived[source] = {**e, "lifecycle_status": "completed"}
     inspected = 0
     failures = 0
@@ -122,15 +132,15 @@ def main():
             "review_priority": "senior_leadership" if leadership_visit_candidate(record) else "standard",
             "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion" if leadership_visit_candidate(record) else "Verify event relationship and dates"
         })
-    unique = {e["source"]: e for e in output}
+    unique = {e["source"]: e for e in output if e["source"] not in archived}
     # Never silently upgrade a candidate to verified based on scraped text.
     # Preserve previously reviewed verified records, but not their stale dates.
     for source, e in previous.items():
-        if e.get("verification_status") == "verified" and e.get("end", "") >= today.isoformat():
+        if verified_end(e) is not None and verified_end(e) >= today:
             unique[source] = e
     # Keep a single canonical state per source: active verified records leave the archive.
     for source, event in previous.items():
-        if event.get("verification_status") == "verified" and event.get("end", "") >= today.isoformat():
+        if verified_end(event) is not None and verified_end(event) >= today:
             archived.pop(source, None)
     result = {"updated_at": datetime.now(timezone.utc).isoformat(),
               "events": list(unique.values()),
