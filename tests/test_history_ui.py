@@ -6,6 +6,10 @@ INDEX=(ROOT/'index.html').read_text(encoding='utf-8')
 class HistoryUITests(unittest.TestCase):
     def test_linked_from_dashboard(self):
         self.assertIn("./history.html",INDEX)
+    def test_history_link_in_normal_flow(self):
+        self.assertIn('id="verified-history-link" href="./history.html"',INDEX)
+        self.assertIn('#verified-history-link{display:block;position:static;',INDEX)
+        self.assertNotIn("a.href='./history.html'",INDEX)
     def test_verified_only(self):
         self.assertIn("e.verification_status==='verified'",PAGE)
         self.assertIn("e.lifecycle_status==='completed'",PAGE)
