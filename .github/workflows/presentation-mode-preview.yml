@@ -1,0 +1,39 @@
+name: Presentation mode preview package
+on:
+  pull_request:
+    paths:
+      - 'presentation.html'
+      - 'index.html'
+      - 'data/verified-events.json'
+      - '.github/workflows/presentation-mode-preview.yml'
+  workflow_dispatch:
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate preview inputs
+        run: |
+          test -s presentation.html
+          test -s index.html
+          test -s data/verified-events.json
+          python -m json.tool data/verified-events.json >/dev/null
+      - name: Build self-contained static preview
+        run: |
+          mkdir -p preview/data
+          cp presentation.html index.html preview/
+          cp data/verified-events.json preview/data/
+          cat > preview/README.txt <<'EOF'
+          SG National Events presentation preview.
+          This is a draft PR preview, not a deployed website.
+          For full testing, serve the preview folder through a local HTTP server or separate static hosting.
+          Opening presentation.html directly as file:// may block fetch of JSON.
+          Do not replace production GitHub Pages with this preview.
+          EOF
+          cd preview
+          zip -r ../sg-national-events-presentation-preview.zip .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sg-national-events-presentation-preview
+          path: sg-national-events-presentation-preview.zip
+          retention-days: 14

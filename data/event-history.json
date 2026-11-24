@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T02:29:07.887653+00:00",
+  "updated_at": "2026-11-24T06:29:11.448127+00:00",
   "events": [
     {
       "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the Clean Energy Summit (ACES) 2026 2.",
@@ -146,6 +146,20 @@
       "agency": "PMO",
       "review_priority": "senior_leadership",
       "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion"
+    },
+    {
+      "title": "Minister for Defence Chan Chun Sing Visiting Japan to Further Defence Cooperation Minister for Defence Chan Chun Sing will make an introductory visit to Japan from 24 to 25 Nov 2026.",
+      "type": "VIP visit",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "venue": "Not confirmed",
+      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/23nov26-nr/",
+      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "verification_status": "candidate_unverified",
+      "lifecycle_status": "completed",
+      "agency": "MINDEF",
+      "review_priority": "standard",
+      "review_note": "Verify event relationship and dates"
     }
   ],
   "note": "Historical candidates are not automatically verified."

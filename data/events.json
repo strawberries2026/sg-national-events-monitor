@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-23T02:29:00.112742+00:00",
+  "updated_at": "2026-11-24T06:29:03.250252+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "SCDF-SMRT “AED-on-Buses Programme” Launch Event - Speech by Mr Goh Pei Ming, Senior Minister of State, Ministry of Home Affairs & Ministry of Social and Family Development",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/scdf-smrt-aed-on-buses-programme-launch-event/",
+      "type": "Published announcement",
+      "published_date": "2026-11-23",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -102,17 +113,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MHA",
-      "title": "Emergency Medical Services (EMS) Asia 2026 Conference – Speech by Mr Zhulkarnain Abdul Rahim, Minister of State, Ministry of Home Affairs and Ministry of Foreign Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/emergency-medical-services-ems-asia-2026-conference/",
-      "type": "Published announcement",
-      "published_date": "2026-11-10",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "MOF",
       "title": "Government Raises Annual Value Threshold for Social Support Schemes from March 2027 to Provide Continued Support for Singaporeans Topics Government Transfers Social Policies",
       "source_url": "https://www.mof.gov.sg/news-resources/newsroom/government-raises-annual-value-threshold-for-social-support-schemes-from-march-2027-to-provide-continued-support-for-singaporeans/",
@@ -120,7 +120,7 @@
       "published_date": "2026-11-23",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -131,7 +131,7 @@
       "published_date": "2026-11-23",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -252,7 +252,7 @@
       "published_date": "2026-11-23",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -334,6 +334,72 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Singapore-Australia MOU on Essential Supplies 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-australia-mou-on-essential-supplies-/",
+      "type": "Published announcement",
+      "published_date": "2026-11-24",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Singapore-Australia Agreement on Transboundary Movement of Carbon Dioxide Streams for the Purposes of Offshore Geological Sequestration to enable cross-border Carbon Capture and Storage 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/singapore-australia-agreement-on-transboundary-movement-of-carbon-dioxide-streams-for-the-purposes-of-offshore-geological-sequestration-to-enable-cross-border-carbon-capture-and-storage/",
+      "type": "Published announcement",
+      "published_date": "2026-11-24",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "METI Upgrades GDP Growth Forecast for 2026 to “Around 6.0 Per Cent” and Forecasts GDP Growth of “2.5 to 4.5 Per Cent” for 2027 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/meti-upgrades-gdp-growth-forecast-for-2026-to--around-6-0-per-cent--and-forecasts-gdp-growth-of--2-5-to-4-5-per-cent--for-2027/",
+      "type": "Published announcement",
+      "published_date": "2026-11-24",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Enterprise 50 Awards 2026 Gala Dinner 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-enterprise-50-awards-2026-gala-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-11-23",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Consumer Price Developments in October 2026 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/consumer-price-developments-in-october-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-23",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Remarks by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong at the Opening of KLA’s Building 22B 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/remarks-by-deputy-prime-minister-and-minister-for-energy--trade-and-industry--trade--gan-kim-yong-at-the-opening-of-kla-s-building-22b-/",
+      "type": "Published announcement",
+      "published_date": "2026-11-20",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Singapore marks 14th Implementation Agreement on carbon credits with Zambia at COP31 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore-marks-14th-implementation-agreement-on-carbon-credits-with-zambia-at-cop31/",
       "type": "Published announcement",
@@ -376,72 +442,6 @@
       "is_new": false
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "MDDI-METI Joint Media Statement on US Interim Final Rule on Addressing Remote Access to Advanced Semiconductors 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
-      "type": "Published announcement",
-      "published_date": "2026-11-17",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore signs 13th Implementation Agreement on carbon credits collaboration under Article 6 of the Paris Agreement with Kenya 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-signs-13th-implementation-agreement-on-carbon-credits-collaboration-under-article-6-of-the-paris-agreement-with-kenya/",
-      "type": "Published announcement",
-      "published_date": "2026-11-16",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore and Colombia signs MOU to advance carbon markets under Article 6 of the Paris Agreement 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-colombia-signs-mou-to-advance-carbon-markets-under-article-6-of-the-paris-agreement/",
-      "type": "Published announcement",
-      "published_date": "2026-11-16",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore and Türkiye to advance bilateral economic cooperation with establishment of a Türkiye-Singapore Joint Economic and Trade Committee 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-turkiye-to-advance-bilateral-economic-cooperation-with-establishment-of-a-turkiye-singapore-joint-economic-and-trade-committee/",
-      "type": "Published announcement",
-      "published_date": "2026-11-15",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Transcript of Deputy Prime Minister and Minister for Trade and Industry (Trade) Gan Kim Yong’s media doorstop on the 28th Asean Economic Community Council (AECC) meeting 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dpm-and-minister-for-trade-and-industry-gan-kim-yong-media-doorstop-on-the-28th-aecc-meeting/",
-      "type": "Published announcement",
-      "published_date": "2026-11-14",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore and Bangladesh sign Memorandum of Understanding on carbon credits collaboration 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-and-bangladesh-sign-memorandum-of-understanding-on-carbon-credits-collaboration-/",
-      "type": "Published announcement",
-      "published_date": "2026-11-14",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
       "category": "Leadership",
       "agency": "PMO",
       "title": "PM Lawrence Wong to Visit Australia (Nov 2026) People Prime Minister's Office Topics Foreign affairs Prime Minister and Minister for Finance Lawrence Wong will make an Official Visit to Australia from 23 to 25 November 2026. Press Release",
@@ -470,61 +470,6 @@
       "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-33rd-apec-economic-leaders-meeting-in-shenzhen-the-peoples-republic-of-china/",
       "type": "Published announcement",
       "published_date": "2026-11-19",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong’s Op-Ed for the 33rd APEC Economic Leaders' Meeting in Shenzhen, the People’s Republic of China People PM Lawrence Wong Topics Foreign affairs Op-Ed by Prime Minister and Minister for Finance Lawrence Wong ahead of the 33rd APEC Economic Leaders' Meeting (AELM) in Shenzhen, the People's Republic of China (PRC) on 19 November 2026. Article",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-op-ed-for-the-33rd-apec-economic-leaders-meeting-in-shenzhen-the-peoples-republic-of-china/",
-      "type": "Published announcement",
-      "published_date": "2026-11-18",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "DPM Gan Kim Yong at the Singapore FinTech Festival 2026 People DPM Gan Kim Yong Topics Economy Finance Science and technology Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade) and Chairman of Monetary Authority of Singapore Gan Kim Yong at the Singapore FinTech Festival 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-singapore-fintech-festival-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-18",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong at the Closing Ceremony of the 49th ASEAN Summit and Related Summits People PM Lawrence Wong Topics Economy Foreign affairs Governance Speech by Prime Minister and Minister for Finance Lawrence Wong at the 49th ASEAN Summit and Related Summits on 17 November 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-closing-ceremony-of-the-49th-asean-summit-and-related-summits/",
-      "type": "Published announcement",
-      "published_date": "2026-11-17",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong to Visit the People's Republic of China (Nov 2026) People Prime Minister's Office Topics Foreign affairs Governance Prime Minister and Minister for Finance Lawrence Wong will make a working visit to Shenzhen and Beijing from 18 to 21 November 2026. Press Release",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-the-peoples-republic-of-china-nov-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-17",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong to Attend the 49th ASEAN Summit and Related Summits in Manila, the Philippines (Nov 2026) People Prime Minister's Office Topics Foreign affairs Governance Prime Minister and Minister for Finance Lawrence Wong will attend the 49th ASEAN Summit and Related Summits in Manila, the Philippines, from 15 to 17 November 2026. Press Release",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-attend-the-49th-asean-summit-and-related-summits-in-manila-the-philippines-nov-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-14",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -676,7 +621,7 @@
     "failed_sources": [],
     "successful_count": 7,
     "total_count": 7,
-    "announcement_count": 58
+    "announcement_count": 53
   },
   "parliament_health": {
     "order_paper": "loaded",
