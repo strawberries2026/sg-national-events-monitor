@@ -5,6 +5,7 @@ on:
       - 'history.html'
       - 'presentation.html'
       - 'tests/check_presentation_archive.py'
+      - 'tests/check_official_links.py'
       - 'index.html'
       - 'tests/test_history_ui.py'
       - '.github/workflows/history-ui-regression.yml'
@@ -22,3 +23,5 @@ jobs:
         run: python tests/check_history_mobile_layout.py
       - name: Verify presentation archive integration
         run: python tests/check_presentation_archive.py
+      - name: Verify official source link destinations and mobile hit targets
+        run: python tests/check_official_links.py
