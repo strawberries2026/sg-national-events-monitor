@@ -1,22 +1,6 @@
 {
-  "updated_at": "2026-11-25T11:39:42.317315+00:00",
+  "updated_at": "2026-11-25T20:41:09.733263+00:00",
   "events": [
-    {
-      "title": "PM Lawrence Wong — Official Visit to Australia (23–25 Nov 2026)",
-      "type": "VIP visit",
-      "start": "2026-11-23",
-      "end": "2026-11-25",
-      "venue": "Canberra and Sydney, Australia",
-      "source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-australia-nov-2026/",
-      "date_evidence": "PMO press release dated 22 November 2026 explicitly confirms official visit to Canberra and Sydney from 23 to 25 November 2026 for the 11th Singapore–Australia Annual Leaders’ Meeting.",
-      "verification_status": "verified",
-      "lifecycle_status": "ongoing",
-      "agency": "PMO",
-      "review_priority": "senior_leadership",
-      "verified_source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-visit-australia-nov-2026/",
-      "verified_on": "2026-11-23",
-      "verification_method": "Manual verification of PMO primary-source press release"
-    },
     {
       "title": "IISS Shangri-La Dialogue 2027",
       "type": "International summit",
