@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T18:10:43.547776+00:00",
+  "updated_at": "2026-11-25T02:34:09.759175+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -246,6 +246,28 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Minister for Defence Chan Chun Sing Reaffirms Warm and Growing Defence Relationship with Japan Minister for Defence Chan Chun Sing made an introductory visit to Japan from 24 to 25 November 2026, as part of ongoing efforts to strengthen bilateral defence cooperation.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-25",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Joint Press Statement on the Japan-Singapore Defense Ministers’ Meeting Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-fs/",
+      "type": "Published announcement",
+      "published_date": "2026-11-25",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Minister for Defence Chan Chun Sing Visiting Japan to Further Defence Cooperation Minister for Defence Chan Chun Sing will make an introductory visit to Japan from 24 to 25 Nov 2026.",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23nov26-nr/",
       "type": "Published announcement",
@@ -311,28 +333,6 @@
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Infographic: Exercise Trident 2026 Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/15nov26-infographic/",
-      "type": "Published announcement",
-      "published_date": "2026-11-15",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Total Defence Awards 2026: Strengthening our National Resilience Together Minister for Defence Chan Chun Sing was the Guest of Honour at the annual Total Defence Awards 2026 held at the Raffles City Convention Centre, Padang/Collyer Ballroom this evening.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12nov26-nr/",
-      "type": "Published announcement",
-      "published_date": "2026-11-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
       "agency": "METI",
       "title": "Remarks by Senior Minister of State for Energy, Trade and Industry Low Yen Ling at Jet Aviation Singapore Expansion Groundbreaking Ceremony 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/remarks-by-senior-minister-of-state-for-energy--trade-and-industry-low-yen-ling-at-jet-aviation-singapore-expansion-groundbreaking-ceremony-/",
@@ -340,7 +340,7 @@
       "published_date": "2026-11-24",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
