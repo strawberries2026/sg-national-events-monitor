@@ -7,6 +7,8 @@ on:
       - 'tests/test_history_functional.py'
       - '.github/workflows/verified-event-history-regression.yml'
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   verify:
     runs-on: ubuntu-latest

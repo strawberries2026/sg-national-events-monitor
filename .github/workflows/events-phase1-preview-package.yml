@@ -8,6 +8,8 @@ on:
       - 'data/event-history.json'
       - '.github/workflows/events-phase1-preview-package.yml'
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   preview-package:
     runs-on: ubuntu-latest

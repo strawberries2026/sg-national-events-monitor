@@ -10,6 +10,8 @@ on:
       - 'tests/test_history_ui.py'
       - '.github/workflows/history-ui-regression.yml'
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   verify:
     runs-on: ubuntu-latest
