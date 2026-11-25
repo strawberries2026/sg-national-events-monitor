@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-25T02:34:09.759175+00:00",
+  "updated_at": "2026-11-25T11:39:35.545489+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "National Youth Achievement Award Presentation Ceremony 2026 - Opening Address by Mr Edwin Tong, Minister for Law and Second Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/national-youth-achievement-award-presentation-ceremony-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-25",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Minister’s Appreciation Event 2026 – Opening Remarks by Mr Goh Pei Ming, Senior Minister of State for Ministry of Home Affairs & Ministry for Social and Family Development",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/minister-appreciation-event-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-24",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -85,28 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-investigations-into-alice-huang-huang-le-and-megaspeed-international-pte-ltd/",
       "type": "Published announcement",
       "published_date": "2026-11-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Leadership change in the Ministry of Home Affairs and HTX (Home Team Science and Technology Agency)",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/leadership-change-in-the-ministry-of-home-affairs-and-htx-home-team-science-and-technology-agency/",
-      "type": "Published announcement",
-      "published_date": "2026-11-10",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Security Industry Conference 2026 – Speech by Mr Zhulkarnain Abdul Rahim, Minister of State, Ministry of Home Affairs & Ministry of Foreign Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/security-industry-conference-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-10",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -252,7 +252,7 @@
       "published_date": "2026-11-25",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -263,7 +263,7 @@
       "published_date": "2026-11-25",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
