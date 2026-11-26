@@ -1,5 +1,5 @@
 // Keep the app shell offline while ensuring installation metadata is never pinned to an old cached copy.
-const CACHE='sg-events-shell-v9';
+const CACHE='sg-events-shell-v10';
 const SHELL=['./','./index.html','./manifest.webmanifest','./icons/app-icon.svg','./icons/sg-national-events-icon-192.png','./icons/sg-national-events-icon-512.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('sg-events-shell-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
