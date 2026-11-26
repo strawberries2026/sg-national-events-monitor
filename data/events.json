@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-26T03:11:58.188640+00:00",
+  "updated_at": "2026-11-26T12:46:07.848032+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Global Rule of Law Conference 2026 - Closing Address by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security, and Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/global-rule-of-law-conference-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -96,17 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/ministers-award-presentation-ceremony-2026-/",
       "type": "Published announcement",
       "published_date": "2026-11-13",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Singapore’s Investigations into Alice Huang (Huang Le) and Megaspeed International Pte Ltd",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-investigations-into-alice-huang-huang-le-and-megaspeed-international-pte-ltd/",
-      "type": "Published announcement",
-      "published_date": "2026-11-12",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -246,6 +246,28 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Speech by Coordinating Minister for Public Services and Minister for Defence Chan Chun Sing at the Little India Shop Owners and Heritage Association (LISHA) Deepavali Gala Dinner at PARKROYAL COLLECTION Marina Bay on 26 November 2026",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-speech/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Singapore and Indonesia Strengthen Bilateral Defence Ties through 38th Edition of Exercise Safkar Indopura The 38th edition of Exercise Safkar Indopura (XSI), an annual bilateral exercise between the Singapore Army and the Indonesian Army (TNI-AD), was successfully conducted in Banjar, West Java, Indonesia, from 20 to 26 November 2026.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Joint Press Statement on the Japan-Singapore Defense Ministers’ Meeting Others",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-fs/",
       "type": "Published announcement",
@@ -311,25 +333,25 @@
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Singapore and Thai Armies Successfully Conclude 26th Edition of Exercise Kocha Singa The Singapore Army and the Royal Thai Army (RTA) successfully conducted the 26th edition of Exercise Kocha Singa (XKS) in Kanchanaburi, Thailand from 10 to 18 November 2026.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/18nov26-nr/",
+      "agency": "METI",
+      "title": "Transcript of DPM Gan Kim Yong’s Remarks at the media doorstop on 26 November 2026, on the Office of the United States Trade Representative (USTR)’s findings and proposed actions in Section 301 investigation into structural excess capacity 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dpm-gan-kim-yong-s-remarks-at-the-media-doorstop-on-26-november-2026--on-the-office-of-the-united-states-trade-representative--ustr--s-findings-and-proposed-actions-in-section-301-investigation-into-structural-excess-capacity/",
       "type": "Published announcement",
-      "published_date": "2026-11-18",
+      "published_date": "2026-11-26",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Minister for Defence Visits Exercise Trident 2026 Minister for Defence Chan Chun Sing visited troops participating in Exercise Trident (XTD) 2026 today at the Shoalwater Bay Training Area (SWBTA) in Queensland, Australia.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/15nov26-nr/",
+      "agency": "METI",
+      "title": "METI Media Statement on the Office of the United States Trade Representative (USTR)’s findings and proposed actions in Section 301 investigation into structural excess capacity 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/meti-media-statement-on-the-office-of-the-united-states-trade-representative--ustr--s-findings-and-proposed-actions-in-section-301-investigation-into-structural-excess-capacity/",
       "type": "Published announcement",
-      "published_date": "2026-11-15",
+      "published_date": "2026-11-26",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -340,7 +362,7 @@
       "published_date": "2026-11-25",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -415,28 +437,6 @@
       "source_url": "https://www.meti.gov.sg/newsroom/remarks-by-deputy-prime-minister-and-minister-for-energy--trade-and-industry--trade--gan-kim-yong-at-the-opening-of-kla-s-building-22b-/",
       "type": "Published announcement",
       "published_date": "2026-11-20",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore marks 14th Implementation Agreement on carbon credits with Zambia at COP31 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-marks-14th-implementation-agreement-on-carbon-credits-with-zambia-at-cop31/",
-      "type": "Published announcement",
-      "published_date": "2026-11-18",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at Breakbulk Asia 2026 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-breakbulk-asia-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-18",
       "date": null,
       "time_sgt": null,
       "is_new": false
