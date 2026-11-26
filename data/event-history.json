@@ -52,14 +52,16 @@
     {
       "title": "Working Visit by President Tharman Shanmugaratnam to the Kingdom of Thailand on 12 October 2026",
       "type": "VIP visit",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
+      "start": "2026-10-12",
+      "end": "2026-10-12",
       "venue": "Not confirmed",
       "source": "https://www.istana.gov.sg/newsroom/working-visit-by-president-tharman-shanmugaratnam-to-the-kingdom-of-thailand-on-12-october-2026/",
-      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "date_evidence": "Official announcement headline in repository feed explicitly states 12 October 2026. Independent primary-page retrieval pending.",
       "verification_status": "candidate_unverified",
       "lifecycle_status": "completed",
-      "agency": "Istana"
+      "agency": "Istana",
+      "published_date": "2026-10-11",
+      "review_note": "Confirm primary article before promoting to verified archive."
     },
     {
       "title": "PM Lawrence Wong attends 49th ASEAN Summit and Related Summits in Manila",
@@ -150,16 +152,17 @@
     {
       "title": "Minister for Defence Chan Chun Sing Visiting Japan to Further Defence Cooperation Minister for Defence Chan Chun Sing will make an introductory visit to Japan from 24 to 25 Nov 2026.",
       "type": "VIP visit",
-      "start": "2026-11-23",
-      "end": "2026-11-23",
+      "start": "2026-11-24",
+      "end": "2026-11-25",
       "venue": "Not confirmed",
       "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/23nov26-nr/",
-      "date_evidence": "Date in official headline or article; event relationship unverified",
+      "date_evidence": "Official announcement text retained in repository feed explicitly states 24–25 November 2026; follow-up announcement dated 25 November confirms visit. Independent primary-page retrieval pending.",
       "verification_status": "candidate_unverified",
       "lifecycle_status": "completed",
       "agency": "MINDEF",
       "review_priority": "standard",
-      "review_note": "Verify event relationship and dates"
+      "review_note": "Confirm primary article before promoting to verified archive.",
+      "published_date": "2026-11-23"
     }
   ],
   "note": "Historical candidates are not automatically verified."
