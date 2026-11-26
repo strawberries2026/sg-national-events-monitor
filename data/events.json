@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T20:41:06.527087+00:00",
+  "updated_at": "2026-11-26T03:11:58.188640+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -246,8 +246,8 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
-      "title": "Minister for Defence Chan Chun Sing Reaffirms Warm and Growing Defence Relationship with Japan Minister for Defence Chan Chun Sing made an introductory visit to Japan from 24 to 25 November 2026, as part of ongoing efforts to strengthen bilateral defence cooperation.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-nr/",
+      "title": "Joint Press Statement on the Japan-Singapore Defense Ministers’ Meeting Others",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-fs/",
       "type": "Published announcement",
       "published_date": "2026-11-25",
       "date": null,
@@ -257,8 +257,8 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
-      "title": "Joint Press Statement on the Japan-Singapore Defense Ministers’ Meeting Others",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-fs/",
+      "title": "Minister for Defence Chan Chun Sing Reaffirms Warm and Growing Defence Relationship with Japan Minister for Defence Chan Chun Sing made an introductory visit to Japan from 24 to 25 November 2026, as part of ongoing efforts to strengthen bilateral defence cooperation.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-nr/",
       "type": "Published announcement",
       "published_date": "2026-11-25",
       "date": null,
@@ -330,6 +330,17 @@
       "date": null,
       "time_sgt": null,
       "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Speech by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong at the EY Entrepreneur Of The Year 2026 Singapore Awards Gala 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-deputy-prime-minister-and-minister-for-energy--trade-and-industry--trade--gan-kim-yong-at-the-ey-entrepreneur-of-the-year-2026-singapore-awards-gala-/",
+      "type": "Published announcement",
+      "published_date": "2026-11-25",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
     },
     {
       "category": "Ministries",
@@ -426,17 +437,6 @@
       "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-breakbulk-asia-2026/",
       "type": "Published announcement",
       "published_date": "2026-11-18",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at the SIT-CEVA Joint Innovation Lab Opening 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-the-sit-ceva-joint-innovation-lab-opening/",
-      "type": "Published announcement",
-      "published_date": "2026-11-17",
       "date": null,
       "time_sgt": null,
       "is_new": false
