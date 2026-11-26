@@ -26,5 +26,22 @@ class HistorySafetyTests(unittest.TestCase):
         self.assertIsNone(verified_end({**e,"end":"2026-11-22"}))
         self.assertIsNone(verified_end({**e,"verification_status":"candidate_unverified"}))
 
+    def test_reviewed_visit_dates_not_publication_dates(self):
+        import json
+        root = Path(__file__).resolve().parents[1]
+        records = json.loads((root / "data/event-history.json").read_text(encoding="utf-8"))["events"]
+        for marker, publication, start, end in (
+            ("working-visit-by-president-tharman-shanmugaratnam-to-the-kingdom-of-thailand-on-12-october-2026", "2026-10-11", "2026-10-12", "2026-10-12"),
+            ("/23nov26-nr/", "2026-11-23", "2026-11-24", "2026-11-25"),
+        ):
+            matches = [e for e in records if marker in e.get("source", "")]
+            self.assertEqual(len(matches), 1)
+            e = matches[0]
+            self.assertEqual((e["published_date"], e["start"], e["end"]), (publication, start, end))
+            self.assertEqual(e["verification_status"], "verified")
+            self.assertEqual(e["lifecycle_status"], "completed")
+            self.assertTrue(e["verified_source"].startswith("https://"))
+            self.assertTrue(e["date_evidence"])
+
 if __name__ == "__main__":
     unittest.main()
