@@ -54,14 +54,16 @@
       "type": "VIP visit",
       "start": "2026-10-12",
       "end": "2026-10-12",
-      "venue": "Not confirmed",
+      "venue": "Bangkok, Thailand",
       "source": "https://www.istana.gov.sg/newsroom/working-visit-by-president-tharman-shanmugaratnam-to-the-kingdom-of-thailand-on-12-october-2026/",
-      "date_evidence": "Official announcement headline in repository feed explicitly states 12 October 2026. Independent primary-page retrieval pending.",
-      "verification_status": "candidate_unverified",
+      "date_evidence": "President's Office announcement dated 11 October and MFA completion statement dated 12 October confirm the working visit on 12 October.",
+      "verification_status": "verified",
       "lifecycle_status": "completed",
       "agency": "Istana",
       "published_date": "2026-10-11",
-      "review_note": "Confirm primary article before promoting to verified archive."
+      "verified_source": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/working-visit-by-president-tharman-shanmugaratnam-to-bangkok--thailand--12-october-2026/",
+      "verified_on": "2026-11-26",
+      "verification_method": "Review of official announcement and completion statement"
     },
     {
       "title": "PM Lawrence Wong attends 49th ASEAN Summit and Related Summits in Manila",
@@ -154,15 +156,16 @@
       "type": "VIP visit",
       "start": "2026-11-24",
       "end": "2026-11-25",
-      "venue": "Not confirmed",
+      "venue": "Japan",
       "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/23nov26-nr/",
-      "date_evidence": "Official announcement text retained in repository feed explicitly states 24–25 November 2026; follow-up announcement dated 25 November confirms visit. Independent primary-page retrieval pending.",
-      "verification_status": "candidate_unverified",
+      "date_evidence": "MINDEF announcement dated 23 November and completion release dated 25 November confirm visit from 24 to 25 November.",
+      "verification_status": "verified",
       "lifecycle_status": "completed",
       "agency": "MINDEF",
-      "review_priority": "standard",
-      "review_note": "Confirm primary article before promoting to verified archive.",
-      "published_date": "2026-11-23"
+      "published_date": "2026-11-23",
+      "verified_source": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-nr/",
+      "verified_on": "2026-11-26",
+      "verification_method": "Review of official announcement and completion statement"
     }
   ],
   "note": "Historical candidates are not automatically verified."
