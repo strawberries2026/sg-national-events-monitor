@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-27T04:03:55.719337+00:00",
+  "updated_at": "2026-11-27T13:44:25.647466+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Commencement of Amendments to the Road Traffic Act",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/commencement-of-amendments-to-the-road-traffic-act/",
+      "type": "Published announcement",
+      "published_date": "2026-11-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -10,7 +21,7 @@
       "published_date": "2026-11-26",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -96,17 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/yellow-ribbon-community-project-awards-and-appreciation-luncheon-2026/",
       "type": "Published announcement",
       "published_date": "2026-11-14",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Singapore Traffic Games 2026 - Speech by Ms Sim Ann Second Minister for Foreign Affairs and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-traffic-games-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-13",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -246,8 +246,8 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
-      "title": "Speech by Coordinating Minister for Public Services and Minister for Defence Chan Chun Sing at the Little India Shop Owners and Heritage Association (LISHA) Deepavali Gala Dinner at PARKROYAL COLLECTION Marina Bay on 26 November 2026",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-speech/",
+      "title": "Singapore and Indonesia Strengthen Bilateral Defence Ties through 38th Edition of Exercise Safkar Indopura The 38th edition of Exercise Safkar Indopura (XSI), an annual bilateral exercise between the Singapore Army and the Indonesian Army (TNI-AD), was successfully conducted in Banjar, West Java, Indonesia, from 20 to 26 November 2026.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-nr/",
       "type": "Published announcement",
       "published_date": "2026-11-26",
       "date": null,
@@ -257,8 +257,8 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
-      "title": "Singapore and Indonesia Strengthen Bilateral Defence Ties through 38th Edition of Exercise Safkar Indopura The 38th edition of Exercise Safkar Indopura (XSI), an annual bilateral exercise between the Singapore Army and the Indonesian Army (TNI-AD), was successfully conducted in Banjar, West Java, Indonesia, from 20 to 26 November 2026.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-nr/",
+      "title": "Speech by Coordinating Minister for Public Services and Minister for Defence Chan Chun Sing at the Little India Shop Owners and Heritage Association (LISHA) Deepavali Gala Dinner at PARKROYAL COLLECTION Marina Bay on 26 November 2026",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-speech/",
       "type": "Published announcement",
       "published_date": "2026-11-26",
       "date": null,
@@ -334,13 +334,46 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "MOS Foo Cexiang at the Eleventh CPTPP Commission Meeting and CPTPP Dialogues with ASEAN and the EU in Ha Noi Viet Nam 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/mos-foo-cexiang-at-the-eleventh-cptpp-commission-meeting-and-cptpp-dialogues-with-asean-and-the-eu-in-ha-noi-viet-nam/",
+      "type": "Published announcement",
+      "published_date": "2026-11-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Transcript of Dialogue By Deputy Prime Minister And Minister For Trade And Industry (Trade) Gan Kim Yong at the SPH Asia Future Summit 2026 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dialogue-by-dpm-gan-at-the-sph-asia-future-summit-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade) and Chairman of the Monetary Authority of Singapore Gan Kim Yong at the SPH Asia Future Summit 2026 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-dpm-gan-sph-asia-future-summit-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Association of Small and Medium Enterprises 40th anniversary dinner 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-association-of-small-and-medium-enterprises-40th-anniversary-dinner/",
       "type": "Published announcement",
       "published_date": "2026-11-26",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -409,39 +442,6 @@
       "is_new": false
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "METI Upgrades GDP Growth Forecast for 2026 to “Around 6.0 Per Cent” and Forecasts GDP Growth of “2.5 to 4.5 Per Cent” for 2027 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/meti-upgrades-gdp-growth-forecast-for-2026-to--around-6-0-per-cent--and-forecasts-gdp-growth-of--2-5-to-4-5-per-cent--for-2027/",
-      "type": "Published announcement",
-      "published_date": "2026-11-24",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Enterprise 50 Awards 2026 Gala Dinner 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-enterprise-50-awards-2026-gala-dinner/",
-      "type": "Published announcement",
-      "published_date": "2026-11-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Consumer Price Developments in October 2026 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/consumer-price-developments-in-october-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
       "category": "Leadership",
       "agency": "PMO",
       "title": "DPM Gan Kim Yong at the SPH Asia Future Summit 2026 People DPM Gan Kim Yong Topics Economy Foreign affairs Jobs and productivity Science and technology Trade Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade), and Chairman of Monetary Authority of Singapore Gan Kim Yong at the SPH Asia Future Summit on 27 November 2026. Speech",
@@ -450,7 +450,7 @@
       "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Leadership",
