@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T13:44:25.647466+00:00",
+  "updated_at": "2026-11-27T22:22:21.799110+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -10,7 +10,7 @@
       "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -340,7 +340,7 @@
       "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -351,7 +351,7 @@
       "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -362,7 +362,7 @@
       "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -444,6 +444,17 @@
     {
       "category": "Leadership",
       "agency": "PMO",
+      "title": "PM Lawrence Wong at the Association of Muslim Professionals 35th Anniversary Gala Dinner People PM Lawrence Wong Topics Arts, culture and heritage Speech by Prime Minister and Minister for Finance Lawrence Wong at the Association of Muslim Professionals (AMP) 35th anniversary dinner on 27 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-association-of-muslim-professionals-35th-anniversary-gala-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-11-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Leadership",
+      "agency": "PMO",
       "title": "DPM Gan Kim Yong at the SPH Asia Future Summit 2026 People DPM Gan Kim Yong Topics Economy Foreign affairs Jobs and productivity Science and technology Trade Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade), and Chairman of Monetary Authority of Singapore Gan Kim Yong at the SPH Asia Future Summit on 27 November 2026. Speech",
       "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-the-sph-asia-future-summit-2026/",
       "type": "Published announcement",
@@ -465,14 +476,14 @@
     },
     {
       "category": "Leadership",
-      "agency": "PMO",
-      "title": "DPM Gan Kim Yong's Op-Ed for the 22nd Joint Council for Bilateral Cooperation People DPM Gan Kim Yong Topics Economy Foreign affairs Science and technology Trade Op-ed by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong ahead of the 22nd Joint Council for Bilateral Cooperation (JCBC) Meetings on 22nd November 2026. Article",
-      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-op-ed-for-the-22nd-joint-council-for-bilateral-cooperation/",
+      "agency": "Istana",
+      "title": "Speech by President Tharman Shanmugaratnam at the Singapore Maritime Officers Union (SMOU) 75th Anniversary Gala Dinner on Friday, 27 November 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/speech-by-president-tharman-shanmugaratnam-at-the-singapore-maritime-officers-union--smou--75th-anniversary-gala-dinner-on-friday--27-november-2026/",
       "type": "Published announcement",
-      "published_date": "2026-11-22",
+      "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -569,17 +580,6 @@
       "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-panel-discussion-on-small-ai--more-and-better-jobs-at-the-world-bank-group--wbg----international-monetary-fund--imf--annual-meetings-on-12-october-2026-in-bangkok--thailand/",
       "type": "Published announcement",
       "published_date": "2026-10-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "Istana",
-      "title": "Working Visit by President Tharman Shanmugaratnam to the Kingdom of Thailand on 12 October 2026",
-      "source_url": "https://www.istana.gov.sg/newsroom/working-visit-by-president-tharman-shanmugaratnam-to-the-kingdom-of-thailand-on-12-october-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-11",
       "date": null,
       "time_sgt": null,
       "is_new": false

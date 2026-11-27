@@ -1,48 +1,6 @@
 {
-  "updated_at": "2026-11-27T13:44:34.059701+00:00",
+  "updated_at": "2026-11-27T22:22:30.511001+00:00",
   "events": [
-    {
-      "title": "DPM Gan Kim Yong at the SPH Asia Future Summit 2026 People DPM Gan Kim Yong Topics Economy Foreign affairs Jobs and productivity Science and technology Trade Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade), and Chairman of Monetary Authority of Singapore Gan Kim Yong at the SPH Asia Future Summit on 27 November 2026. Speech",
-      "type": "VIP visit",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "venue": "Not confirmed",
-      "source": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-the-sph-asia-future-summit-2026/",
-      "date_evidence": "Date in official headline or article; event relationship unverified",
-      "verification_status": "candidate_unverified",
-      "lifecycle_status": "upcoming_candidate",
-      "agency": "PMO",
-      "review_priority": "senior_leadership",
-      "review_note": "Confirm leader identity, overseas destination, event dates and official article before promotion"
-    },
-    {
-      "title": "Transcript of Dialogue By Deputy Prime Minister And Minister For Trade And Industry (Trade) Gan Kim Yong at the SPH Asia Future Summit 2026 2.",
-      "type": "International summit",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "venue": "Not confirmed",
-      "source": "https://www.meti.gov.sg/newsroom/transcript-of-dialogue-by-dpm-gan-at-the-sph-asia-future-summit-2026/",
-      "date_evidence": "Date in official headline or article; event relationship unverified",
-      "verification_status": "candidate_unverified",
-      "lifecycle_status": "upcoming_candidate",
-      "agency": "METI",
-      "review_priority": "standard",
-      "review_note": "Verify event relationship and dates"
-    },
-    {
-      "title": "Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade) and Chairman of the Monetary Authority of Singapore Gan Kim Yong at the SPH Asia Future Summit 2026 2.",
-      "type": "International summit",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "venue": "Not confirmed",
-      "source": "https://www.meti.gov.sg/newsroom/speech-by-dpm-gan-sph-asia-future-summit-2026/",
-      "date_evidence": "Date in official headline or article; event relationship unverified",
-      "verification_status": "candidate_unverified",
-      "lifecycle_status": "upcoming_candidate",
-      "agency": "METI",
-      "review_priority": "standard",
-      "review_note": "Verify event relationship and dates"
-    },
     {
       "title": "IISS Shangri-La Dialogue 2027",
       "type": "International summit",
