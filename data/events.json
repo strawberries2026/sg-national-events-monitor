@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-26T21:58:11.842504+00:00",
+  "updated_at": "2026-11-27T04:03:55.719337+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "National SaferSG Awards Ceremony 2026 – Speech by Mr Goh Pei Ming, Senior Minister of State, Ministry of Home Affairs and Ministry of Social and Family Development",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/national-safersg-awards-ceremony-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -94,17 +105,6 @@
       "agency": "MHA",
       "title": "Singapore Traffic Games 2026 - Speech by Ms Sim Ann Second Minister for Foreign Affairs and Second Minister for Home Affairs",
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-traffic-games-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-13",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Minister’s Award Presentation Ceremony 2026 - Speech by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/ministers-award-presentation-ceremony-2026-/",
       "type": "Published announcement",
       "published_date": "2026-11-13",
       "date": null,
@@ -334,6 +334,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Association of Small and Medium Enterprises 40th anniversary dinner 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-association-of-small-and-medium-enterprises-40th-anniversary-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "Transcript of DPM Gan Kim Yong’s Remarks at the media doorstop on 26 November 2026, on the Office of the United States Trade Representative (USTR)’s findings and proposed actions in Section 301 investigation into structural excess capacity 2.",
       "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dpm-gan-kim-yong-s-remarks-at-the-media-doorstop-on-26-november-2026--on-the-office-of-the-united-states-trade-representative--ustr--s-findings-and-proposed-actions-in-section-301-investigation-into-structural-excess-capacity/",
       "type": "Published announcement",
@@ -431,15 +442,15 @@
       "is_new": false
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Remarks by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong at the Opening of KLA’s Building 22B 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/remarks-by-deputy-prime-minister-and-minister-for-energy--trade-and-industry--trade--gan-kim-yong-at-the-opening-of-kla-s-building-22b-/",
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "DPM Gan Kim Yong at the SPH Asia Future Summit 2026 People DPM Gan Kim Yong Topics Economy Foreign affairs Jobs and productivity Science and technology Trade Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade), and Chairman of Monetary Authority of Singapore Gan Kim Yong at the SPH Asia Future Summit on 27 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-the-sph-asia-future-summit-2026/",
       "type": "Published announcement",
-      "published_date": "2026-11-20",
+      "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
-      "is_new": false
+      "is_new": true
     },
     {
       "category": "Leadership",
@@ -459,17 +470,6 @@
       "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-op-ed-for-the-22nd-joint-council-for-bilateral-cooperation/",
       "type": "Published announcement",
       "published_date": "2026-11-22",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong at the 33rd APEC Economic Leaders’ Meeting in Shenzhen, the People’s Republic of China People PM Lawrence Wong Topics Economy Foreign affairs Governance Remarks by Prime Minister and Minister for Finance Lawrence Wong at the 33rd APEC Economic Leaders' Meeting (AELM) in Shenzhen, the People's Republic of China (PRC) on 19 November 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-33rd-apec-economic-leaders-meeting-in-shenzhen-the-peoples-republic-of-china/",
-      "type": "Published announcement",
-      "published_date": "2026-11-19",
       "date": null,
       "time_sgt": null,
       "is_new": false
