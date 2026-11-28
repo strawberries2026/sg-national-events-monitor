@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T04:09:56.583060+00:00",
+  "updated_at": "2026-11-28T13:09:36.408356+00:00",
   "events": [
     {
       "category": "Ministries",
@@ -334,6 +334,17 @@
     {
       "category": "Ministries",
       "agency": "METI",
+      "title": "Speech by Minister-in-charge of Trade Relations Grace Fu at the Singapore-Japan (SJ60) Flagship event 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-in-charge-of-trade-relations-grace-fu-at-the-singapore-japan--sj60--flagship-event/",
+      "type": "Published announcement",
+      "published_date": "2026-11-28",
+      "date": null,
+      "time_sgt": null,
+      "is_new": true
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
       "title": "MOS Foo Cexiang at the Eleventh CPTPP Commission Meeting and CPTPP Dialogues with ASEAN and the EU in Ha Noi Viet Nam 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/mos-foo-cexiang-at-the-eleventh-cptpp-commission-meeting-and-cptpp-dialogues-with-asean-and-the-eu-in-ha-noi-viet-nam/",
       "type": "Published announcement",
@@ -424,17 +435,6 @@
       "agency": "METI",
       "title": "Singapore-Australia MOU on Essential Supplies 1. Press releases",
       "source_url": "https://www.meti.gov.sg/newsroom/singapore-australia-mou-on-essential-supplies-/",
-      "type": "Published announcement",
-      "published_date": "2026-11-24",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore-Australia Agreement on Transboundary Movement of Carbon Dioxide Streams for the Purposes of Offshore Geological Sequestration to enable cross-border Carbon Capture and Storage 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-australia-agreement-on-transboundary-movement-of-carbon-dioxide-streams-for-the-purposes-of-offshore-geological-sequestration-to-enable-cross-border-carbon-capture-and-storage/",
       "type": "Published announcement",
       "published_date": "2026-11-24",
       "date": null,
