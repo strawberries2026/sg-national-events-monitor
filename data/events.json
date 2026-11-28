@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-26T03:11:58.188640+00:00",
+  "updated_at": "2026-11-28T04:09:56.583060+00:00",
   "events": [
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Commencement of Amendments to the Road Traffic Act",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/commencement-of-amendments-to-the-road-traffic-act/",
+      "type": "Published announcement",
+      "published_date": "2026-11-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "National SaferSG Awards Ceremony 2026 – Speech by Mr Goh Pei Ming, Senior Minister of State, Ministry of Home Affairs and Ministry of Social and Family Development",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/national-safersg-awards-ceremony-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MHA",
+      "title": "Global Rule of Law Conference 2026 - Closing Address by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security, and Minister for Home Affairs",
+      "source_url": "https://www.mha.gov.sg/media-room/newsroom/global-rule-of-law-conference-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
     {
       "category": "Ministries",
       "agency": "MHA",
@@ -74,39 +107,6 @@
       "source_url": "https://www.mha.gov.sg/media-room/newsroom/yellow-ribbon-community-project-awards-and-appreciation-luncheon-2026/",
       "type": "Published announcement",
       "published_date": "2026-11-14",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Singapore Traffic Games 2026 - Speech by Ms Sim Ann Second Minister for Foreign Affairs and Second Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-traffic-games-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-13",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Minister’s Award Presentation Ceremony 2026 - Speech by Mr K Shanmugam, Senior Minister, Coordinating Minister for National Security and Minister for Home Affairs",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/ministers-award-presentation-ceremony-2026-/",
-      "type": "Published announcement",
-      "published_date": "2026-11-13",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "MHA",
-      "title": "Singapore’s Investigations into Alice Huang (Huang Le) and Megaspeed International Pte Ltd",
-      "source_url": "https://www.mha.gov.sg/media-room/newsroom/singapore-investigations-into-alice-huang-huang-le-and-megaspeed-international-pte-ltd/",
-      "type": "Published announcement",
-      "published_date": "2026-11-12",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -246,6 +246,28 @@
     {
       "category": "Ministries",
       "agency": "MINDEF",
+      "title": "Singapore and Indonesia Strengthen Bilateral Defence Ties through 38th Edition of Exercise Safkar Indopura The 38th edition of Exercise Safkar Indopura (XSI), an annual bilateral exercise between the Singapore Army and the Indonesian Army (TNI-AD), was successfully conducted in Banjar, West Java, Indonesia, from 20 to 26 November 2026.",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-nr/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
+      "title": "Speech by Coordinating Minister for Public Services and Minister for Defence Chan Chun Sing at the Little India Shop Owners and Heritage Association (LISHA) Deepavali Gala Dinner at PARKROYAL COLLECTION Marina Bay on 26 November 2026",
+      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-speech/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "MINDEF",
       "title": "Joint Press Statement on the Japan-Singapore Defense Ministers’ Meeting Others",
       "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-fs/",
       "type": "Published announcement",
@@ -311,22 +333,66 @@
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Singapore and Thai Armies Successfully Conclude 26th Edition of Exercise Kocha Singa The Singapore Army and the Royal Thai Army (RTA) successfully conducted the 26th edition of Exercise Kocha Singa (XKS) in Kanchanaburi, Thailand from 10 to 18 November 2026.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/18nov26-nr/",
+      "agency": "METI",
+      "title": "MOS Foo Cexiang at the Eleventh CPTPP Commission Meeting and CPTPP Dialogues with ASEAN and the EU in Ha Noi Viet Nam 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/mos-foo-cexiang-at-the-eleventh-cptpp-commission-meeting-and-cptpp-dialogues-with-asean-and-the-eu-in-ha-noi-viet-nam/",
       "type": "Published announcement",
-      "published_date": "2026-11-18",
+      "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
       "is_new": false
     },
     {
       "category": "Ministries",
-      "agency": "MINDEF",
-      "title": "Minister for Defence Visits Exercise Trident 2026 Minister for Defence Chan Chun Sing visited troops participating in Exercise Trident (XTD) 2026 today at the Shoalwater Bay Training Area (SWBTA) in Queensland, Australia.",
-      "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/15nov26-nr/",
+      "agency": "METI",
+      "title": "Transcript of Dialogue By Deputy Prime Minister And Minister For Trade And Industry (Trade) Gan Kim Yong at the SPH Asia Future Summit 2026 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dialogue-by-dpm-gan-at-the-sph-asia-future-summit-2026/",
       "type": "Published announcement",
-      "published_date": "2026-11-15",
+      "published_date": "2026-11-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade) and Chairman of the Monetary Authority of Singapore Gan Kim Yong at the SPH Asia Future Summit 2026 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-dpm-gan-sph-asia-future-summit-2026/",
+      "type": "Published announcement",
+      "published_date": "2026-11-27",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Association of Small and Medium Enterprises 40th anniversary dinner 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-association-of-small-and-medium-enterprises-40th-anniversary-dinner/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "Transcript of DPM Gan Kim Yong’s Remarks at the media doorstop on 26 November 2026, on the Office of the United States Trade Representative (USTR)’s findings and proposed actions in Section 301 investigation into structural excess capacity 2.",
+      "source_url": "https://www.meti.gov.sg/newsroom/transcript-of-dpm-gan-kim-yong-s-remarks-at-the-media-doorstop-on-26-november-2026--on-the-office-of-the-united-states-trade-representative--ustr--s-findings-and-proposed-actions-in-section-301-investigation-into-structural-excess-capacity/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
+      "date": null,
+      "time_sgt": null,
+      "is_new": false
+    },
+    {
+      "category": "Ministries",
+      "agency": "METI",
+      "title": "METI Media Statement on the Office of the United States Trade Representative (USTR)’s findings and proposed actions in Section 301 investigation into structural excess capacity 1. Press releases",
+      "source_url": "https://www.meti.gov.sg/newsroom/meti-media-statement-on-the-office-of-the-united-states-trade-representative--ustr--s-findings-and-proposed-actions-in-section-301-investigation-into-structural-excess-capacity/",
+      "type": "Published announcement",
+      "published_date": "2026-11-26",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -340,7 +406,7 @@
       "published_date": "2026-11-25",
       "date": null,
       "time_sgt": null,
-      "is_new": true
+      "is_new": false
     },
     {
       "category": "Ministries",
@@ -376,67 +442,23 @@
       "is_new": false
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "METI Upgrades GDP Growth Forecast for 2026 to “Around 6.0 Per Cent” and Forecasts GDP Growth of “2.5 to 4.5 Per Cent” for 2027 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/meti-upgrades-gdp-growth-forecast-for-2026-to--around-6-0-per-cent--and-forecasts-gdp-growth-of--2-5-to-4-5-per-cent--for-2027/",
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "PM Lawrence Wong at the Association of Muslim Professionals 35th Anniversary Gala Dinner People PM Lawrence Wong Topics Arts, culture and heritage Speech by Prime Minister and Minister for Finance Lawrence Wong at the Association of Muslim Professionals (AMP) 35th anniversary dinner on 27 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-association-of-muslim-professionals-35th-anniversary-gala-dinner/",
       "type": "Published announcement",
-      "published_date": "2026-11-24",
+      "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
       "is_new": false
     },
     {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at the Enterprise 50 Awards 2026 Gala Dinner 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-the-enterprise-50-awards-2026-gala-dinner/",
+      "category": "Leadership",
+      "agency": "PMO",
+      "title": "DPM Gan Kim Yong at the SPH Asia Future Summit 2026 People DPM Gan Kim Yong Topics Economy Foreign affairs Jobs and productivity Science and technology Trade Speech by Deputy Prime Minister, Minister for Energy, Trade and Industry (Trade), and Chairman of Monetary Authority of Singapore Gan Kim Yong at the SPH Asia Future Summit on 27 November 2026. Speech",
+      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-at-the-sph-asia-future-summit-2026/",
       "type": "Published announcement",
-      "published_date": "2026-11-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Consumer Price Developments in October 2026 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/consumer-price-developments-in-october-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-23",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Remarks by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong at the Opening of KLA’s Building 22B 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/remarks-by-deputy-prime-minister-and-minister-for-energy--trade-and-industry--trade--gan-kim-yong-at-the-opening-of-kla-s-building-22b-/",
-      "type": "Published announcement",
-      "published_date": "2026-11-20",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Singapore marks 14th Implementation Agreement on carbon credits with Zambia at COP31 1. Press releases",
-      "source_url": "https://www.meti.gov.sg/newsroom/singapore-marks-14th-implementation-agreement-on-carbon-credits-with-zambia-at-cop31/",
-      "type": "Published announcement",
-      "published_date": "2026-11-18",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Ministries",
-      "agency": "METI",
-      "title": "Speech by Minister of State for Energy, Trade and Industry Gan Siow Huang at Breakbulk Asia 2026 2.",
-      "source_url": "https://www.meti.gov.sg/newsroom/speech-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-breakbulk-asia-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-11-18",
+      "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -454,22 +476,11 @@
     },
     {
       "category": "Leadership",
-      "agency": "PMO",
-      "title": "DPM Gan Kim Yong's Op-Ed for the 22nd Joint Council for Bilateral Cooperation People DPM Gan Kim Yong Topics Economy Foreign affairs Science and technology Trade Op-ed by Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade) Gan Kim Yong ahead of the 22nd Joint Council for Bilateral Cooperation (JCBC) Meetings on 22nd November 2026. Article",
-      "source_url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-op-ed-for-the-22nd-joint-council-for-bilateral-cooperation/",
+      "agency": "Istana",
+      "title": "Speech by President Tharman Shanmugaratnam at the Singapore Maritime Officers Union (SMOU) 75th Anniversary Gala Dinner on Friday, 27 November 2026",
+      "source_url": "https://www.istana.gov.sg/newsroom/speech-by-president-tharman-shanmugaratnam-at-the-singapore-maritime-officers-union--smou--75th-anniversary-gala-dinner-on-friday--27-november-2026/",
       "type": "Published announcement",
-      "published_date": "2026-11-22",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "PMO",
-      "title": "PM Lawrence Wong at the 33rd APEC Economic Leaders’ Meeting in Shenzhen, the People’s Republic of China People PM Lawrence Wong Topics Economy Foreign affairs Governance Remarks by Prime Minister and Minister for Finance Lawrence Wong at the 33rd APEC Economic Leaders' Meeting (AELM) in Shenzhen, the People's Republic of China (PRC) on 19 November 2026. Speech",
-      "source_url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-33rd-apec-economic-leaders-meeting-in-shenzhen-the-peoples-republic-of-china/",
-      "type": "Published announcement",
-      "published_date": "2026-11-19",
+      "published_date": "2026-11-27",
       "date": null,
       "time_sgt": null,
       "is_new": false
@@ -569,17 +580,6 @@
       "source_url": "https://www.istana.gov.sg/newsroom/transcript-of-panel-discussion-on-small-ai--more-and-better-jobs-at-the-world-bank-group--wbg----international-monetary-fund--imf--annual-meetings-on-12-october-2026-in-bangkok--thailand/",
       "type": "Published announcement",
       "published_date": "2026-10-12",
-      "date": null,
-      "time_sgt": null,
-      "is_new": false
-    },
-    {
-      "category": "Leadership",
-      "agency": "Istana",
-      "title": "Working Visit by President Tharman Shanmugaratnam to the Kingdom of Thailand on 12 October 2026",
-      "source_url": "https://www.istana.gov.sg/newsroom/working-visit-by-president-tharman-shanmugaratnam-to-the-kingdom-of-thailand-on-12-october-2026/",
-      "type": "Published announcement",
-      "published_date": "2026-10-11",
       "date": null,
       "time_sgt": null,
       "is_new": false
