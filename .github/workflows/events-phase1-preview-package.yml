@@ -3,8 +3,13 @@ on:
   pull_request:
     paths:
       - 'index.html'
+      - 'history*.html'
+      - 'presentation.html'
+      - 'data/event-history.json'
       - '.github/workflows/events-phase1-preview-package.yml'
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   preview-package:
     runs-on: ubuntu-latest
@@ -13,6 +18,10 @@ jobs:
       - name: Validate preview assets
         run: |
           test -f index.html
+          test -f history.html
+          test -f history-preview.html
+          test -f presentation.html
+          python3 -m json.tool data/event-history.json >/dev/null
           test -f manifest.webmanifest
           test -f sw.js
           test -f data/events.json
@@ -23,13 +32,16 @@ jobs:
       - name: Assemble preview ZIP
         run: |
           mkdir -p /tmp/events-preview
-          cp index.html manifest.webmanifest sw.js /tmp/events-preview/
+          cp index.html history.html history-preview.html presentation.html manifest.webmanifest sw.js /tmp/events-preview/
           cp -r data /tmp/events-preview/
           if [ -d icons ]; then cp -r icons /tmp/events-preview/; fi
           cd /tmp/events-preview
-          zip -qr "$GITHUB_WORKSPACE/sg-events-pr7-preview.zip" .
+          zip -qr "$GITHUB_WORKSPACE/sg-events-pr19-preview.zip" .
+      - name: Verify ZIP completeness
+        run: |
+          python3 -c "import zipfile; z=zipfile.ZipFile('sg-events-pr19-preview.zip'); required={'index.html','history.html','history-preview.html','presentation.html','manifest.webmanifest','sw.js','data/event-history.json','data/verified-events.json','data/events.json'}; missing=required-set(z.namelist()); assert not missing, missing; assert z.testzip() is None"
       - uses: actions/upload-artifact@v4
         with:
-          name: sg-events-pr7-preview
-          path: sg-events-pr7-preview.zip
+          name: sg-events-pr19-preview
+          path: sg-events-pr19-preview.zip
           retention-days: 7

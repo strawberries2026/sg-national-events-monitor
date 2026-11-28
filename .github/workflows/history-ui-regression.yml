@@ -1,0 +1,32 @@
+name: Historical archive UI regression
+on:
+  pull_request:
+    paths:
+      - 'history.html'
+      - 'presentation.html'
+      - 'tests/check_presentation_archive.py'
+      - 'tests/check_official_links.py'
+      - 'tests/test_dashboard_url_security.py'
+      - 'index.html'
+      - 'tests/test_history_ui.py'
+      - '.github/workflows/history-ui-regression.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify archive UI and data contract
+        run: python -m unittest discover -s tests -p test_history_ui.py -v
+      - name: Verify dashboard URL security
+        run: python -m unittest discover -s tests -p test_dashboard_url_security.py -v
+      - name: Install mobile browser test dependencies
+        run: pip install playwright && python -m playwright install --with-deps chromium
+      - name: Verify mobile navigation geometry
+        run: python tests/check_history_mobile_layout.py
+      - name: Verify presentation archive integration
+        run: python tests/check_presentation_archive.py
+      - name: Verify official source link destinations and mobile hit targets
+        run: python tests/check_official_links.py

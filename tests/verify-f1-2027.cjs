@@ -39,6 +39,15 @@ const context = {
   dayAfter:(date,n)=>{const d=new Date(date+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10);},
   esc:s=>String(s),
 };
+// Exercise the actual dashboard URL guard, not a permissive test stub.
+const guard = html.match(/const safeOfficialUrl=[^\n]*?;const esc=/);
+assert.ok(guard, 'Dashboard URL guard must be found');
+context.URL = URL;
+vm.runInNewContext(guard[0].slice(0, -'const esc='.length) + ';globalThis.safeOfficialUrl=safeOfficialUrl;', context, {timeout:1000});
+assert.equal(context.safeOfficialUrl(event.source), event.source);
+for (const unsafe of ['javascript:alert(1)', 'http://example.com', 'https://user:pass@example.com', 'not a URL']) {
+  assert.equal(context.safeOfficialUrl(unsafe), '', 'Unsafe URL must be rejected');
+}
 vm.runInNewContext(section+';renderNationalEvents();',context,{timeout:1000});
 const output=elements['national-events-list'].innerHTML;
 assert.match(output,/Verified beyond 90 days/, 'Future verified group must appear');
